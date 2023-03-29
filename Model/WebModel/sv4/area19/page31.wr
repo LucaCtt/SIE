@@ -1,0 +1,135 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="225" gr:y="880" id="sv4#area19#page31" name="Dettagli Evento">
+  <ContentUnits>
+    <DataUnit gr:x="25" gr:y="0" id="sv4#area19#page31#dau22" name="Dettagli Evento" entity="ent1" linkOrder="sv4#area19#page31#dau22#ln77 sv4#area19#page31#dau22#ln91" displayAttributes="ent1#att4 ent1#att6 ent1#att7 ent1#att8">
+      <Selector id="sv4#area19#page31#dau22#su118" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area19#page31#dau22#su118#kcond89" name="KeyCondition89" predicate="in" implied="false"/>
+      </Selector>
+      <Link id="sv4#area19#page31#dau22#ln71" name="Flow71" to="sv4#area19#page31#mdu10" automaticCoupling="true" type="transport" validate="true"/>
+      <Link id="sv4#area19#page31#dau22#ln74" name="Flow74" to="sv4#area19#page31#dau24" type="transport" validate="true">
+        <LinkParameter id="sv4#area19#page31#dau22#ln74#par236" name="oid_RoleCondition34 [oid]" source="data.ent1#att1" target="sv4#area19#page31#dau24#su130#rcond34.ent1#att1"/>
+        <LinkParameter id="sv4#area19#page31#dau22#ln74#par237" name="oid_PASSING" source="data.ent1#att1" passing="true"/>
+      </Link>
+      <Link id="sv4#area19#page31#dau22#ln75" name="Flow75" to="sv4#area19#page31#mdu11" type="transport" validate="true">
+        <LinkParameter id="sv4#area19#page31#dau22#ln75#par239" name="oid_RoleCondition35 [oid]" source="data.ent1#att1" target="sv4#area19#page31#mdu11#su131#rcond35.ent1#att1"/>
+        <LinkParameter id="sv4#area19#page31#dau22#ln75#par240" name="oid_PASSING" source="data.ent1#att1" passing="true"/>
+      </Link>
+      <Link id="sv4#area19#page31#dau22#ln77" name="Associa a Raccolta Fondi" to="sv4#area19#page32#seu9" type="normal" validate="true">
+        <LinkParameter id="sv4#area19#page31#dau22#ln77#par232" name="oid_PASSING" source="data.ent1#att1" passing="true"/>
+      </Link>
+      <Link id="sv4#area19#page31#dau22#ln91" name="Aggiungi Foto" to="sv4#area19#page33#enu10" type="normal" validate="true">
+        <LinkParameter id="sv4#area19#page31#dau22#ln91#par244" name="oid_PASSING" source="data.ent1#att1" passing="true"/>
+      </Link>
+    </DataUnit>
+    <MultiDataUnit gr:x="255" gr:y="5" id="sv4#area19#page31#mdu10" name="Dettagli Ospiti" entity="ent2" displayAttributes="ent2#att13 ent2#att14">
+      <Selector id="sv4#area19#page31#mdu10#su129" defaultPolicy="fill" booleanOperator="and">
+        <RelationshipRoleCondition id="sv4#area19#page31#mdu10#su129#rcond33" name="RoleCondition33" role="rel1#role1" predicate="in" implied="false"/>
+      </Selector>
+      <SortAttribute attribute="ent2#att13" order="ascending"/>
+      <SortAttribute attribute="ent2#att14" order="ascending"/>
+    </MultiDataUnit>
+    <DataUnit gr:x="245" gr:y="140" id="sv4#area19#page31#dau24" name="Dettagli Foto" entity="ent3" displayAttributes="ent3#att9 ent3#att10">
+      <Selector id="sv4#area19#page31#dau24#su130" defaultPolicy="fill" booleanOperator="and">
+        <RelationshipRoleCondition id="sv4#area19#page31#dau24#su130#rcond34" name="RoleCondition34" role="rel2#role3" predicate="in" implied="false"/>
+      </Selector>
+      <Link id="sv4#area19#page31#dau24#ln86" name="Dissocia" to="sv4#area19#dcnu9" type="transport" validate="true">
+        <LinkParameter id="sv4#area19#page31#dau24#ln86#par235" name="oid_KeyCondition94 [oid] [Fotografia] [Source]" source="data.ent3#att3" target="sv4#area19#dcnu9#su134#kcond94.ent3#att3"/>
+        <LinkParameter id="sv4#area19#page31#dau24#ln86#par238" name="oid_PASSING_KeyCondition95 [oid] [Evento] [Target]" sourceLinkParameter="sv4#area19#page31#dau22#ln74#par237" target="sv4#area19#dcnu9#su135#kcond95.ent1#att1"/>
+      </Link>
+    </DataUnit>
+    <MultiDataUnit gr:x="0" gr:y="155" id="sv4#area19#page31#mdu11" name="Raccolte Fondi Associate" entity="ent17" displayAttributes="ent17#att35 ent17#att36 ent17#att37 ent17#att51 ent17#att41">
+      <Selector id="sv4#area19#page31#mdu11#su131" defaultPolicy="fill" booleanOperator="and">
+        <RelationshipRoleCondition id="sv4#area19#page31#mdu11#su131#rcond35" name="RoleCondition35" predicate="in" implied="false" role="rel5#role10"/>
+      </Selector>
+      <Link id="sv4#area19#page31#mdu11#ln88" name="Flow88" to="sv4#area19#dcnu10" type="transport" validate="true">
+        <LinkParameter id="sv4#area19#page31#mdu11#ln88#par241" name="oid_KeyCondition96 [oid] [RaccoltaFondi] [Source]" source="ent17#att33Array" target="sv4#area19#dcnu10#su136#kcond96.ent17#att33"/>
+        <LinkParameter id="sv4#area19#page31#mdu11#ln88#par243" name="oid_PASSING_KeyCondition97 [oid] [Evento] [Target]" sourceLinkParameter="sv4#area19#page31#dau22#ln75#par240" target="sv4#area19#dcnu10#su137#kcond97.ent1#att1"/>
+      </Link>
+      <SortAttribute attribute="ent17#att51" order="descending"/>
+    </MultiDataUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv4#area19#page31#dau22">
+          <layout:Link link="sv4#area19#page31#dau22#ln77"/>
+          <layout:Link link="sv4#area19#page31#dau22#ln91"/>
+          <layout:Attribute attribute="ent1#att4"/>
+          <layout:Attribute attribute="ent1#att6"/>
+          <layout:Attribute attribute="ent1#att7"/>
+          <layout:Attribute attribute="ent1#att8"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv4#area19#page31#mdu10">
+          <layout:Attribute attribute="ent2#att13"/>
+          <layout:Attribute attribute="ent2#att14"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv4#area19#page31#dau24">
+          <layout:Attribute attribute="ent3#att9"/>
+          <layout:Attribute attribute="ent3#att10"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv4#area19#page31#mdu11">
+          <layout:Attribute attribute="ent17#att35"/>
+          <layout:Attribute attribute="ent17#att36"/>
+          <layout:Attribute attribute="ent17#att37"/>
+          <layout:Attribute attribute="ent17#att51"/>
+          <layout:Attribute attribute="ent17#att41"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

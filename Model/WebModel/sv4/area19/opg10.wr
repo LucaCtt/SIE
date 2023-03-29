@@ -1,0 +1,132 @@
+<OperationGroup xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="70" gr:y="430" id="sv4#area19#opg10" name="Operation Group 10" transaction="true">
+  <OperationUnits>
+    <SelectorUnit gr:x="5" gr:y="5" id="sv4#area19#opg10#seu3" name="Selector3" entity="ent9">
+      <Selector id="sv4#area19#opg10#seu3#su92" defaultPolicy="fill" booleanOperator="and">
+        <RelationshipRoleCondition id="sv4#area19#opg10#seu3#su92#rcond27" name="RoleCondition27" role="rel3#role6" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="sv4#area19#opg10#seu3#oln55" name="OKFlow55" to="sv4#area19#opg10#dcnu3" gr:bendpoints="12,80,17,-90">
+        <LinkParameter id="sv4#area19#opg10#seu3#oln55#par174" name="oid_PASSING_KeyCondition77 [oid] [Evento] [Source]" sourceLinkParameter="sv4#area19#page18#pwu1#ln67#par173" target="sv4#area19#opg10#dcnu3#su47#kcond77.ent1#att1"/>
+        <LinkParameter id="sv4#area19#opg10#seu3#oln55#par175" name="oid_KeyCondition78 [oid] [TipologiaEvento] [Target]" source="ent9#att18Array" target="sv4#area19#opg10#dcnu3#su75#kcond78.ent9#att18"/>
+        <LinkParameter id="sv4#area19#opg10#seu3#oln55#par176" name="oid_PASSING" sourceLinkParameter="sv4#area19#page18#pwu1#ln67#par173" passing="true"/>
+      </OKLink>
+    </SelectorUnit>
+    <SelectorUnit gr:x="240" gr:y="0" id="sv4#area19#opg10#seu4" name="Selector4" entity="ent2">
+      <OKLink id="sv4#area19#opg10#seu4#oln57" name="OKFlow57" to="sv4#area19#opg10#dcnu4">
+        <LinkParameter id="sv4#area19#opg10#seu4#oln57#par178" name="oid_KeyCondition79 [oid] [Ospite] [Source]" source="ent2#att2Array" target="sv4#area19#opg10#dcnu4#su76#kcond79.ent2#att2"/>
+        <LinkParameter id="sv4#area19#opg10#seu4#oln57#par179" name="oid_PASSING_KeyCondition80 [oid] [Evento] [Target]" sourceLinkParameter="sv4#area19#opg10#dcnu3#oln56#par177" target="sv4#area19#opg10#dcnu4#su78#kcond80.ent1#att1"/>
+        <LinkParameter id="sv4#area19#opg10#seu4#oln57#par180" name="oid_PASSING" sourceLinkParameter="sv4#area19#opg10#dcnu3#oln56#par177" passing="true"/>
+      </OKLink>
+      <Selector id="sv4#area19#opg10#seu4#su93" defaultPolicy="fill" booleanOperator="and">
+        <RelationshipRoleCondition id="sv4#area19#opg10#seu4#su93#rcond28" name="RoleCondition28" role="rel1#role1" predicate="in" implied="false"/>
+      </Selector>
+    </SelectorUnit>
+    <SelectorUnit gr:x="420" gr:y="5" id="sv4#area19#opg10#seu5" name="Selector5" entity="ent3">
+      <Selector id="sv4#area19#opg10#seu5#su114" defaultPolicy="fill" booleanOperator="and">
+        <RelationshipRoleCondition id="sv4#area19#opg10#seu5#su114#rcond29" name="RoleCondition29" role="rel2#role3" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="sv4#area19#opg10#seu5#oln59" name="OKFlow59" to="sv4#area19#opg10#dcnu5">
+        <LinkParameter id="sv4#area19#opg10#seu5#oln59#par188" name="oid_PASSING_KeyCondition81 [oid] [Evento] [Source]" sourceLinkParameter="sv4#area19#opg10#dcnu4#oln58#par181" target="sv4#area19#opg10#dcnu5#su79#kcond81.ent1#att1"/>
+        <LinkParameter id="sv4#area19#opg10#seu5#oln59#par189" name="oid_KeyCondition82 [oid] [Fotografia] [Target]" source="ent3#att3Array" target="sv4#area19#opg10#dcnu5#su80#kcond82.ent3#att3"/>
+        <LinkParameter id="sv4#area19#opg10#seu5#oln59#par190" name="oid_PASSING" sourceLinkParameter="sv4#area19#opg10#dcnu4#oln58#par181" passing="true"/>
+      </OKLink>
+    </SelectorUnit>
+    <SelectorUnit gr:x="630" gr:y="20" id="sv4#area19#opg10#seu6" name="Selector6" entity="ent17">
+      <Selector id="sv4#area19#opg10#seu6#su115" defaultPolicy="fill" booleanOperator="and">
+        <RelationshipRoleCondition id="sv4#area19#opg10#seu6#su115#rcond30" name="RoleCondition30" predicate="in" implied="false" role="rel5#role10"/>
+      </Selector>
+      <OKLink id="sv4#area19#opg10#seu6#oln61" name="OKFlow61" to="sv4#area19#opg10#dcnu6">
+        <LinkParameter id="sv4#area19#opg10#seu6#oln61#par193" name="oid_PASSING_KeyCondition83 [oid] [Evento] [Source]" sourceLinkParameter="sv4#area19#opg10#dcnu5#oln60#par192" target="sv4#area19#opg10#dcnu6#su84#kcond83.ent1#att1"/>
+        <LinkParameter id="sv4#area19#opg10#seu6#oln61#par194" name="oid_KeyCondition84 [oid] [RaccoltaFondi] [Target]" source="ent17#att33Array" target="sv4#area19#opg10#dcnu6#su85#kcond84.ent17#att33"/>
+        <LinkParameter id="sv4#area19#opg10#seu6#oln61#par197" name="oid_PASSING" sourceLinkParameter="sv4#area19#opg10#dcnu5#oln60#par192" passing="true"/>
+      </OKLink>
+    </SelectorUnit>
+    <DisconnectUnit gr:x="0" gr:y="165" id="sv4#area19#opg10#dcnu3" name="Disconnect3" relationship="rel3#role6">
+      <SourceSelector id="sv4#area19#opg10#dcnu3#su47" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area19#opg10#dcnu3#su47#kcond77" name="KeyCondition77" predicate="in" implied="false"/>
+      </SourceSelector>
+      <TargetSelector id="sv4#area19#opg10#dcnu3#su75" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area19#opg10#dcnu3#su75#kcond78" name="KeyCondition78" predicate="in" implied="false"/>
+      </TargetSelector>
+      <OKLink id="sv4#area19#opg10#dcnu3#oln56" name="OKFlow56" to="sv4#area19#opg10#seu4">
+        <LinkParameter id="sv4#area19#opg10#dcnu3#oln56#par177" name="oid_PASSING" sourceLinkParameter="sv4#area19#opg10#seu3#oln55#par176" passing="true"/>
+        <LinkParameter id="sv4#area19#opg10#dcnu3#oln56#par186" name="oid_PASSING_RoleCondition28 [oid]" sourceLinkParameter="sv4#area19#opg10#seu3#oln55#par176" target="sv4#area19#opg10#seu4#su93#rcond28.ent1#att1"/>
+      </OKLink>
+    </DisconnectUnit>
+    <DisconnectUnit gr:x="235" gr:y="175" id="sv4#area19#opg10#dcnu4" name="Disconnect4" relationship="rel1#role2">
+      <SourceSelector id="sv4#area19#opg10#dcnu4#su76" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area19#opg10#dcnu4#su76#kcond79" name="KeyCondition79" predicate="in" implied="false"/>
+      </SourceSelector>
+      <TargetSelector id="sv4#area19#opg10#dcnu4#su78" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area19#opg10#dcnu4#su78#kcond80" name="KeyCondition80" predicate="in" implied="false"/>
+      </TargetSelector>
+      <OKLink id="sv4#area19#opg10#dcnu4#oln58" name="OKFlow58" to="sv4#area19#opg10#seu5">
+        <LinkParameter id="sv4#area19#opg10#dcnu4#oln58#par181" name="oid_PASSING" sourceLinkParameter="sv4#area19#opg10#seu4#oln57#par180" passing="true"/>
+        <LinkParameter id="sv4#area19#opg10#dcnu4#oln58#par187" name="oid_PASSING_RoleCondition29 [oid]" sourceLinkParameter="sv4#area19#opg10#seu4#oln57#par180" target="sv4#area19#opg10#seu5#su114#rcond29.ent1#att1"/>
+      </OKLink>
+    </DisconnectUnit>
+    <DisconnectUnit gr:x="440" gr:y="175" id="sv4#area19#opg10#dcnu5" name="Disconnect5" relationship="rel2#role3">
+      <SourceSelector id="sv4#area19#opg10#dcnu5#su79" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area19#opg10#dcnu5#su79#kcond81" name="KeyCondition81" predicate="in" implied="false"/>
+      </SourceSelector>
+      <TargetSelector id="sv4#area19#opg10#dcnu5#su80" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area19#opg10#dcnu5#su80#kcond82" name="KeyCondition82" predicate="in" implied="false"/>
+      </TargetSelector>
+      <OKLink id="sv4#area19#opg10#dcnu5#oln60" name="OKFlow60" to="sv4#area19#opg10#seu6">
+        <LinkParameter id="sv4#area19#opg10#dcnu5#oln60#par191" name="Source oid [Evento]_RoleCondition30 [oid]" source="sourceent1#att1" target="sv4#area19#opg10#seu6#su115#rcond30.ent1#att1"/>
+        <LinkParameter id="sv4#area19#opg10#dcnu5#oln60#par192" name="oid_PASSING" sourceLinkParameter="sv4#area19#opg10#seu5#oln59#par190" passing="true"/>
+      </OKLink>
+    </DisconnectUnit>
+    <DisconnectUnit gr:x="660" gr:y="185" id="sv4#area19#opg10#dcnu6" name="Disconnect6" relationship="rel5#role10">
+      <SourceSelector id="sv4#area19#opg10#dcnu6#su84" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area19#opg10#dcnu6#su84#kcond83" name="KeyCondition83" predicate="in" implied="false"/>
+      </SourceSelector>
+      <TargetSelector id="sv4#area19#opg10#dcnu6#su85" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area19#opg10#dcnu6#su85#kcond84" name="KeyCondition84" predicate="in" implied="false"/>
+      </TargetSelector>
+      <OKLink id="sv4#area19#opg10#dcnu6#oln62" name="OKFlow62" to="sv4#area19#opg10#seu7">
+        <LinkParameter id="sv4#area19#opg10#dcnu6#oln62#par195" name="Source oid [Evento]_RoleCondition31 [oid]" source="sourceent1#att1" target="sv4#area19#opg10#seu7#su116#rcond31.ent1#att1"/>
+        <LinkParameter id="sv4#area19#opg10#dcnu6#oln62#par198" name="oid_PASSING" sourceLinkParameter="sv4#area19#opg10#seu6#oln61#par197" passing="true"/>
+      </OKLink>
+    </DisconnectUnit>
+    <SelectorUnit gr:x="840" gr:y="25" id="sv4#area19#opg10#seu7" name="Selector7" entity="ent10">
+      <Selector id="sv4#area19#opg10#seu7#su116" defaultPolicy="fill" booleanOperator="and">
+        <RelationshipRoleCondition id="sv4#area19#opg10#seu7#su116#rcond31" name="RoleCondition31" predicate="in" implied="false" role="rel4#role8"/>
+      </Selector>
+      <OKLink id="sv4#area19#opg10#seu7#oln63" name="OKFlow63" to="sv4#area19#opg10#dcnu7">
+        <LinkParameter id="sv4#area19#opg10#seu7#oln63#par199" name="oid_PASSING_KeyCondition85 [oid] [Evento] [Source]" sourceLinkParameter="sv4#area19#opg10#dcnu6#oln62#par198" target="sv4#area19#opg10#dcnu7#su86#kcond85.ent1#att1"/>
+        <LinkParameter id="sv4#area19#opg10#seu7#oln63#par204" name="oid_KeyCondition86 [oid] [Staff] [Target]" source="userOIDArray" target="sv4#area19#opg10#dcnu7#su87#kcond86.userOID"/>
+        <LinkParameter id="sv4#area19#opg10#seu7#oln63#par225" name="oid_PASSING" sourceLinkParameter="sv4#area19#opg10#dcnu6#oln62#par198" passing="true"/>
+      </OKLink>
+    </SelectorUnit>
+    <DisconnectUnit gr:x="860" gr:y="170" id="sv4#area19#opg10#dcnu7" name="Disconnect7" relationship="rel4#role8">
+      <SourceSelector id="sv4#area19#opg10#dcnu7#su86" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area19#opg10#dcnu7#su86#kcond85" name="KeyCondition85" predicate="in" implied="false"/>
+      </SourceSelector>
+      <TargetSelector id="sv4#area19#opg10#dcnu7#su87" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area19#opg10#dcnu7#su87#kcond86" name="KeyCondition86" predicate="in" implied="false"/>
+      </TargetSelector>
+      <OKLink id="sv4#area19#opg10#dcnu7#oln64" name="OKFlow64" to="sv4#area19#opg10#seu8">
+        <LinkParameter id="sv4#area19#opg10#dcnu7#oln64#par226" name="oid_PASSING" sourceLinkParameter="sv4#area19#opg10#seu7#oln63#par225" passing="true"/>
+        <LinkParameter id="sv4#area19#opg10#dcnu7#oln64#par288" name="oid_PASSING_RoleCondition32 [oid]" sourceLinkParameter="sv4#area19#opg10#seu7#oln63#par225" target="sv4#area19#opg10#seu8#su117#rcond32.ent1#att1"/>
+      </OKLink>
+    </DisconnectUnit>
+    <SelectorUnit gr:x="1000" gr:y="20" id="sv4#area19#opg10#seu8" name="Selector8" entity="User">
+      <Selector id="sv4#area19#opg10#seu8#su117" defaultPolicy="fill" booleanOperator="and">
+        <RelationshipRoleCondition id="sv4#area19#opg10#seu8#su117#rcond32" name="RoleCondition32" predicate="in" implied="false" role="rel18#role36"/>
+      </Selector>
+      <OKLink id="sv4#area19#opg10#seu8#oln65" name="OKFlow65" to="sv4#area19#opg10#dcnu8">
+        <LinkParameter id="sv4#area19#opg10#seu8#oln65#par227" name="oid_PASSING_KeyCondition87 [oid] [Evento] [Source]" sourceLinkParameter="sv4#area19#opg10#dcnu7#oln64#par226" target="sv4#area19#opg10#dcnu8#su89#kcond87.ent1#att1"/>
+        <LinkParameter id="sv4#area19#opg10#seu8#oln65#par228" name="oid_KeyCondition88 [oid] [Utente] [Target]" source="userOIDArray" target="sv4#area19#opg10#dcnu8#su90#kcond88.userOID"/>
+      </OKLink>
+    </SelectorUnit>
+    <DisconnectUnit gr:x="1035" gr:y="170" id="sv4#area19#opg10#dcnu8" name="Disconnect8" relationship="rel18#role36">
+      <SourceSelector id="sv4#area19#opg10#dcnu8#su89" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area19#opg10#dcnu8#su89#kcond87" name="KeyCondition87" predicate="in" implied="false"/>
+      </SourceSelector>
+      <TargetSelector id="sv4#area19#opg10#dcnu8#su90" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area19#opg10#dcnu8#su90#kcond88" name="KeyCondition88" predicate="in" implied="false"/>
+      </TargetSelector>
+      <OKLink id="sv4#area19#opg10#dcnu8#oln66" name="OKFlow66" to="sv4#area19#page18" automaticCoupling="true"/>
+    </DisconnectUnit>
+  </OperationUnits>
+</OperationGroup>

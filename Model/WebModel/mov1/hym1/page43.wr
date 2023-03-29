@@ -1,0 +1,241 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="mov1#hym1#page43" name="Lista Eventi Pubblici" linkVisibilityPolicy="always" gr:x="240" gr:y="0" landmark="true">
+  <layout:Grid>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov1#hym1#page43#alt9#page55#scu36">
+          <layout:Link link="mov1#hym1#page43#alt9#page55#scu36First"/>
+          <layout:Link link="mov1#hym1#page43#alt9#page55#scu36Previous"/>
+          <layout:Link link="mov1#hym1#page43#alt9#page55#scu36Block"/>
+          <layout:Link link="mov1#hym1#page43#alt9#page55#scu36Next"/>
+          <layout:Link link="mov1#hym1#page43#alt9#page55#scu36Last"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov1#hym1#page43#alt9#page55#inu55">
+          <layout:Link link="mov1#hym1#page43#alt9#page55#inu55#ln191"/>
+          <layout:Attribute attribute="ent1#att4"/>
+          <layout:Attribute attribute="ent1#att6"/>
+          <layout:Attribute attribute="ent1#att7"/>
+          <layout:Attribute attribute="ent1#att8"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov1#hym1#page43#alt9#page57#scu37">
+          <layout:Link link="mov1#hym1#page43#alt9#page57#scu37First"/>
+          <layout:Link link="mov1#hym1#page43#alt9#page57#scu37Previous"/>
+          <layout:Link link="mov1#hym1#page43#alt9#page57#scu37Block"/>
+          <layout:Link link="mov1#hym1#page43#alt9#page57#scu37Next"/>
+          <layout:Link link="mov1#hym1#page43#alt9#page57#scu37Last"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov1#hym1#page43#alt9#page57#inu56">
+          <layout:Link link="mov1#hym1#page43#alt9#page57#inu56#ln193"/>
+          <layout:Attribute attribute="ent1#att4"/>
+          <layout:Attribute attribute="ent1#att6"/>
+          <layout:Attribute attribute="ent1#att7"/>
+          <layout:Attribute attribute="ent1#att8"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov1#hym1#page43#enu30">
+          <layout:Field field="mov1#hym1#page43#enu30#fld19"/>
+          <layout:Link link="mov1#hym1#page43#enu30#ln196"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov1#hym1#page43#enu31">
+          <layout:Field field="mov1#hym1#page43#enu31#fld20"/>
+          <layout:Link link="mov1#hym1#page43#enu31#ln197"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov1#hym1#page43#alt9#page56#scu38">
+          <layout:Link link="mov1#hym1#page43#alt9#page56#scu38First"/>
+          <layout:Link link="mov1#hym1#page43#alt9#page56#scu38Previous"/>
+          <layout:Link link="mov1#hym1#page43#alt9#page56#scu38Block"/>
+          <layout:Link link="mov1#hym1#page43#alt9#page56#scu38Next"/>
+          <layout:Link link="mov1#hym1#page43#alt9#page56#scu38Last"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov1#hym1#page43#alt9#page56#inu57">
+          <layout:Attribute attribute="ent1#att4"/>
+          <layout:Attribute attribute="ent1#att6"/>
+          <layout:Attribute attribute="ent1#att7"/>
+          <layout:Attribute attribute="ent1#att8"/>
+          <layout:Link link="mov1#hym1#page43#alt9#page56#inu57#ln199"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+  <ContentUnits>
+    <EntryUnit gr:x="5" gr:y="305" id="mov1#hym1#page43#enu30" name="Cerca per Data" linkOrder="mov1#hym1#page43#enu30#ln196">
+      <Field id="mov1#hym1#page43#enu30#fld19" name="Data" type="date" modifiable="true"/>
+      <Link id="mov1#hym1#page43#enu30#ln196" name="Cerca" to="mov1#hym1#page43#alt9#page57#scu37" type="normal" validate="true">
+        <LinkParameter id="mov1#hym1#page43#enu30#ln196#par128" name="Data_AttCondition23" source="mov1#hym1#page43#enu30#fld19" target="mov1#hym1#page43#alt9#page57#scu37#su121#acond23"/>
+      </Link>
+    </EntryUnit>
+    <EntryUnit gr:x="0" gr:y="70" id="mov1#hym1#page43#enu31" name="Cerca per Titolo" linkOrder="mov1#hym1#page43#enu31#ln197">
+      <Field id="mov1#hym1#page43#enu31#fld20" name="Titolo" type="string" modifiable="true"/>
+      <Link id="mov1#hym1#page43#enu31#ln197" name="Cerca" to="mov1#hym1#page43#alt9#page56#scu38" type="normal" validate="true">
+        <LinkParameter id="mov1#hym1#page43#enu31#ln197#par129" name="Titolo_AttCondition24" source="mov1#hym1#page43#enu31#fld20" target="mov1#hym1#page43#alt9#page56#scu38#su123#acond24"/>
+      </Link>
+    </EntryUnit>
+  </ContentUnits>
+  <Alternative id="mov1#hym1#page43#alt9" name="Lista Eventi Pubblici" gr:x="275" gr:y="0" defaultPage="mov1#hym1#page43#alt9#page55">
+    <Page id="mov1#hym1#page43#alt9#page55" name="Lista Eventi Pubblici Completa" gr:x="35" gr:y="355">
+      <ContentUnits>
+        <ScrollerUnit gr:x="0" gr:y="0" id="mov1#hym1#page43#alt9#page55#scu36" name="Scroller Eventi" useCountQuery="false" entity="ent20" linkOrder="mov1#hym1#page43#alt9#page55#scu36#ln190" blockFactor="10">
+          <Link id="mov1#hym1#page43#alt9#page55#scu36#ln190" name="Flow190" to="mov1#hym1#page43#alt9#page55#inu55" automaticCoupling="true" type="automatic" validate="true"/>
+        </ScrollerUnit>
+        <IndexUnit gr:x="180" gr:y="0" id="mov1#hym1#page43#alt9#page55#inu55" name="Lista Eventi" entity="ent20" linkOrder="mov1#hym1#page43#alt9#page55#inu55#ln191" displayAttributes="ent1#att4 ent1#att6 ent1#att7 ent1#att8">
+          <Selector id="mov1#hym1#page43#alt9#page55#inu55#su120" defaultPolicy="fill" booleanOperator="and">
+            <KeyCondition id="mov1#hym1#page43#alt9#page55#inu55#su120#kcond67" name="KeyCondition67" predicate="in" implied="false"/>
+          </Selector>
+          <Link id="mov1#hym1#page43#alt9#page55#inu55#ln191" name="Dettagli" to="mov1#hym1#okcu1" type="normal" validate="true">
+            <LinkParameter id="mov1#hym1#page43#alt9#page55#inu55#ln191#par125" name="oid_oid evento" source="data[].ent1#att1" target="mov1#hym1#okcu1#ocp1"/>
+          </Link>
+        </IndexUnit>
+      </ContentUnits>
+    </Page>
+    <Page id="mov1#hym1#page43#alt9#page56" name="Lista Eventi Pubblici per Nome" gr:x="5" gr:y="0">
+      <ContentUnits>
+        <ScrollerUnit gr:x="0" gr:y="0" id="mov1#hym1#page43#alt9#page56#scu38" name="Scroller Eventi per Titolo" useCountQuery="false" entity="ent20" linkOrder="mov1#hym1#page43#alt9#page56#scu38#ln198" blockFactor="10">
+          <Selector id="mov1#hym1#page43#alt9#page56#scu38#su123" defaultPolicy="fill" booleanOperator="and">
+            <AttributesCondition id="mov1#hym1#page43#alt9#page56#scu38#su123#acond24" name="AttCondition24" predicate="contains" booleanOperator="or" implied="false" attributes="ent1#att4"/>
+          </Selector>
+          <Link id="mov1#hym1#page43#alt9#page56#scu38#ln198" name="Flow198" to="mov1#hym1#page43#alt9#page56#inu57" automaticCoupling="true" type="automatic" validate="true"/>
+        </ScrollerUnit>
+        <IndexUnit gr:x="230" gr:y="5" id="mov1#hym1#page43#alt9#page56#inu57" name="Lista Eventi" entity="ent20" displayAttributes="ent1#att4 ent1#att6 ent1#att7 ent1#att8" linkOrder="mov1#hym1#page43#alt9#page56#inu57#ln199">
+          <Link id="mov1#hym1#page43#alt9#page56#inu57#ln199" name="Dettagli" to="mov1#hym1#okcu1" type="normal" validate="true">
+            <LinkParameter id="mov1#hym1#page43#alt9#page56#inu57#ln199#par130" name="oid_oid evento" source="data[].ent1#att1" target="mov1#hym1#okcu1#ocp1"/>
+          </Link>
+          <Selector id="mov1#hym1#page43#alt9#page56#inu57#su127" defaultPolicy="fill" booleanOperator="and">
+            <KeyCondition id="mov1#hym1#page43#alt9#page56#inu57#su127#kcond72" name="KeyCondition72" predicate="in" implied="false"/>
+          </Selector>
+        </IndexUnit>
+      </ContentUnits>
+    </Page>
+    <Page id="mov1#hym1#page43#alt9#page57" name="Lista Eventi Pubblici Completa" gr:x="0" gr:y="170">
+      <ContentUnits>
+        <ScrollerUnit gr:x="0" gr:y="0" id="mov1#hym1#page43#alt9#page57#scu37" name="Scroller Eventi per data" useCountQuery="false" entity="ent20" blockFactor="10" linkOrder="mov1#hym1#page43#alt9#page57#scu37#ln192">
+          <Selector id="mov1#hym1#page43#alt9#page57#scu37#su121" defaultPolicy="fill" booleanOperator="and">
+            <AttributesCondition id="mov1#hym1#page43#alt9#page57#scu37#su121#acond23" name="AttCondition23" predicate="eq" booleanOperator="or" implied="false" attributes="ent1#att6"/>
+          </Selector>
+          <Link id="mov1#hym1#page43#alt9#page57#scu37#ln192" name="Flow192" to="mov1#hym1#page43#alt9#page57#inu56" automaticCoupling="true" type="automatic" validate="true"/>
+        </ScrollerUnit>
+        <IndexUnit gr:x="220" gr:y="0" id="mov1#hym1#page43#alt9#page57#inu56" name="Lista Eventi" entity="ent20" linkOrder="mov1#hym1#page43#alt9#page57#inu56#ln193" displayAttributes="ent1#att4 ent1#att6 ent1#att7 ent1#att8">
+          <Selector id="mov1#hym1#page43#alt9#page57#inu56#su122" defaultPolicy="fill" booleanOperator="and">
+            <KeyCondition id="mov1#hym1#page43#alt9#page57#inu56#su122#kcond68" name="KeyCondition68" predicate="in" implied="false"/>
+          </Selector>
+          <Link id="mov1#hym1#page43#alt9#page57#inu56#ln193" name="Dettagli" to="mov1#hym1#okcu1" type="normal" validate="true">
+            <LinkParameter id="mov1#hym1#page43#alt9#page57#inu56#ln193#par126" name="oid_oid evento" source="data[].ent1#att1" target="mov1#hym1#okcu1#ocp1"/>
+          </Link>
+        </IndexUnit>
+      </ContentUnits>
+    </Page>
+  </Alternative>
+</Page>

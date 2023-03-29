@@ -1,0 +1,35 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="1230" gr:y="1170" id="sv4#area19#page33" name="Aggiungi Foto">
+  <ContentUnits>
+    <EntryUnit gr:x="0" gr:y="0" id="sv4#area19#page33#enu10" name="Form Foto" linkOrder="sv4#area19#page33#enu10#ln90">
+      <Field id="sv4#area19#page33#enu10#fld79" name="Path" type="string" modifiable="true"/>
+      <Field id="sv4#area19#page33#enu10#fld80" name="Descrizione" type="string" modifiable="true"/>
+      <Link id="sv4#area19#page33#enu10#ln90" name="Flow90" to="sv4#area19#opg11#cru11" type="normal" validate="true">
+        <LinkParameter id="sv4#area19#page33#enu10#ln90#par248" name="Descrizione_descrizione" source="sv4#area19#page33#enu10#fld80" target="sv4#area19#opg11#cru11.ent3#att10"/>
+        <LinkParameter id="sv4#area19#page33#enu10#ln90#par249" name="Path_path" source="sv4#area19#page33#enu10#fld79" target="sv4#area19#opg11#cru11.ent3#att9"/>
+        <LinkParameter id="sv4#area19#page33#enu10#ln90#par250" name="oid_PASSING" sourceLinkParameter="sv4#area19#page31#dau22#ln91#par244" passing="true"/>
+      </Link>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv4#area19#page33#enu10">
+          <layout:Field field="sv4#area19#page33#enu10#fld79"/>
+          <layout:Field field="sv4#area19#page33#enu10#fld80"/>
+          <layout:Link link="sv4#area19#page33#enu10#ln90"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

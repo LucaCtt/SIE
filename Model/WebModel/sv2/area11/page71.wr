@@ -1,0 +1,31 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv2#area11#page71" name="Modifica Indirizzo" gr:x="765" gr:y="235">
+  <ContentUnits>
+    <EntryUnit id="sv2#area11#page71#enu28" name="Form Indirizzo" linkOrder="sv2#area11#page71#enu28#ln136" gr:x="0" gr:y="0" entity="ent13">
+      <Link id="sv2#area11#page71#enu28#ln136" name="Flow104" to="sv2#area11#opg3#mfu8" type="normal" validate="true">
+        <LinkParameter id="sv2#area11#page71#enu28#ln136#par95" name="Indirizzo Object_Indirizzo Object" source="entityBean" target="sv2#area11#opg3#mfu8.entityBeans"/>
+        <LinkParameter id="sv2#area11#page71#enu28#ln136#par96" name="Key [oid]_KeyCondition28 [oid]" source="key.ent13#att27" target="sv2#area11#opg3#mfu8#su81#kcond32.ent13#att27"/>
+        <LinkParameter id="sv2#area11#page71#enu28#ln136#par97" name="IndirizzoToAlumno.oid_PASSING" sourceLinkParameter="sv2#area11#page73#dau12#ln148#par104" passing="true"/>
+      </Link>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv2#area11#page71#enu28">
+          <layout:Link link="sv2#area11#page71#enu28#ln136"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

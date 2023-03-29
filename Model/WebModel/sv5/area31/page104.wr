@@ -1,0 +1,114 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv5#area31#page104" name="Home" gr:x="0" gr:y="0" linkOrder="sv5#area31#page104#ln267">
+  <ContentUnits>
+    <ScrollerUnit id="sv5#area31#page104#scu53" name="Scroller Eventi In Evidenza" linkOrder="sv5#area31#page104#scu53#ln243" gr:x="0" gr:y="0" useCountQuery="false" entity="ent16" blockFactor="3">
+      <Link id="sv5#area31#page104#scu53#ln243" name="Flow3" to="sv5#area31#page104#inu30" type="automatic" automaticCoupling="true" validate="true"/>
+      <SortAttribute attribute="ent1#att6" order="descending"/>
+      <SortAttribute attribute="ent1#att7" order="ascending"/>
+      <SortAttribute attribute="ent1#att8" order="ascending"/>
+    </ScrollerUnit>
+    <IndexUnit id="sv5#area31#page104#inu30" name="Lista Eventi in Evidenza" linkOrder="sv5#area31#page104#inu30#ln244" gr:x="315" gr:y="0" entity="ent16" displayAttributes="ent1#att4 ent1#att6 ent1#att7 ent1#att8">
+      <Link id="sv5#area31#page104#inu30#ln244" name="Dettagli" to="sv5#area30#page101#dau36" type="normal" automaticCoupling="true" validate="true"/>
+      <SortAttribute attribute="ent1#att6" order="descending"/>
+      <SortAttribute attribute="ent1#att7" order="ascending"/>
+      <SortAttribute attribute="ent1#att8" order="ascending"/>
+    </IndexUnit>
+    <ScrollerUnit id="sv5#area31#page104#scu54" name="Scroller Raccolte Fondi Recenti" linkOrder="sv5#area31#page104#scu54#ln245" gr:x="0" gr:y="115" useCountQuery="false" entity="ent17" blockFactor="3" maxResults="5">
+      <Link id="sv5#area31#page104#scu54#ln245" name="Flow1" to="sv5#area31#page104#inu31" type="automatic" automaticCoupling="true" validate="true"/>
+      <SortAttribute attribute="ent17#att51" order="descending"/>
+      <SortAttribute attribute="ent17#att33" order="descending"/>
+    </ScrollerUnit>
+    <IndexUnit id="sv5#area31#page104#inu31" name="Lista Raccolte Fondi Recenti" linkOrder="sv5#area31#page104#inu31#ln246" gr:x="310" gr:y="115" entity="ent17" displayAttributes="ent17#att35 ent17#att51">
+      <SortAttribute attribute="ent17#att51" order="descending"/>
+      <Link id="sv5#area31#page104#inu31#ln246" name="Dettagli" to="sv5#area33#page109#dau39" type="normal" automaticCoupling="true" validate="true"/>
+    </IndexUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv5#area31#page104#scu53">
+          <layout:Link link="sv5#area31#page104#scu53First"/>
+          <layout:Link link="sv5#area31#page104#scu53Previous"/>
+          <layout:Link link="sv5#area31#page104#scu53Block"/>
+          <layout:Link link="sv5#area31#page104#scu53Next"/>
+          <layout:Link link="sv5#area31#page104#scu53Last"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv5#area31#page104#inu30">
+          <layout:Link link="sv5#area31#page104#inu30#ln244"/>
+          <layout:Attribute attribute="ent1#att4"/>
+          <layout:Attribute attribute="ent1#att6"/>
+          <layout:Attribute attribute="ent1#att7"/>
+          <layout:Attribute attribute="ent1#att8"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv5#area31#page104#scu54">
+          <layout:Link link="sv5#area31#page104#scu54First"/>
+          <layout:Link link="sv5#area31#page104#scu54Previous"/>
+          <layout:Link link="sv5#area31#page104#scu54Block"/>
+          <layout:Link link="sv5#area31#page104#scu54Next"/>
+          <layout:Link link="sv5#area31#page104#scu54Last"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv5#area31#page104#inu31">
+          <layout:Attribute attribute="ent17#att35"/>
+          <layout:Attribute attribute="ent17#att51"/>
+          <layout:Link link="sv5#area31#page104#inu31#ln246"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+  <Link id="sv5#area31#page104#ln267" name="Logout" to="sv5#lou6" automaticCoupling="true" type="normal" validate="true"/>
+</Page>

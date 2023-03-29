@@ -1,0 +1,40 @@
+<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="-110" gr:y="825" id="sv4#area19" name="Gestione Eventi" landmark="true" defaultPage="sv4#area19#page18">
+  <OperationUnits>
+    <CreateUnit gr:x="920" gr:y="1285" id="sv4#area19#cru7" name="Crea Tipologia Evento" entity="ent9">
+      <OKLink id="sv4#area19#cru7#oln48" name="OKFlow48" to="sv4#area19#page23" automaticCoupling="true"/>
+    </CreateUnit>
+    <ModifyUnit gr:x="195" gr:y="1560" id="sv4#area19#mfu2" name="Modifica Tipologia Evento" entity="ent9">
+      <Selector id="sv4#area19#mfu2#su32" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area19#mfu2#su32#kcond50" name="KeyCondition50" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="sv4#area19#mfu2#oln49" name="OKFlow49" to="sv4#area19#page23" automaticCoupling="true" gr:bendpoints="123,-144,143,181"/>
+    </ModifyUnit>
+    <ConnectUnit gr:x="1335" gr:y="975" id="sv4#area19#cnu7" name="Connect7" relationship="rel5#role10">
+      <SourceSelector id="sv4#area19#cnu7#su132" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area19#cnu7#su132#kcond92" name="KeyCondition92" predicate="in" implied="false"/>
+      </SourceSelector>
+      <TargetSelector id="sv4#area19#cnu7#su133" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area19#cnu7#su133#kcond93" name="KeyCondition93" predicate="in" implied="false"/>
+      </TargetSelector>
+      <OKLink id="sv4#area19#cnu7#oln67" name="OKFlow67" to="sv4#area19#page31" automaticCoupling="true"/>
+    </ConnectUnit>
+    <DisconnectUnit gr:x="970" gr:y="1095" id="sv4#area19#dcnu9" name="Dissocia Foto" relationship="rel2#role4">
+      <SourceSelector id="sv4#area19#dcnu9#su134" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area19#dcnu9#su134#kcond94" name="KeyCondition94" predicate="in" implied="false"/>
+      </SourceSelector>
+      <TargetSelector id="sv4#area19#dcnu9#su135" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area19#dcnu9#su135#kcond95" name="KeyCondition95" predicate="in" implied="false"/>
+      </TargetSelector>
+      <OKLink id="sv4#area19#dcnu9#oln68" name="OKFlow68" to="sv4#area19#page31" automaticCoupling="true"/>
+    </DisconnectUnit>
+    <DisconnectUnit gr:x="0" gr:y="1070" id="sv4#area19#dcnu10" name="Dissocia Raccolta" relationship="rel5#role9">
+      <SourceSelector id="sv4#area19#dcnu10#su136" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area19#dcnu10#su136#kcond96" name="KeyCondition96" predicate="in" implied="false"/>
+      </SourceSelector>
+      <TargetSelector id="sv4#area19#dcnu10#su137" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area19#dcnu10#su137#kcond97" name="KeyCondition97" predicate="in" implied="false"/>
+      </TargetSelector>
+      <OKLink id="sv4#area19#dcnu10#oln69" name="OKFlow69" to="sv4#area19#page31" automaticCoupling="true"/>
+    </DisconnectUnit>
+  </OperationUnits>
+</Area>

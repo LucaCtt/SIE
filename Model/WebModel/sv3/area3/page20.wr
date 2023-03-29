@@ -1,0 +1,197 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv3#area3#page20" name="Dettagli Evento" gr:x="520" gr:y="0">
+  <ContentUnits>
+    <DataUnit id="sv3#area3#page20#dau4" name="Dettagli Evento" gr:x="0" gr:y="0" entity="ent1" displayAttributes="ent1#att4 ent1#att5 ent1#att6 ent1#att7 ent1#att8" linkOrder="sv3#area3#page20#dau4#ln79">
+      <Selector id="sv3#area3#page20#dau4#su13" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv3#area3#page20#dau4#su13#kcond2" name="KeyCondition4" predicate="in" implied="false"/>
+      </Selector>
+      <Link id="sv3#area3#page20#dau4#ln35" name="Ospiti" to="sv3#area3#page20#scu7" type="transport" automaticCoupling="true" validate="true"/>
+      <Link id="sv3#area3#page20#dau4#ln79" name="Flow79" to="sv3#area3#switch1" type="normal" validate="true">
+        <LinkParameter id="sv3#area3#page20#dau4#ln79#par51" name="oid_Switch" source="data.ent1#att1" target="sv3#area3#switch1.switch"/>
+        <LinkParameter id="sv3#area3#page20#dau4#ln79#par52" name="oid_PASSING" source="data.ent1#att1" passing="true"/>
+      </Link>
+      <Link id="sv3#area3#page20#dau4#ln100" name="Flow100" to="sv3#area3#page20#dau10" automaticCoupling="true" type="transport" validate="true"/>
+    </DataUnit>
+    <ScrollerUnit id="sv3#area3#page20#scu7" name="Scroller Ospiti" linkOrder="sv3#area3#page20#scu7#ln39" gr:x="215" gr:y="5" useCountQuery="false" entity="ent2" blockFactor="1">
+      <Selector id="sv3#area3#page20#scu7#su15" defaultPolicy="fill" booleanOperator="and">
+        <RelationshipRoleCondition id="sv3#area3#page20#scu7#su15#rcond7" name="RoleCondition5" role="rel1#role1" predicate="in" implied="false"/>
+      </Selector>
+      <Link id="sv3#area3#page20#scu7#ln39" name="Flow6" to="sv3#area3#page20#mdu3" type="automatic" automaticCoupling="true" validate="true"/>
+      <SortAttribute attribute="ent2#att13" order="ascending"/>
+      <SortAttribute attribute="ent2#att14" order="ascending"/>
+    </ScrollerUnit>
+    <MultiDataUnit id="sv3#area3#page20#mdu3" name="Ospiti" gr:x="410" gr:y="5" entity="ent2" displayAttributes="ent2#att13 ent2#att14 ent2#att15">
+      <Selector id="sv3#area3#page20#mdu3#su16" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv3#area3#page20#mdu3#su16#kcond7" name="KeyCondition5" predicate="in" implied="false"/>
+      </Selector>
+      <SortAttribute attribute="ent2#att13" order="ascending"/>
+      <SortAttribute attribute="ent2#att14" order="ascending"/>
+    </MultiDataUnit>
+    <DataUnit id="sv3#area3#page20#dau10" name="Dettagli Fotografia" gr:x="385" gr:y="130" entity="ent3" displayAttributes="ent3#att9 ent3#att10">
+      <Selector id="sv3#area3#page20#dau10#su55" defaultPolicy="fill" booleanOperator="and">
+        <RelationshipRoleCondition id="sv3#area3#page20#dau10#su55#rcond20" name="RoleCondition19" role="rel2#role3" predicate="in" implied="false"/>
+      </Selector>
+    </DataUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv3#area3#page20#dau4">
+          <layout:Attribute attribute="ent1#att4"/>
+          <layout:Attribute attribute="ent1#att5"/>
+          <layout:Attribute attribute="ent1#att6"/>
+          <layout:Attribute attribute="ent1#att7"/>
+          <layout:Attribute attribute="ent1#att8"/>
+          <layout:Link link="sv3#area3#page20#dau4#ln79"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv3#area3#page20#scu7">
+          <layout:Link link="sv3#area3#page20#scu7First"/>
+          <layout:Link link="sv3#area3#page20#scu7Previous"/>
+          <layout:Link link="sv3#area3#page20#scu7Block"/>
+          <layout:Link link="sv3#area3#page20#scu7Next"/>
+          <layout:Link link="sv3#area3#page20#scu7Last"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv3#area3#page20#mdu3">
+          <layout:Attribute attribute="ent2#att13"/>
+          <layout:Attribute attribute="ent2#att14"/>
+          <layout:Attribute attribute="ent2#att15"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:SubPage pageId="sv3#area3#page20#alt7#page44">
+          <layout:Grid containerType="grid">
+            <layout:Row>
+              <layout:Cell colspan="12"/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+            </layout:Row>
+          </layout:Grid>
+        </layout:SubPage>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:SubPage pageId="sv3#area3#page20#alt7#page45">
+          <layout:Grid containerType="grid">
+            <layout:Row>
+              <layout:Cell colspan="12">
+                <layout:Unit unitId="sv3#area3#page20#alt7#page45#mssu3"/>
+              </layout:Cell>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+            </layout:Row>
+          </layout:Grid>
+        </layout:SubPage>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv3#area3#page20#dau10">
+          <layout:Attribute attribute="ent3#att9"/>
+          <layout:Attribute attribute="ent3#att10"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+  <Alternative gr:x="175" gr:y="150" id="sv3#area3#page20#alt7" name="Alternative7" defaultPage="sv3#area3#page20#alt7#page44">
+    <Page gr:x="0" gr:y="0" id="sv3#area3#page20#alt7#page44" name="Page 44">
+      <ContentUnits/>
+    </Page>
+    <Page gr:x="0" gr:y="95" id="sv3#area3#page20#alt7#page45" name="Page 45">
+      <ContentUnits>
+        <MultiMessageUnit gr:x="0" gr:y="0" id="sv3#area3#page20#alt7#page45#mssu3" name="Gi&#224; iscritto">
+          <Message xml:space="preserve">L'utente &#232; gi&#224; iscritto
+</Message>        </MultiMessageUnit>      </ContentUnits>    </Page>  </Alternative></Page>

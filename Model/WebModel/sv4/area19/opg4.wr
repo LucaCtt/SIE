@@ -1,0 +1,18 @@
+<OperationGroup xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="525" gr:y="1380" id="sv4#area19#opg4" name="Rimuovi Evento" transaction="true">
+  <OperationUnits>
+    <DeleteUnit gr:x="0" gr:y="0" id="sv4#area19#opg4#dlu4" name="Rimuovi Evento" entity="ent1">
+      <Selector id="sv4#area19#opg4#dlu4#su27" defaultPolicy="fill" booleanOperator="and">
+        <RelationshipRoleCondition id="sv4#area19#opg4#dlu4#su27#rcond26" name="RoleCondition26" predicate="in" implied="false" role="rel3#role5"/>
+      </Selector>
+      <OKLink id="sv4#area19#opg4#dlu4#oln36" name="OKFlow36" to="sv4#area19#opg4#dlu5">
+        <LinkParameter id="sv4#area19#opg4#dlu4#oln36#par287" name="oid_PASSING_KeyCondition48 [oid]" sourceLinkParameter="sv4#area19#page23#inu9#ln34#par286" target="sv4#area19#opg4#dlu5#su28#kcond48.ent9#att18"/>
+      </OKLink>
+    </DeleteUnit>
+    <DeleteUnit gr:x="250" gr:y="0" id="sv4#area19#opg4#dlu5" name="Rimuovi Tipologia Evento" entity="ent9">
+      <Selector id="sv4#area19#opg4#dlu5#su28" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area19#opg4#dlu5#su28#kcond48" name="KeyCondition48" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="sv4#area19#opg4#dlu5#oln47" name="OKFlow47" to="sv4#area19#page23" automaticCoupling="true"/>
+    </DeleteUnit>
+  </OperationUnits>
+</OperationGroup>

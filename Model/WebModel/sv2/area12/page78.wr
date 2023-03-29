@@ -1,0 +1,197 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv2#area12#page78" name="Dettagli Evento" gr:x="520" gr:y="0">
+  <ContentUnits>
+    <DataUnit id="sv2#area12#page78#dau13" name="Dettagli Evento" linkOrder="sv2#area12#page78#dau13#ln166" gr:x="0" gr:y="0" entity="ent1" displayAttributes="ent1#att4 ent1#att5 ent1#att6 ent1#att7 ent1#att8">
+      <Selector id="sv2#area12#page78#dau13#su103" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv2#area12#page78#dau13#su103#kcond58" name="KeyCondition4" predicate="in" implied="false"/>
+      </Selector>
+      <Link id="sv2#area12#page78#dau13#ln165" name="Ospiti" to="sv2#area12#page78#scu30" type="transport" automaticCoupling="true" validate="true"/>
+      <Link id="sv2#area12#page78#dau13#ln166" name="Flow79" to="sv2#area12#switch2" type="normal" validate="true">
+        <LinkParameter id="sv2#area12#page78#dau13#ln166#par109" name="oid_Switch" source="data.ent1#att1" target="sv2#area12#switch2.switch"/>
+        <LinkParameter id="sv2#area12#page78#dau13#ln166#par110" name="oid_PASSING" source="data.ent1#att1" passing="true"/>
+      </Link>
+      <Link id="sv2#area12#page78#dau13#ln167" name="Flow100" to="sv2#area12#page78#dau14" type="transport" automaticCoupling="true" validate="true"/>
+    </DataUnit>
+    <ScrollerUnit id="sv2#area12#page78#scu30" name="Scroller Ospiti" linkOrder="sv2#area12#page78#scu30#ln168" gr:x="215" gr:y="5" useCountQuery="false" entity="ent2" blockFactor="1">
+      <Selector id="sv2#area12#page78#scu30#su104" defaultPolicy="fill" booleanOperator="and">
+        <RelationshipRoleCondition id="sv2#area12#page78#scu30#su104#rcond13" name="RoleCondition5" role="rel1#role1" predicate="in" implied="false"/>
+      </Selector>
+      <Link id="sv2#area12#page78#scu30#ln168" name="Flow6" to="sv2#area12#page78#mdu5" type="automatic" automaticCoupling="true" validate="true"/>
+      <SortAttribute attribute="ent2#att13" order="ascending"/>
+      <SortAttribute attribute="ent2#att14" order="ascending"/>
+    </ScrollerUnit>
+    <MultiDataUnit id="sv2#area12#page78#mdu5" name="Ospiti" gr:x="410" gr:y="5" entity="ent2" displayAttributes="ent2#att13 ent2#att14 ent2#att15">
+      <Selector id="sv2#area12#page78#mdu5#su105" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv2#area12#page78#mdu5#su105#kcond59" name="KeyCondition5" predicate="in" implied="false"/>
+      </Selector>
+      <SortAttribute attribute="ent2#att13" order="ascending"/>
+      <SortAttribute attribute="ent2#att14" order="ascending"/>
+    </MultiDataUnit>
+    <DataUnit id="sv2#area12#page78#dau14" name="Dettagli Fotografia" gr:x="385" gr:y="130" entity="ent3" displayAttributes="ent3#att9 ent3#att10">
+      <Selector id="sv2#area12#page78#dau14#su106" defaultPolicy="fill" booleanOperator="and">
+        <RelationshipRoleCondition id="sv2#area12#page78#dau14#su106#rcond15" name="RoleCondition19" role="rel2#role3" predicate="in" implied="false"/>
+      </Selector>
+    </DataUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv2#area12#page78#dau13">
+          <layout:Attribute attribute="ent1#att4"/>
+          <layout:Attribute attribute="ent1#att5"/>
+          <layout:Attribute attribute="ent1#att6"/>
+          <layout:Attribute attribute="ent1#att7"/>
+          <layout:Attribute attribute="ent1#att8"/>
+          <layout:Link link="sv2#area12#page78#dau13#ln166"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv2#area12#page78#scu30">
+          <layout:Link link="sv2#area12#page78#scu30First"/>
+          <layout:Link link="sv2#area12#page78#scu30Previous"/>
+          <layout:Link link="sv2#area12#page78#scu30Block"/>
+          <layout:Link link="sv2#area12#page78#scu30Next"/>
+          <layout:Link link="sv2#area12#page78#scu30Last"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv2#area12#page78#mdu5">
+          <layout:Attribute attribute="ent2#att13"/>
+          <layout:Attribute attribute="ent2#att14"/>
+          <layout:Attribute attribute="ent2#att15"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:SubPage pageId="sv2#area12#page78#alt12#page79">
+          <layout:Grid containerType="grid">
+            <layout:Row>
+              <layout:Cell colspan="12"/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+            </layout:Row>
+          </layout:Grid>
+        </layout:SubPage>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:SubPage pageId="sv2#area12#page78#alt12#page80">
+          <layout:Grid containerType="grid">
+            <layout:Row>
+              <layout:Cell colspan="12">
+                <layout:Unit unitId="sv2#area12#page78#alt12#page80#mssu4"/>
+              </layout:Cell>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+            </layout:Row>
+          </layout:Grid>
+        </layout:SubPage>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv2#area12#page78#dau14">
+          <layout:Attribute attribute="ent3#att9"/>
+          <layout:Attribute attribute="ent3#att10"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+  <Alternative id="sv2#area12#page78#alt12" name="Alternative7" defaultPage="sv2#area12#page78#alt12#page79" gr:x="175" gr:y="150">
+    <Page id="sv2#area12#page78#alt12#page79" name="Page 44" gr:x="0" gr:y="0">
+      <ContentUnits/>
+    </Page>
+    <Page id="sv2#area12#page78#alt12#page80" name="Page 45" gr:x="0" gr:y="95">
+      <ContentUnits>
+        <MultiMessageUnit id="sv2#area12#page78#alt12#page80#mssu4" name="Gi&#224; iscritto" gr:x="0" gr:y="0">
+          <Message xml:space="preserve">L'utente &#232; gi&#224; iscritto
+</Message>        </MultiMessageUnit>      </ContentUnits>    </Page>  </Alternative></Page>

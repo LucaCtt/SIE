@@ -1,0 +1,30 @@
+<OperationGroup xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="0" gr:y="355" id="sv4#area20#opg12" name="Rimuovi Raccolta Fondi" transaction="true">
+  <OperationUnits>
+    <DeleteUnit gr:x="445" gr:y="15" id="sv4#area20#opg12#dlu6" name="Rimuovi Raccolta" entity="ent17">
+      <Selector id="sv4#area20#opg12#dlu6#su145" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area20#opg12#dlu6#su145#kcond103" name="KeyCondition103" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="sv4#area20#opg12#dlu6#oln74" name="OKFlow74" to="sv4#area20#page35" automaticCoupling="true"/>
+    </DeleteUnit>
+    <DisconnectUnit gr:x="205" gr:y="5" id="sv4#area20#opg12#dcnu11" name="Disconnect11" relationship="rel5#role9">
+      <SourceSelector id="sv4#area20#opg12#dcnu11#su146" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area20#opg12#dcnu11#su146#kcond104" name="KeyCondition104" predicate="in" implied="false"/>
+      </SourceSelector>
+      <TargetSelector id="sv4#area20#opg12#dcnu11#su147" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area20#opg12#dcnu11#su147#kcond105" name="KeyCondition105" predicate="in" implied="false"/>
+      </TargetSelector>
+      <OKLink id="sv4#area20#opg12#dcnu11#oln73" name="OKFlow73" to="sv4#area20#opg12#dlu6">
+        <LinkParameter id="sv4#area20#opg12#dcnu11#oln73#par265" name="Source oid [RaccoltaFondi]_KeyCondition103 [oid]" source="sourceent17#att33" target="sv4#area20#opg12#dlu6#su145#kcond103.ent17#att33"/>
+      </OKLink>
+    </DisconnectUnit>
+    <SelectorUnit gr:x="0" gr:y="0" id="sv4#area20#opg12#seu11" name="Selector11" entity="ent1" linkOrder="sv4#area20#opg12#seu11#ln138">
+      <Selector id="sv4#area20#opg12#seu11#su148" defaultPolicy="fill" booleanOperator="and">
+        <RelationshipRoleCondition id="sv4#area20#opg12#seu11#su148#rcond38" name="RoleCondition38" predicate="in" implied="false" role="rel5#role9"/>
+      </Selector>
+      <Link id="sv4#area20#opg12#seu11#ln138" name="Flow138" to="sv4#area20#opg12#dcnu11" type="transport" validate="true">
+        <LinkParameter id="sv4#area20#opg12#seu11#ln138#par263" name="oid_KeyCondition104 [oid] [RaccoltaFondi] [Source]" source="ent1#att1Array" target="sv4#area20#opg12#dcnu11#su146#kcond104.ent17#att33"/>
+        <LinkParameter id="sv4#area20#opg12#seu11#ln138#par264" name="oid_KeyCondition105 [oid] [Evento] [Target]" source="ent1#att1Array" target="sv4#area20#opg12#dcnu11#su147#kcond105.ent1#att1"/>
+      </Link>
+    </SelectorUnit>
+  </OperationUnits>
+</OperationGroup>

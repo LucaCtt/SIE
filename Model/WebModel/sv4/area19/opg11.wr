@@ -1,0 +1,19 @@
+<OperationGroup xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="1475" gr:y="1190" id="sv4#area19#opg11" name="Operation Group 11" transaction="true">
+  <OperationUnits>
+    <CreateUnit gr:x="0" gr:y="0" id="sv4#area19#opg11#cru11" name="Create11" entity="ent3">
+      <OKLink id="sv4#area19#opg11#cru11#oln70" name="OKFlow70" to="sv4#area19#opg11#cnu8">
+        <LinkParameter id="sv4#area19#opg11#cru11#oln70#par253" name="oid_PASSING_KeyCondition98 [oid] [Evento] [Source]" sourceLinkParameter="sv4#area19#page33#enu10#ln90#par250" target="sv4#area19#opg11#cnu8#su138#kcond98.ent1#att1"/>
+        <LinkParameter id="sv4#area19#opg11#cru11#oln70#par254" name="oid_KeyCondition99 [oid] [Fotografia] [Target]" source="ent3#att3Array" target="sv4#area19#opg11#cnu8#su139#kcond99.ent3#att3"/>
+      </OKLink>
+    </CreateUnit>
+    <ConnectUnit gr:x="125" gr:y="0" id="sv4#area19#opg11#cnu8" name="Connect8" relationship="rel2#role3">
+      <SourceSelector id="sv4#area19#opg11#cnu8#su138" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area19#opg11#cnu8#su138#kcond98" name="KeyCondition98" predicate="in" implied="false"/>
+      </SourceSelector>
+      <TargetSelector id="sv4#area19#opg11#cnu8#su139" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area19#opg11#cnu8#su139#kcond99" name="KeyCondition99" predicate="in" implied="false"/>
+      </TargetSelector>
+      <OKLink id="sv4#area19#opg11#cnu8#oln71" name="OKFlow71" to="sv4#area19#page31" automaticCoupling="true"/>
+    </ConnectUnit>
+  </OperationUnits>
+</OperationGroup>

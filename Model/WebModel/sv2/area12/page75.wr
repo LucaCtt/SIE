@@ -1,0 +1,76 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv2#area12#page75" name="Attivit&#224; a cui l'utente &#232; iscritto" landmark="true" gr:x="715" gr:y="735">
+  <ContentUnits>
+    <GetUnit id="sv2#area12#page75#gtu6" name="Get id" gr:x="0" gr:y="0" contextParameters="UserCtxParam">
+      <Link id="sv2#area12#page75#gtu6#ln157" name="Flow81" to="sv2#area12#page75#scu28" type="transport" automaticCoupling="true" validate="true"/>
+      <Link id="sv2#area12#page75#gtu6#ln158" name="Flow84" to="sv2#area12#dcnu2" type="transport" validate="true">
+        <LinkParameter id="sv2#area12#page75#gtu6#ln158#par107" name="UserCtxParam.oid_KeyCondition15 [oid] [Utente] [Source]" source="sv2#area12#page75#gtu6.UserCtxParam" target="sv2#area12#dcnu2#su94#kcond52.userOID"/>
+      </Link>
+    </GetUnit>
+    <ScrollerUnit id="sv2#area12#page75#scu28" name="Scroller eventi" linkOrder="sv2#area12#page75#scu28#ln159" gr:x="190" gr:y="0" useCountQuery="false" entity="ent1" blockFactor="10">
+      <Selector id="sv2#area12#page75#scu28#su99" defaultPolicy="fill" booleanOperator="and">
+        <RelationshipRoleCondition id="sv2#area12#page75#scu28#su99#rcond11" name="RoleCondition14" predicate="in" implied="false" role="rel18#role35"/>
+      </Selector>
+      <Link id="sv2#area12#page75#scu28#ln159" name="Flow82" to="sv2#area12#page75#inu47" type="automatic" automaticCoupling="true" validate="true"/>
+      <SortAttribute attribute="ent1#att7" order="descending"/>
+      <SortAttribute attribute="ent1#att8" order="descending"/>
+    </ScrollerUnit>
+    <IndexUnit id="sv2#area12#page75#inu47" name="Lista eventi a cui utente &#232; iscritto" linkOrder="sv2#area12#page75#inu47#ln160 sv2#area12#page75#inu47#ln161" gr:x="20" gr:y="120" entity="ent1" displayAttributes="ent1#att4 ent1#att6 ent1#att7 ent1#att8">
+      <Link id="sv2#area12#page75#inu47#ln160" name="Flow83" to="sv2#area12#page78#dau13" type="normal" automaticCoupling="true" validate="true"/>
+      <Link id="sv2#area12#page75#inu47#ln161" name="Flow85" to="sv2#area12#dcnu2" type="normal" validate="true">
+        <LinkParameter id="sv2#area12#page75#inu47#ln161#par108" name="oid_KeyCondition16 [oid] [Evento] [Target]" source="data[].ent1#att1" target="sv2#area12#dcnu2#su95#kcond53.ent1#att1"/>
+      </Link>
+      <Selector id="sv2#area12#page75#inu47#su100" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv2#area12#page75#inu47#su100#kcond56" name="KeyCondition17" predicate="in" implied="false"/>
+      </Selector>
+      <SortAttribute attribute="ent1#att7" order="descending"/>
+      <SortAttribute attribute="ent1#att8" order="descending"/>
+    </IndexUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv2#area12#page75#scu28">
+          <layout:Link link="sv2#area12#page75#scu28First"/>
+          <layout:Link link="sv2#area12#page75#scu28Previous"/>
+          <layout:Link link="sv2#area12#page75#scu28Block"/>
+          <layout:Link link="sv2#area12#page75#scu28Next"/>
+          <layout:Link link="sv2#area12#page75#scu28Last"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv2#area12#page75#inu47">
+          <layout:Link link="sv2#area12#page75#inu47#ln160"/>
+          <layout:Link link="sv2#area12#page75#inu47#ln161"/>
+          <layout:Attribute attribute="ent1#att4"/>
+          <layout:Attribute attribute="ent1#att6"/>
+          <layout:Attribute attribute="ent1#att7"/>
+          <layout:Attribute attribute="ent1#att8"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

@@ -1,0 +1,52 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="145" gr:y="40" id="sv3#area9#page54" name="Modifica Profilo">
+  <ContentUnits>
+    <EntryUnit gr:x="0" gr:y="0" id="sv3#area9#page54#enu21" name="Form Profilo" linkOrder="sv3#area9#page54#enu21#ln120">
+      <Link id="sv3#area9#page54#enu21#ln120" name="Flow120" to="sv3#area9#mfu6" type="normal" validate="true">
+        <LinkParameter id="sv3#area9#page54#enu21#ln120#par213" name="Cognome_cognome" source="sv3#area9#page54#enu21#fld58" target="sv3#area9#mfu6.ent5#att17"/>
+        <LinkParameter id="sv3#area9#page54#enu21#ln120#par214" name="DataNascita_data_nascita" source="sv3#area9#page54#enu21#fld63" target="sv3#area9#mfu6.ent11#att19"/>
+        <LinkParameter id="sv3#area9#page54#enu21#ln120#par215" name="Email_email" source="sv3#area9#page54#enu21#fld60" target="sv3#area9#mfu6.email"/>
+        <LinkParameter id="sv3#area9#page54#enu21#ln120#par216" name="Nazionalita_nazionalita" source="sv3#area9#page54#enu21#fld61" target="sv3#area9#mfu6.ent11#att12"/>
+        <LinkParameter id="sv3#area9#page54#enu21#ln120#par217" name="Nome_nome" source="sv3#area9#page54#enu21#fld57" target="sv3#area9#mfu6.ent5#att16"/>
+        <LinkParameter id="sv3#area9#page54#enu21#ln120#par218" name="Telefono_telefono" source="sv3#area9#page54#enu21#fld62" target="sv3#area9#mfu6.ent11#att20"/>
+        <LinkParameter id="sv3#area9#page54#enu21#ln120#par219" name="Password_password" source="sv3#area9#page54#enu21#fld64" target="sv3#area9#mfu6.password"/>
+        <LinkParameter id="sv3#area9#page54#enu21#ln120#par224" name="Oid_KeyCondition40 [oid]" source="sv3#area9#page54#enu21#fld59" target="sv3#area9#mfu6#su69#kcond40.userOID"/>
+      </Link>
+      <Field id="sv3#area9#page54#enu21#fld57" name="Nome" type="string" modifiable="true" preloaded="true"/>
+      <Field id="sv3#area9#page54#enu21#fld58" name="Cognome" type="string" modifiable="true" preloaded="true"/>
+      <Field id="sv3#area9#page54#enu21#fld59" name="Oid" type="string" modifiable="true" preloaded="true"/>
+      <Field id="sv3#area9#page54#enu21#fld60" name="Email" type="string" modifiable="true" preloaded="true"/>
+      <Field id="sv3#area9#page54#enu21#fld61" name="Nazionalita" type="string" modifiable="true" preloaded="true"/>
+      <Field id="sv3#area9#page54#enu21#fld62" name="Telefono" type="string" modifiable="true" preloaded="true"/>
+      <Field id="sv3#area9#page54#enu21#fld63" name="DataNascita" type="date" modifiable="true" preloaded="true"/>
+      <Field id="sv3#area9#page54#enu21#fld64" name="Password" type="password" modifiable="true"/>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv3#area9#page54#enu21">
+          <layout:Link link="sv3#area9#page54#enu21#ln120"/>
+          <layout:Field field="sv3#area9#page54#enu21#fld57"/>
+          <layout:Field field="sv3#area9#page54#enu21#fld58"/>
+          <layout:Field field="sv3#area9#page54#enu21#fld59"/>
+          <layout:Field field="sv3#area9#page54#enu21#fld60"/>
+          <layout:Field field="sv3#area9#page54#enu21#fld61"/>
+          <layout:Field field="sv3#area9#page54#enu21#fld62"/>
+          <layout:Field field="sv3#area9#page54#enu21#fld63"/>
+          <layout:Field field="sv3#area9#page54#enu21#fld64"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

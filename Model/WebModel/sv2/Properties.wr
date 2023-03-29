@@ -1,0 +1,7 @@
+<SiteView xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv2" name="Azienda" landmarks="sv2#area14 sv2#area10 sv2#area11 sv2#area12 sv2#area13" homePage="sv2#area10#page66">
+  <OperationUnits>
+    <LogoutUnit id="sv2#lou2" name="Logout1" gr:x="630" gr:y="525" siteView="sv1" invalidateSession="true">
+      <KOLink id="sv2#lou2#kln2" name="KOFlow3" to="sv2#area10#page66" automaticCoupling="true" gr:bendpoints="78,19,-312,-6"/>
+    </LogoutUnit>
+  </OperationUnits>
+</SiteView>

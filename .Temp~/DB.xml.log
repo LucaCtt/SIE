@@ -1,0 +1,293 @@
+[28 mar 2023 18:20:25] Building database metadata model
+[28 mar 2023 18:20:25] Properties: {partialRefresh=false, processColumnsUsingSelect=, includePrimaryKeys=true, eventSocketClient=com.webratio.commons.net.EventSocketClient@2d6c73b1, includeTables=true, username=root, outputLogPath=C:\WebRatio\WebRatio Platform 7.2.18.x64bit\workspace\SIE_Luca_Cotti\.Temp~\DB.xml.log, readIndexes=null, driverClass=com.mysql.jdbc.Driver, includeSynonyms=true, metaDataProviderClass=com.webratio.commons.db.metadata.MySQLMetaDataProvider, outputPath=C:\WebRatio\WebRatio Platform 7.2.18.x64bit\workspace\SIE_Luca_Cotti\.Temp~\DB.xml, schemaRegex=null, readProcedures=null, includeViews=true, derby.system.home=C:\WebRatio\WebRatio Platform 7.2.18.x64bit\workspace\.metadata\.plugins\com.webratio.commons.db\derby, url=jdbc:mysql://localhost:3306/sie_luca_cotti, tableRegex=null, readSQLDefinitions=true, includeForeignKeys=true, retrieveAllNames=false, tablesToRefresh=, eventSocketPort=54507}
+[28 mar 2023 18:20:25] URL: jdbc:mysql://localhost:3306/sie_luca_cotti
+[28 mar 2023 18:20:25] Product name: MySQL
+[28 mar 2023 18:20:25] Product version: 5.5.5-10.4.27-MariaDB
+[28 mar 2023 18:20:25] Driver name: MySQL Connector Java
+[28 mar 2023 18:20:25] Driver version: mysql-connector-java-5.1.31 ( Revision: alexander.soklakov@oracle.com-20140520065950-groqzzbvxprqdmnz )
+[28 mar 2023 18:20:25] Driver major version: 5
+[28 mar 2023 18:20:25] Driver minor version: 1
+[28 mar 2023 18:20:25] Identifier quote string: 1
+[28 mar 2023 18:20:25] Retrieving schemas
+[28 mar 2023 18:20:25] Retrieving [TABLE, VIEW, SYNONYM] for schema ''
+[28 mar 2023 18:20:25]   Found 'alumno' [type = TABLE]
+[28 mar 2023 18:20:25]   Found 'amministratore' [type = TABLE]
+[28 mar 2023 18:20:25]   Found 'azienda' [type = TABLE]
+[28 mar 2023 18:20:25]   Found 'donazione' [type = TABLE]
+[28 mar 2023 18:20:25]   Found 'evento' [type = TABLE]
+[28 mar 2023 18:20:25]   Found 'eventoinevidenza' [type = TABLE]
+[28 mar 2023 18:20:25]   Found 'eventopubblico' [type = TABLE]
+[28 mar 2023 18:20:25]   Found 'eventoriservatoalumni' [type = TABLE]
+[28 mar 2023 18:20:25]   Found 'eventoriservatoaziende' [type = TABLE]
+[28 mar 2023 18:20:25]   Found 'fotografia' [type = TABLE]
+[28 mar 2023 18:20:25]   Found 'group_module' [type = TABLE]
+[28 mar 2023 18:20:25]   Found 'gruppo' [type = TABLE]
+[28 mar 2023 18:20:25]   Found 'indirizzo' [type = TABLE]
+[28 mar 2023 18:20:25]   Found 'modulo' [type = TABLE]
+[28 mar 2023 18:20:25]   Found 'nazione' [type = TABLE]
+[28 mar 2023 18:20:25]   Found 'ospite' [type = TABLE]
+[28 mar 2023 18:20:25]   Found 'posizione' [type = TABLE]
+[28 mar 2023 18:20:25]   Found 'qualifica' [type = TABLE]
+[28 mar 2023 18:20:25]   Found 'raccoltafondi' [type = TABLE]
+[28 mar 2023 18:20:25]   Found 'staff' [type = TABLE]
+[28 mar 2023 18:20:25]   Found 'tipologiaevento' [type = TABLE]
+[28 mar 2023 18:20:25]   Found 'user_group' [type = TABLE]
+[28 mar 2023 18:20:25]   Found 'utente' [type = TABLE]
+[28 mar 2023 18:20:25]   Found 'utente_evento' [type = TABLE]
+[28 mar 2023 18:20:25]   Found 'utenteinterno' [type = TABLE]
+[28 mar 2023 18:20:25]   Found 'raccoltafondi_totale_raccolto' [type = VIEW]
+[28 mar 2023 18:20:25] Retrieving columns for 'alumno' [type = TABLE]
+[28 mar 2023 18:20:25]   Found column: utenteinterno_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: nazionalita [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: data_nascita [type = DATE][SQL/XOPEN type = 91][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: telefono [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: approvato [type = BIT][SQL/XOPEN type = -7][size = 1][dec. digits = 0]
+[28 mar 2023 18:20:25] Retrieving primary keys for 'alumno' [type = TABLE]
+[28 mar 2023 18:20:25]   Found primary key column: utenteinterno_oid
+[28 mar 2023 18:20:25] Retrieving columns for 'amministratore' [type = TABLE]
+[28 mar 2023 18:20:25]   Found column: utenteinterno_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25] Retrieving primary keys for 'amministratore' [type = TABLE]
+[28 mar 2023 18:20:25]   Found primary key column: utenteinterno_oid
+[28 mar 2023 18:20:25] Retrieving columns for 'azienda' [type = TABLE]
+[28 mar 2023 18:20:25]   Found column: utente_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: nome [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: approvata [type = BIT][SQL/XOPEN type = -7][size = 1][dec. digits = 0]
+[28 mar 2023 18:20:25] Retrieving primary keys for 'azienda' [type = TABLE]
+[28 mar 2023 18:20:25]   Found primary key column: utente_oid
+[28 mar 2023 18:20:25] Retrieving columns for 'donazione' [type = TABLE]
+[28 mar 2023 18:20:25]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: nome_donatore [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: ammontare [type = DOUBLE][SQL/XOPEN type = 8][size = 22][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: raccoltafondi_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25] Retrieving primary keys for 'donazione' [type = TABLE]
+[28 mar 2023 18:20:25]   Found primary key column: oid
+[28 mar 2023 18:20:25] Retrieving columns for 'evento' [type = TABLE]
+[28 mar 2023 18:20:25]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: orario_fine [type = TIME][SQL/XOPEN type = 92][size = 8][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: orario_inizio [type = TIME][SQL/XOPEN type = 92][size = 8][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: data [type = DATE][SQL/XOPEN type = 91][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: descrizione [type = LONGTEXT][SQL/XOPEN type = -1][size = 2147483647][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: titolo [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: tipologiaevento_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: staff_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25] Retrieving primary keys for 'evento' [type = TABLE]
+[28 mar 2023 18:20:25]   Found primary key column: oid
+[28 mar 2023 18:20:25] Retrieving columns for 'eventoinevidenza' [type = TABLE]
+[28 mar 2023 18:20:25]   Found column: eventopubblico_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25] Retrieving primary keys for 'eventoinevidenza' [type = TABLE]
+[28 mar 2023 18:20:25]   Found primary key column: eventopubblico_oid
+[28 mar 2023 18:20:25] Retrieving columns for 'eventopubblico' [type = TABLE]
+[28 mar 2023 18:20:25]   Found column: evento_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25] Retrieving primary keys for 'eventopubblico' [type = TABLE]
+[28 mar 2023 18:20:25]   Found primary key column: evento_oid
+[28 mar 2023 18:20:25] Retrieving columns for 'eventoriservatoalumni' [type = TABLE]
+[28 mar 2023 18:20:25]   Found column: evento_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25] Retrieving primary keys for 'eventoriservatoalumni' [type = TABLE]
+[28 mar 2023 18:20:25]   Found primary key column: evento_oid
+[28 mar 2023 18:20:25] Retrieving columns for 'eventoriservatoaziende' [type = TABLE]
+[28 mar 2023 18:20:25]   Found column: evento_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25] Retrieving primary keys for 'eventoriservatoaziende' [type = TABLE]
+[28 mar 2023 18:20:25]   Found primary key column: evento_oid
+[28 mar 2023 18:20:25] Retrieving columns for 'fotografia' [type = TABLE]
+[28 mar 2023 18:20:25]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: descrizione [type = LONGTEXT][SQL/XOPEN type = -1][size = 2147483647][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: path [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: evento_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25] Retrieving primary keys for 'fotografia' [type = TABLE]
+[28 mar 2023 18:20:25]   Found primary key column: oid
+[28 mar 2023 18:20:25] Retrieving columns for 'group_module' [type = TABLE]
+[28 mar 2023 18:20:25]   Found column: gruppo_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: modulo_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25] Retrieving primary keys for 'group_module' [type = TABLE]
+[28 mar 2023 18:20:25]   Found primary key column: gruppo_oid
+[28 mar 2023 18:20:25]   Found primary key column: modulo_oid
+[28 mar 2023 18:20:25] Retrieving columns for 'gruppo' [type = TABLE]
+[28 mar 2023 18:20:25]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: group_name [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: modulo_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25] Retrieving primary keys for 'gruppo' [type = TABLE]
+[28 mar 2023 18:20:25]   Found primary key column: oid
+[28 mar 2023 18:20:25] Retrieving columns for 'indirizzo' [type = TABLE]
+[28 mar 2023 18:20:25]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: cap [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: citta [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: numero [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: via [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: azienda_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: posizione_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: alumno_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: nazione_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25] Retrieving primary keys for 'indirizzo' [type = TABLE]
+[28 mar 2023 18:20:25]   Found primary key column: oid
+[28 mar 2023 18:20:25] Retrieving columns for 'modulo' [type = TABLE]
+[28 mar 2023 18:20:25]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: module_id [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: module_name [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[28 mar 2023 18:20:25] Retrieving primary keys for 'modulo' [type = TABLE]
+[28 mar 2023 18:20:25]   Found primary key column: oid
+[28 mar 2023 18:20:25] Retrieving columns for 'nazione' [type = TABLE]
+[28 mar 2023 18:20:25]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: nome [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[28 mar 2023 18:20:25] Retrieving primary keys for 'nazione' [type = TABLE]
+[28 mar 2023 18:20:25]   Found primary key column: oid
+[28 mar 2023 18:20:25] Retrieving columns for 'ospite' [type = TABLE]
+[28 mar 2023 18:20:25]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: descrizione [type = LONGTEXT][SQL/XOPEN type = -1][size = 2147483647][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: cognome [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: nome [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: evento_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25] Retrieving primary keys for 'ospite' [type = TABLE]
+[28 mar 2023 18:20:25]   Found primary key column: oid
+[28 mar 2023 18:20:25] Retrieving columns for 'posizione' [type = TABLE]
+[28 mar 2023 18:20:25]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: titolo [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: azienda [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: data_inizio [type = DATE][SQL/XOPEN type = 91][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: data_fine [type = DATE][SQL/XOPEN type = 91][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: descrizione [type = LONGTEXT][SQL/XOPEN type = -1][size = 2147483647][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: alumno_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25] Retrieving primary keys for 'posizione' [type = TABLE]
+[28 mar 2023 18:20:25]   Found primary key column: oid
+[28 mar 2023 18:20:25] Retrieving columns for 'qualifica' [type = TABLE]
+[28 mar 2023 18:20:25]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: titolo [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: istituzione [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: data_conseguimento [type = DATE][SQL/XOPEN type = 91][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: alumno_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25] Retrieving primary keys for 'qualifica' [type = TABLE]
+[28 mar 2023 18:20:25]   Found primary key column: oid
+[28 mar 2023 18:20:25] Retrieving columns for 'raccoltafondi' [type = TABLE]
+[28 mar 2023 18:20:25]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: titolo [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: descrizione [type = LONGTEXT][SQL/XOPEN type = -1][size = 2147483647][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: totale_obiettivo [type = DOUBLE][SQL/XOPEN type = 8][size = 22][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: data_pubblicazione [type = DATE][SQL/XOPEN type = 91][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: staff_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: evento_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25] Retrieving primary keys for 'raccoltafondi' [type = TABLE]
+[28 mar 2023 18:20:25]   Found primary key column: oid
+[28 mar 2023 18:20:25] Retrieving columns for 'staff' [type = TABLE]
+[28 mar 2023 18:20:25]   Found column: utenteinterno_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25] Retrieving primary keys for 'staff' [type = TABLE]
+[28 mar 2023 18:20:25]   Found primary key column: utenteinterno_oid
+[28 mar 2023 18:20:25] Retrieving columns for 'tipologiaevento' [type = TABLE]
+[28 mar 2023 18:20:25]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: titolo [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[28 mar 2023 18:20:25] Retrieving primary keys for 'tipologiaevento' [type = TABLE]
+[28 mar 2023 18:20:25]   Found primary key column: oid
+[28 mar 2023 18:20:25] Retrieving columns for 'user_group' [type = TABLE]
+[28 mar 2023 18:20:25]   Found column: utente_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: gruppo_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25] Retrieving primary keys for 'user_group' [type = TABLE]
+[28 mar 2023 18:20:25]   Found primary key column: utente_oid
+[28 mar 2023 18:20:25]   Found primary key column: gruppo_oid
+[28 mar 2023 18:20:25] Retrieving columns for 'utente' [type = TABLE]
+[28 mar 2023 18:20:25]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: user_name [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: password [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: email [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: gruppo_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: amministratore_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25] Retrieving primary keys for 'utente' [type = TABLE]
+[28 mar 2023 18:20:25]   Found primary key column: oid
+[28 mar 2023 18:20:25] Retrieving columns for 'utente_evento' [type = TABLE]
+[28 mar 2023 18:20:25]   Found column: utente_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: evento_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25] Retrieving primary keys for 'utente_evento' [type = TABLE]
+[28 mar 2023 18:20:25]   Found primary key column: utente_oid
+[28 mar 2023 18:20:25]   Found primary key column: evento_oid
+[28 mar 2023 18:20:25] Retrieving columns for 'utenteinterno' [type = TABLE]
+[28 mar 2023 18:20:25]   Found column: utente_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: cognome [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: nome [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[28 mar 2023 18:20:25] Retrieving primary keys for 'utenteinterno' [type = TABLE]
+[28 mar 2023 18:20:25]   Found primary key column: utente_oid
+[28 mar 2023 18:20:25] Retrieving columns for 'raccoltafondi_totale_raccolto' [type = VIEW]
+[28 mar 2023 18:20:25]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[28 mar 2023 18:20:25]   Found column: der_attr [type = DOUBLE][SQL/XOPEN type = 8][size = 22][dec. digits = 0]
+[28 mar 2023 18:20:25] Retrieving primary keys for 'raccoltafondi_totale_raccolto' [type = VIEW]
+[28 mar 2023 18:20:25] Retrieving foreign keys for 'alumno' [type = TABLE]
+[28 mar 2023 18:20:25]   Found foreign key: column utenteinterno_oid references utenteinterno(utente_oid)
+[28 mar 2023 18:20:25] Retrieving foreign keys for 'amministratore' [type = TABLE]
+[28 mar 2023 18:20:25]   Found foreign key: column utenteinterno_oid references utenteinterno(utente_oid)
+[28 mar 2023 18:20:25] Retrieving foreign keys for 'azienda' [type = TABLE]
+[28 mar 2023 18:20:25]   Found foreign key: column utente_oid references utente(oid)
+[28 mar 2023 18:20:25] Retrieving foreign keys for 'donazione' [type = TABLE]
+[28 mar 2023 18:20:25]   Found foreign key: column raccoltafondi_oid references raccoltafondi(oid)
+[28 mar 2023 18:20:25] Retrieving foreign keys for 'evento' [type = TABLE]
+[28 mar 2023 18:20:25]   Found foreign key: column staff_oid references staff(utenteinterno_oid)
+[28 mar 2023 18:20:25]   Found foreign key: column tipologiaevento_oid references tipologiaevento(oid)
+[28 mar 2023 18:20:25] Retrieving foreign keys for 'eventoinevidenza' [type = TABLE]
+[28 mar 2023 18:20:25]   Found foreign key: column eventopubblico_oid references eventopubblico(evento_oid)
+[28 mar 2023 18:20:25] Retrieving foreign keys for 'eventopubblico' [type = TABLE]
+[28 mar 2023 18:20:25]   Found foreign key: column evento_oid references evento(oid)
+[28 mar 2023 18:20:25] Retrieving foreign keys for 'eventoriservatoalumni' [type = TABLE]
+[28 mar 2023 18:20:25]   Found foreign key: column evento_oid references evento(oid)
+[28 mar 2023 18:20:25] Retrieving foreign keys for 'eventoriservatoaziende' [type = TABLE]
+[28 mar 2023 18:20:25]   Found foreign key: column evento_oid references evento(oid)
+[28 mar 2023 18:20:25] Retrieving foreign keys for 'fotografia' [type = TABLE]
+[28 mar 2023 18:20:25]   Found foreign key: column evento_oid references evento(oid)
+[28 mar 2023 18:20:25] Retrieving foreign keys for 'group_module' [type = TABLE]
+[28 mar 2023 18:20:25]   Found foreign key: column gruppo_oid references gruppo(oid)
+[28 mar 2023 18:20:25]   Found foreign key: column modulo_oid references modulo(oid)
+[28 mar 2023 18:20:25] Retrieving foreign keys for 'gruppo' [type = TABLE]
+[28 mar 2023 18:20:25]   Found foreign key: column modulo_oid references modulo(oid)
+[28 mar 2023 18:20:25] Retrieving foreign keys for 'indirizzo' [type = TABLE]
+[28 mar 2023 18:20:25]   Found foreign key: column alumno_oid references alumno(utenteinterno_oid)
+[28 mar 2023 18:20:25]   Found foreign key: column azienda_oid references azienda(utente_oid)
+[28 mar 2023 18:20:25]   Found foreign key: column nazione_oid references nazione(oid)
+[28 mar 2023 18:20:25]   Found foreign key: column posizione_oid references posizione(oid)
+[28 mar 2023 18:20:25] Retrieving foreign keys for 'modulo' [type = TABLE]
+[28 mar 2023 18:20:25] Retrieving foreign keys for 'nazione' [type = TABLE]
+[28 mar 2023 18:20:25] Retrieving foreign keys for 'ospite' [type = TABLE]
+[28 mar 2023 18:20:25]   Found foreign key: column evento_oid references evento(oid)
+[28 mar 2023 18:20:25] Retrieving foreign keys for 'posizione' [type = TABLE]
+[28 mar 2023 18:20:25]   Found foreign key: column alumno_oid references alumno(utenteinterno_oid)
+[28 mar 2023 18:20:25] Retrieving foreign keys for 'qualifica' [type = TABLE]
+[28 mar 2023 18:20:25]   Found foreign key: column alumno_oid references alumno(utenteinterno_oid)
+[28 mar 2023 18:20:25] Retrieving foreign keys for 'raccoltafondi' [type = TABLE]
+[28 mar 2023 18:20:25]   Found foreign key: column evento_oid references evento(oid)
+[28 mar 2023 18:20:25]   Found foreign key: column staff_oid references staff(utenteinterno_oid)
+[28 mar 2023 18:20:25] Retrieving foreign keys for 'staff' [type = TABLE]
+[28 mar 2023 18:20:25]   Found foreign key: column utenteinterno_oid references utenteinterno(utente_oid)
+[28 mar 2023 18:20:25] Retrieving foreign keys for 'tipologiaevento' [type = TABLE]
+[28 mar 2023 18:20:25] Retrieving foreign keys for 'user_group' [type = TABLE]
+[28 mar 2023 18:20:25]   Found foreign key: column gruppo_oid references gruppo(oid)
+[28 mar 2023 18:20:25]   Found foreign key: column utente_oid references utente(oid)
+[28 mar 2023 18:20:25] Retrieving foreign keys for 'utente' [type = TABLE]
+[28 mar 2023 18:20:25]   Found foreign key: column amministratore_oid references amministratore(utenteinterno_oid)
+[28 mar 2023 18:20:25]   Found foreign key: column gruppo_oid references gruppo(oid)
+[28 mar 2023 18:20:25] Retrieving foreign keys for 'utente_evento' [type = TABLE]
+[28 mar 2023 18:20:25]   Found foreign key: column evento_oid references evento(oid)
+[28 mar 2023 18:20:25]   Found foreign key: column utente_oid references utente(oid)
+[28 mar 2023 18:20:25] Retrieving foreign keys for 'utenteinterno' [type = TABLE]
+[28 mar 2023 18:20:25]   Found foreign key: column utente_oid references utente(oid)
+[28 mar 2023 18:20:25] Retrieving foreign keys for 'raccoltafondi_totale_raccolto' [type = VIEW]
+[28 mar 2023 18:20:25] Database metadata retrieved (375 ms)
+[28 mar 2023 18:20:25] Retrieving auto-increment columns for 'alumno' [type = TABLE]
+[28 mar 2023 18:20:25] Retrieving auto-increment columns for 'amministratore' [type = TABLE]
+[28 mar 2023 18:20:25] Retrieving auto-increment columns for 'azienda' [type = TABLE]
+[28 mar 2023 18:20:25] Retrieving auto-increment columns for 'donazione' [type = TABLE]
+[28 mar 2023 18:20:25] Retrieving auto-increment columns for 'evento' [type = TABLE]
+[28 mar 2023 18:20:25] Retrieving auto-increment columns for 'eventoinevidenza' [type = TABLE]
+[28 mar 2023 18:20:25] Retrieving auto-increment columns for 'eventopubblico' [type = TABLE]
+[28 mar 2023 18:20:25] Retrieving auto-increment columns for 'eventoriservatoalumni' [type = TABLE]
+[28 mar 2023 18:20:25] Retrieving auto-increment columns for 'eventoriservatoaziende' [type = TABLE]
+[28 mar 2023 18:20:25] Retrieving auto-increment columns for 'fotografia' [type = TABLE]
+[28 mar 2023 18:20:25] Retrieving auto-increment columns for 'group_module' [type = TABLE]
+[28 mar 2023 18:20:25] Retrieving auto-increment columns for 'gruppo' [type = TABLE]
+[28 mar 2023 18:20:25] Retrieving auto-increment columns for 'indirizzo' [type = TABLE]
+[28 mar 2023 18:20:25] Retrieving auto-increment columns for 'modulo' [type = TABLE]
+[28 mar 2023 18:20:25] Retrieving auto-increment columns for 'nazione' [type = TABLE]
+[28 mar 2023 18:20:25] Retrieving auto-increment columns for 'ospite' [type = TABLE]
+[28 mar 2023 18:20:25] Retrieving auto-increment columns for 'posizione' [type = TABLE]
+[28 mar 2023 18:20:25] Retrieving auto-increment columns for 'qualifica' [type = TABLE]
+[28 mar 2023 18:20:25] Retrieving auto-increment columns for 'raccoltafondi' [type = TABLE]
+[28 mar 2023 18:20:25] Retrieving auto-increment columns for 'staff' [type = TABLE]
+[28 mar 2023 18:20:25] Retrieving auto-increment columns for 'tipologiaevento' [type = TABLE]
+[28 mar 2023 18:20:25] Retrieving auto-increment columns for 'user_group' [type = TABLE]
+[28 mar 2023 18:20:25] Retrieving auto-increment columns for 'utente' [type = TABLE]
+[28 mar 2023 18:20:25] Retrieving auto-increment columns for 'utente_evento' [type = TABLE]
+[28 mar 2023 18:20:25] Retrieving auto-increment columns for 'utenteinterno' [type = TABLE]
+[28 mar 2023 18:20:25] Retrieving auto-increment columns for 'raccoltafondi_totale_raccolto' [type = VIEW]
+[28 mar 2023 18:20:25] Database connection closed

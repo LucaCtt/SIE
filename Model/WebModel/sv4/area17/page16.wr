@@ -1,0 +1,69 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv4#area17#page16" name="Eventi per Tipologia" gr:x="290" gr:y="280">
+  <ContentUnits>
+    <ScrollerUnit id="sv4#area17#page16#scu16" name="Scroller Eventi per Tipologia" linkOrder="sv4#area17#page16#scu16#ln26" customDescriptor="false" gr:x="0" gr:y="5" useCountQuery="false" blockFactor="1" entity="ent20">
+      <Selector id="sv4#area17#page16#scu16#su18" defaultPolicy="fill" booleanOperator="and">
+        <RelationshipRoleCondition id="sv4#area17#page16#scu16#su18#rcond24" name="RoleCondition4" predicate="in" implied="false" role="rel3#role5"/>
+      </Selector>
+      <Link id="sv4#area17#page16#scu16#ln26" name="Flow5" to="sv4#area17#page16#inu8" type="automatic" automaticCoupling="true" validate="true"/>
+      <SortAttribute attribute="ent1#att6" order="descending"/>
+      <SortAttribute attribute="ent1#att7" order="ascending"/>
+      <SortAttribute attribute="ent1#att8" order="ascending"/>
+    </ScrollerUnit>
+    <IndexUnit id="sv4#area17#page16#inu8" name="Eventi della Tipologia Scelta" linkOrder="sv4#area17#page16#inu8#ln27" gr:x="280" gr:y="0" entity="ent20" displayAttributes="ent1#att4 ent1#att5 ent1#att6 ent1#att7 ent1#att8">
+      <Selector id="sv4#area17#page16#inu8#su19" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area17#page16#inu8#su19#kcond25" name="KeyCondition3" predicate="in" implied="false"/>
+      </Selector>
+      <Link id="sv4#area17#page16#inu8#ln27" name="Dettagli" to="sv4#area17#page13#dau19" type="normal" automaticCoupling="true" validate="true"/>
+      <SortAttribute attribute="ent1#att6" order="descending"/>
+      <SortAttribute attribute="ent1#att7" order="ascending"/>
+      <SortAttribute attribute="ent1#att8" order="descending"/>
+    </IndexUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv4#area17#page16#scu16">
+          <layout:Link link="sv4#area17#page16#scu16First"/>
+          <layout:Link link="sv4#area17#page16#scu16Previous"/>
+          <layout:Link link="sv4#area17#page16#scu16Block"/>
+          <layout:Link link="sv4#area17#page16#scu16Next"/>
+          <layout:Link link="sv4#area17#page16#scu16Last"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv4#area17#page16#inu8">
+          <layout:Link link="sv4#area17#page16#inu8#ln27"/>
+          <layout:Attribute attribute="ent1#att4"/>
+          <layout:Attribute attribute="ent1#att5"/>
+          <layout:Attribute attribute="ent1#att6"/>
+          <layout:Attribute attribute="ent1#att7"/>
+          <layout:Attribute attribute="ent1#att8"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

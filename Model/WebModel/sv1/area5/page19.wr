@@ -1,0 +1,89 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="440" gr:y="10" id="sv1#area5#page19" name="Dettagli Alumno">
+  <ContentUnits>
+    <DataUnit gr:x="0" gr:y="0" id="sv1#area5#page19#dau3" name="Dettagli Alumno" entity="ent11" displayAttributes="email ent11#att19 ent5#att16 ent5#att17">
+      <Selector id="sv1#area5#page19#dau3#su14" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#area5#page19#dau3#su14#kcond9" name="KeyCondition9" predicate="in" implied="false"/>
+      </Selector>
+      <Link id="sv1#area5#page19#dau3#ln18" name="Flow18" to="sv1#area5#page19#scu5" automaticCoupling="true" type="transport" validate="true"/>
+    </DataUnit>
+    <ScrollerUnit gr:x="195" gr:y="0" id="sv1#area5#page19#scu5" name="Scroller Qualifiche" useCountQuery="false" entity="ent14" blockFactor="1" linkOrder="sv1#area5#page19#scu5#ln23">
+      <SortAttribute attribute="ent14#att45" order="descending"/>
+      <SortAttribute attribute="ent14#att43" order="ascending"/>
+      <Selector id="sv1#area5#page19#scu5#su9" defaultPolicy="fill" booleanOperator="and">
+        <RelationshipRoleCondition id="sv1#area5#page19#scu5#su9#rcond3" name="RoleCondition3" role="rel7#role14" predicate="in" implied="false"/>
+      </Selector>
+      <Link id="sv1#area5#page19#scu5#ln23" name="Flow23" to="sv1#area5#page19#mdu2" automaticCoupling="true" type="automatic" validate="true"/>
+    </ScrollerUnit>
+    <MultiDataUnit gr:x="515" gr:y="0" id="sv1#area5#page19#mdu2" name="Qualifiche" entity="ent14" displayAttributes="ent14#att43 ent14#att44 ent14#att45">
+      <Selector id="sv1#area5#page19#mdu2#su10" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#area5#page19#mdu2#su10#kcond1" name="KeyCondition1" predicate="in" implied="false"/>
+      </Selector>
+      <SortAttribute attribute="ent14#att45" order="descending"/>
+    </MultiDataUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area5#page19#dau3">
+          <layout:Attribute attribute="email"/>
+          <layout:Attribute attribute="ent11#att19"/>
+          <layout:Attribute attribute="ent5#att16"/>
+          <layout:Attribute attribute="ent5#att17"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area5#page19#scu5">
+          <layout:Link link="sv1#area5#page19#scu5First"/>
+          <layout:Link link="sv1#area5#page19#scu5Previous"/>
+          <layout:Link link="sv1#area5#page19#scu5Block"/>
+          <layout:Link link="sv1#area5#page19#scu5Next"/>
+          <layout:Link link="sv1#area5#page19#scu5Last"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area5#page19#mdu2">
+          <layout:Attribute attribute="ent14#att43"/>
+          <layout:Attribute attribute="ent14#att44"/>
+          <layout:Attribute attribute="ent14#att45"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

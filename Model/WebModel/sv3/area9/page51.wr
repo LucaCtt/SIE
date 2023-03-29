@@ -1,0 +1,53 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="1485" gr:y="15" id="sv3#area9#page51" name="Modifica Qualifica">
+  <ContentUnits>
+    <EntryUnit gr:x="0" gr:y="0" id="sv3#area9#page51#enu18" name="Form Qualifica" linkOrder="sv3#area9#page51#enu18#ln111">
+      <Link id="sv3#area9#page51#enu18#ln111" name="Flow111" to="sv3#area9#mfu5" type="normal" validate="true">
+        <LinkParameter id="sv3#area9#page51#enu18#ln111#par144" name="data_conseguimento_data_conseguimento" source="sv3#area9#page51#enu18#fld33" target="sv3#area9#mfu5.ent14#att45"/>
+        <LinkParameter id="sv3#area9#page51#enu18#ln111#par145" name="istituzione_istituzione" source="sv3#area9#page51#enu18#fld32" target="sv3#area9#mfu5.ent14#att44"/>
+        <LinkParameter id="sv3#area9#page51#enu18#ln111#par146" name="titolo_titolo" source="sv3#area9#page51#enu18#fld31" target="sv3#area9#mfu5.ent14#att43"/>
+        <LinkParameter id="sv3#area9#page51#enu18#ln111#par147" name="oid_KeyCondition35 [oid]" source="sv3#area9#page51#enu18#fld34" target="sv3#area9#mfu5#su64#kcond35.ent14#att24"/>
+      </Link>
+      <Field id="sv3#area9#page51#enu18#fld31" name="Titolo" type="string" modifiable="true" preloaded="true"/>
+      <Field id="sv3#area9#page51#enu18#fld32" name="Istituzione" type="string" modifiable="true" preloaded="true"/>
+      <Field id="sv3#area9#page51#enu18#fld33" name="DataConseguimento" type="string" modifiable="true" preloaded="true"/>
+      <Field id="sv3#area9#page51#enu18#fld34" name="Oid" type="string" modifiable="false" hidden="true" preloaded="true"/>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv3#area9#page51#enu18">
+          <layout:Link link="sv3#area9#page51#enu18#ln111"/>
+          <layout:Field field="sv3#area9#page51#enu18#fld31"/>
+          <layout:Field field="sv3#area9#page51#enu18#fld32"/>
+          <layout:Field field="sv3#area9#page51#enu18#fld33"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

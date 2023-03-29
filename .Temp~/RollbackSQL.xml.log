@@ -1,0 +1,41 @@
+[26 mar 2023 17:47:47] DEBUG Executing SQL script
+[26 mar 2023 17:47:47] INFO ================================================================================
+[26 mar 2023 17:47:47] INFO onError= 'stop'
+[26 mar 2023 17:47:47] INFO autoCommit= 'false'
+[26 mar 2023 17:47:47] INFO username= 'root'
+[26 mar 2023 17:47:47] INFO outputPath= 'C:\WebRatio\WebRatio Platform 7.2.18.x64bit\workspace\SIE_Luca_Cotti\.Temp~\RollbackSQL.xml'
+[26 mar 2023 17:47:47] INFO outputLogPath= 'C:\WebRatio\WebRatio Platform 7.2.18.x64bit\workspace\SIE_Luca_Cotti\.Temp~\RollbackSQL.xml.log'
+[26 mar 2023 17:47:47] INFO encoding= ''
+[26 mar 2023 17:47:47] INFO driverClass= 'com.mysql.jdbc.Driver'
+[26 mar 2023 17:47:47] INFO sqlScript= 'C:\WebRatio\WebRatio Platform 7.2.18.x64bit\workspace\SIE_Luca_Cotti\.Temp~\RollbackSQL.sql'
+[26 mar 2023 17:47:47] INFO eventSocketPort= '55226'
+[26 mar 2023 17:47:47] INFO statementSeparator= ';'
+[26 mar 2023 17:47:47] INFO derby.system.home= 'C:\WebRatio\WebRatio Platform 7.2.18.x64bit\workspace\.metadata\.plugins\com.webratio.commons.db\derby'
+[26 mar 2023 17:47:47] INFO password= ''
+[26 mar 2023 17:47:47] INFO url= 'jdbc:mysql://localhost:3306/sie_luca_cotti'
+[26 mar 2023 17:47:47] INFO ================================================================================
+[26 mar 2023 17:47:47] INFO Connecting to the Database...
+[26 mar 2023 17:47:47] INFO Database connection estabilished
+[26 mar 2023 17:47:47] INFO transaction isolation: 4
+[26 mar 2023 17:47:47] DEBUG ================================================================================
+[26 mar 2023 17:47:47] DEBUG Executing SQL script file: C:\WebRatio\WebRatio Platform 7.2.18.x64bit\workspace\SIE_Luca_Cotti\.Temp~\RollbackSQL.sql
+[26 mar 2023 17:47:47] DEBUG Executing statement:  drop table `fotografia`
+[26 mar 2023 17:47:47] DEBUG Executing statement:  drop table `ospite`
+[26 mar 2023 17:47:47] DEBUG Executing statement:  drop table `nazione`
+[26 mar 2023 17:47:47] DEBUG Executing statement:  drop table `donazione`
+[26 mar 2023 17:47:47] DEBUG Executing statement:  drop table `raccoltafondi`
+[26 mar 2023 17:47:47] DEBUG Executing statement:  drop table `eventoinevidenza`
+[26 mar 2023 17:47:47] DEBUG Executing statement:  drop table `posizione`
+[26 mar 2023 17:47:47] DEBUG Executing statement:  drop table `qualifica`
+[26 mar 2023 17:47:47] DEBUG Executing statement:  drop table `indirizzo`
+[26 mar 2023 17:47:47] DEBUG Executing statement:  drop table `amministratore`
+[26 mar 2023 17:47:47] DEBUG Executing statement:  drop table `alumno`
+[26 mar 2023 17:47:47] DEBUG Executing statement:  drop table `staff`
+[26 mar 2023 17:47:47] DEBUG Executing statement:  drop table `evento`
+[26 mar 2023 17:47:47] DEBUG Executing statement:  drop table `utente`
+[26 mar 2023 17:47:47] DEBUG Executing statement:  drop table `modulo`
+[26 mar 2023 17:47:47] DEBUG Executing statement:  drop table `gruppo`
+[26 mar 2023 17:47:47] DEBUG ================================================================================
+[26 mar 2023 17:47:47] DEBUG SQL SCRIPT SUCCESSFULLY EXECUTED
+[26 mar 2023 17:47:47] INFO Database connection closed
+[26 mar 2023 17:47:47] DEBUG Total time: 338 milliseconds

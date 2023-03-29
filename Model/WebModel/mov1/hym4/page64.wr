@@ -1,0 +1,77 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="mov1#hym4#page64" name="Lista Qualifiche" landmark="true" gr:x="220" gr:y="210">
+  <ContentUnits>
+    <ScrollerUnit id="mov1#hym4#page64#scu21" name="Scroller qualifiche" linkOrder="mov1#hym4#page64#scu21#ln112" gr:x="0" gr:y="0" useCountQuery="false" entity="ent14" blockFactor="10">
+      <Link id="mov1#hym4#page64#scu21#ln112" name="Flow86" to="mov1#hym4#page64#inu40" type="automatic" validate="true">
+        <LinkParameter id="mov1#hym4#page64#scu21#ln112#par83" name="oid_KeyCondition18 [oid]" source="ent14#att24Array" target="mov1#hym4#page64#inu40#su62#kcond18.ent14#att24"/>
+        <LinkParameter id="mov1#hym4#page64#scu21#ln112#par84" name="oid_PASSING" source="ent14#att24Array" passing="true"/>
+      </Link>
+    </ScrollerUnit>
+    <IndexUnit id="mov1#hym4#page64#inu40" name="Lista qualifiche" linkOrder="mov1#hym4#page64#inu40#ln122" gr:x="205" gr:y="0" entity="ent14" distinct="true" displayAttributes="ent14#att43 ent14#att44 ent14#att45">
+      <Selector id="mov1#hym4#page64#inu40#su62" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="mov1#hym4#page64#inu40#su62#kcond18" name="KeyCondition18" predicate="in" implied="false"/>
+      </Selector>
+      <Link id="mov1#hym4#page64#inu40#ln122" name="Vedi alumni con qualifica" to="mov1#hym4#page65#scu22" type="normal" validate="true">
+        <LinkParameter id="mov1#hym4#page64#inu40#ln122#par85" name="oid_PASSING_RoleCondition15 [oid]" sourceLinkParameter="mov1#hym4#page64#scu21#ln112#par84" target="mov1#hym4#page65#scu22#su73#rcond1.ent14#att24"/>
+      </Link>
+    </IndexUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov1#hym4#page64#scu21">
+          <layout:Link link="mov1#hym4#page64#scu21First"/>
+          <layout:Link link="mov1#hym4#page64#scu21Previous"/>
+          <layout:Link link="mov1#hym4#page64#scu21Block"/>
+          <layout:Link link="mov1#hym4#page64#scu21Next"/>
+          <layout:Link link="mov1#hym4#page64#scu21Last"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov1#hym4#page64#inu40">
+          <layout:Link link="mov1#hym4#page64#inu40#ln122"/>
+          <layout:Attribute attribute="ent14#att43"/>
+          <layout:Attribute attribute="ent14#att44"/>
+          <layout:Attribute attribute="ent14#att45"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

@@ -1,0 +1,58 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="380" gr:y="205" id="sv3#area9#page53" name="Aggiungi Posizione">
+  <ContentUnits>
+    <EntryUnit id="sv3#area9#page53#enu35" name="Form Posizione" gr:x="0" gr:y="0" linkOrder="sv3#area9#page53#enu35#ln215">
+      <Field id="sv3#area9#page53#enu35#fld52" name="Titolo" type="string" modifiable="true" preloaded="false"/>
+      <Field id="sv3#area9#page53#enu35#fld53" name="Azienda" type="string" modifiable="true" preloaded="false"/>
+      <Field id="sv3#area9#page53#enu35#fld54" name="DataInizio" type="date" modifiable="true" preloaded="false"/>
+      <Field id="sv3#area9#page53#enu35#fld55" name="DataFine" type="date" modifiable="true" preloaded="false"/>
+      <Field id="sv3#area9#page53#enu35#fld56" name="Descrizione" type="text" modifiable="true" preloaded="false"/>
+      <Link id="sv3#area9#page53#enu35#ln215" name="Flow117" to="sv3#area9#opg6#cru2" type="normal" validate="true">
+        <LinkParameter id="sv3#area9#page53#enu35#ln215#par200" name="Azienda_azienda" source="sv3#area9#page53#enu35#fld53" target="sv3#area9#opg6#cru2.ent15#att47"/>
+        <LinkParameter id="sv3#area9#page53#enu35#ln215#par201" name="DataInizio_data_fine" source="sv3#area9#page53#enu35#fld55" target="sv3#area9#opg6#cru2.ent15#att49"/>
+        <LinkParameter id="sv3#area9#page53#enu35#ln215#par202" name="DataInizio_data_inizio" source="sv3#area9#page53#enu35#fld54" target="sv3#area9#opg6#cru2.ent15#att48"/>
+        <LinkParameter id="sv3#area9#page53#enu35#ln215#par203" name="Descrizione_descrizione" source="sv3#area9#page53#enu35#fld56" target="sv3#area9#opg6#cru2.ent15#att11"/>
+        <LinkParameter id="sv3#area9#page53#enu35#ln215#par205" name="Titolo_titolo" source="sv3#area9#page53#enu35#fld52" target="sv3#area9#opg6#cru2.ent15#att46"/>
+        <LinkParameter id="sv3#area9#page53#enu35#ln215#par222" name="oid_PASSING" sourceLinkParameter="sv3#area9#page48#dau7#ln116#par71" passing="true"/>
+      </Link>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv3#area9#page53#enu35">
+          <layout:Field field="sv3#area9#page53#enu35#fld52"/>
+          <layout:Field field="sv3#area9#page53#enu35#fld53"/>
+          <layout:Field field="sv3#area9#page53#enu35#fld54"/>
+          <layout:Field field="sv3#area9#page53#enu35#fld55"/>
+          <layout:Field field="sv3#area9#page53#enu35#fld56"/>
+          <layout:Link link="sv3#area9#page53#enu35#ln215"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

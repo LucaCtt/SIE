@@ -1,0 +1,10 @@
+<HybridModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="90" gr:y="235" id="mov1#hym3" name="Lista Alumni" landmarks="mov1#hym3#page61">
+  <OperationUnits>
+    <InputCollectorUnit gr:x="30" gr:y="165" id="mov1#hym3#icu5">
+      <OKLink id="mov1#hym3#icu5#oln15" name="OKFlow15" to="mov1#hym3#page61" automaticCoupling="true"/>
+    </InputCollectorUnit>
+    <OKCollectorUnit gr:x="1080" gr:y="150" id="mov1#hym3#okcu3" name="OK Port3">
+      <OutputCollectorParameter id="mov1#hym3#okcu3#ocp3" name="oid alumno"/>
+    </OKCollectorUnit>
+  </OperationUnits>
+</HybridModule>

@@ -1,0 +1,15 @@
+<SiteView xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv1" name="Visitatore" landmarks="sv1#area1 sv1#area2 sv1#area4 sv1#area5" homePage="sv1#area1#page3">
+  <OperationUnits>
+    <LoginUnit gr:x="105" gr:y="110" id="sv1#lgu1" name="Login">
+      <KOLink id="sv1#lgu1#kln5" name="KOFlow1" to="sv1#area1#page4#alt13#page86" automaticCoupling="true" gr:bendpoints="77,17,-93,12"/>
+    </LoginUnit>
+    <CreateUnit gr:x="45" gr:y="250" id="sv1#cru5" name="Create Profilo" entity="ent11">
+      <OKLink id="sv1#cru5#oln45" name="OKFlow45" to="sv1#area1#page4" automaticCoupling="true"/>
+      <KOLink id="sv1#cru5#kln4" name="KOFlow4" to="sv1#area1#page5#enu2" automaticCoupling="true" gr:bendpoints="84,4,-146,34"/>
+    </CreateUnit>
+    <CreateUnit id="sv1#cru6" name="Create Profilo" gr:x="45" gr:y="360" entity="ent8">
+      <OKLink id="sv1#cru6#oln46" name="OKFlow45" to="sv1#area1#page4" automaticCoupling="true"/>
+      <KOLink id="sv1#cru6#kln6" name="KOFlow4" to="sv1#area1#page5#enu36" automaticCoupling="true" gr:bendpoints="84,4,-146,34"/>
+    </CreateUnit>
+  </OperationUnits>
+</SiteView>

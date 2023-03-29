@@ -1,0 +1,157 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="5" gr:y="0" id="sv1#area1#page4" name="Login" landmark="true">
+  <ContentUnits/>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:SubPage pageId="sv1#area1#page4#alt13#page85">
+          <layout:Grid containerType="grid">
+            <layout:Row>
+              <layout:Cell colspan="12"/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+            </layout:Row>
+          </layout:Grid>
+        </layout:SubPage>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area1#page4#alt13#page85#enu32" layout:fieldLayout="WRDefault/EntryUnit">
+          <layout:Link link="sv1#area1#page4#alt13#page85#enu32#ln206"/>
+          <layout:Field field="sv1#area1#page4#alt13#page85#enu32#fld28"/>
+          <layout:Field field="sv1#area1#page4#alt13#page85#enu32#fld29"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:SubPage pageId="sv1#area1#page4#alt13#page86">
+          <layout:Grid containerType="grid">
+            <layout:Row>
+              <layout:Cell colspan="12"/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+            </layout:Row>
+          </layout:Grid>
+        </layout:SubPage>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area1#page4#alt13#page86#mssu7"/>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+  <Alternative gr:x="80" gr:y="0" id="sv1#area1#page4#alt13" name="Alternative13" defaultPage="sv1#area1#page4#alt13#page85">
+    <Page gr:x="0" gr:y="0" id="sv1#area1#page4#alt13#page85" name="Page 85">
+      <ContentUnits>
+        <EntryUnit id="sv1#area1#page4#alt13#page85#enu32" name="Form Login" linkOrder="sv1#area1#page4#alt13#page85#enu32#ln206" gr:x="0" gr:y="0">
+          <Link id="sv1#area1#page4#alt13#page85#enu32#ln206" name="Login" to="sv1#lgu1" type="normal" validate="true" newWindow="false">
+            <LinkParameter id="sv1#area1#page4#alt13#page85#enu32#ln206#par133" name="XML Form_Username" source="sv1#area1#page4#alt13#page85#enu32#fld28" target="sv1#lgu1.username"/>
+            <LinkParameter id="sv1#area1#page4#alt13#page85#enu32#ln206#par134" name="XML Form_Password" source="sv1#area1#page4#alt13#page85#enu32#fld29" target="sv1#lgu1.password"/>
+            <LinkParameter id="sv1#area1#page4#alt13#page85#enu32#ln206#par135" name="XML Form_Remember Credentials (Persistent Cookie)" source="xmlForm" target="sv1#lgu1.rememberCredentials"/>
+          </Link>
+          <Field id="sv1#area1#page4#alt13#page85#enu32#fld28" name="user_name" type="string" modifiable="true"/>
+          <Field id="sv1#area1#page4#alt13#page85#enu32#fld29" name="password" type="string" modifiable="true"/>
+        </EntryUnit>
+      </ContentUnits>
+    </Page>
+    <Page gr:x="5" gr:y="115" id="sv1#area1#page4#alt13#page86" name="Page 86">
+      <ContentUnits>
+        <MultiMessageUnit id="sv1#area1#page4#alt13#page86#mssu7" name="Errore" gr:x="0" gr:y="0">
+          <Message xml:space="preserve">Errore nel login</Message>
+        </MultiMessageUnit>
+      </ContentUnits>
+    </Page>
+  </Alternative>
+</Page>

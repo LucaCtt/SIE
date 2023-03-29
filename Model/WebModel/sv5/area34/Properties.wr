@@ -1,0 +1,14 @@
+<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv5#area34" name="Area Alumni" defaultPage="sv5#area34#miu27" landmark="true" gr:x="855" gr:y="590">
+  <OperationUnits>
+    <ModuleInstanceUnit id="sv5#area34#miu27" gr:x="25" gr:y="0" action="false" moduleId="mov1#hym3">
+      <OKLink id="sv5#area34#miu27#oln102" name="OKFlow20" to="sv5#area34#page112#dau40">
+        <LinkParameter id="sv5#area34#miu27#oln102#par407" name="oid alumno_KeyCondition9 [oid]" source="mov1#hym3#okcu3#ocp3" target="sv5#area34#page112#dau40#su219#kcond149.userOID"/>
+      </OKLink>
+    </ModuleInstanceUnit>
+    <ModuleInstanceUnit id="sv5#area34#miu28" gr:x="5" gr:y="80" action="false" moduleId="mov1#hym4">
+      <OKLink id="sv5#area34#miu28#oln103" name="OKFlow26" to="sv5#area34#page112#dau40">
+        <LinkParameter id="sv5#area34#miu28#oln103#par408" name="oid alumno_KeyCondition9 [oid]" source="mov1#hym4#okcu4#ocp4" target="sv5#area34#page112#dau40#su219#kcond149.userOID"/>
+      </OKLink>
+    </ModuleInstanceUnit>
+  </OperationUnits>
+</Area>

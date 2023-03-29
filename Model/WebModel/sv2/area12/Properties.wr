@@ -1,0 +1,24 @@
+<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv2#area12" name="Area Eventi" defaultPage="sv2#area12#miu10" landmarks="sv2#area12#page77 sv2#area12#page75 sv2#area12#page74" landmark="true" gr:x="1590" gr:y="0">
+  <OperationUnits>
+    <SwitchUnit id="sv2#area12#switch2" name="Switch1" gr:x="550" gr:y="250">
+      <OKLink id="sv2#area12#switch2#oln37" name="OKFlow1" to="sv2#area12#opg8#cnu6" code="Utente non &#232; gi&#224; iscritto a evento">
+        <LinkParameter id="sv2#area12#switch2#oln37#par105" name="oid_PASSING_KeyCondition14 [oid] [Evento] [Target]" sourceLinkParameter="sv2#area12#page78#dau13#ln166#par110" target="sv2#area12#opg8#cnu6#su97#kcond55.ent1#att1"/>
+      </OKLink>
+      <OKLink id="sv2#area12#switch2#oln38" name="OKFlow2" to="sv2#area12#page78#alt12#page80" code="Utente iscritto a evento" automaticCoupling="true"/>
+      <Case value="Utente non &#232; gi&#224; iscritto a evento"/>
+      <Case value="Utente iscritto a evento"/>
+    </SwitchUnit>
+    <DisconnectUnit id="sv2#area12#dcnu2" name="Disiscrivi" gr:x="450" gr:y="760" relationship="rel18#role35">
+      <SourceSelector id="sv2#area12#dcnu2#su94" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv2#area12#dcnu2#su94#kcond52" name="KeyCondition15" predicate="in" implied="false"/>
+      </SourceSelector>
+      <TargetSelector id="sv2#area12#dcnu2#su95" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv2#area12#dcnu2#su95#kcond53" name="KeyCondition16" predicate="in" implied="false"/>
+      </TargetSelector>
+      <OKLink id="sv2#area12#dcnu2#oln39" name="OKFlow4" to="sv2#area12#page75" automaticCoupling="true"/>
+    </DisconnectUnit>
+    <ModuleInstanceUnit id="sv2#area12#miu10" gr:x="145" gr:y="110" moduleId="mov1#hym1" action="false">
+      <OKLink id="sv2#area12#miu10#oln40" name="OKFlow21" to="sv2#area12#page78#dau13" automaticCoupling="true"/>
+    </ModuleInstanceUnit>
+  </OperationUnits>
+</Area>

@@ -1,0 +1,9 @@
+<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv2#area14" name="Area Raccolte Fondi" defaultPage="sv2#area14#miu13" landmark="true" gr:x="615" gr:y="870">
+  <OperationUnits>
+    <ModuleInstanceUnit id="sv2#area14#miu13" gr:x="0" gr:y="50" action="false" moduleId="mov1#hym2">
+      <OKLink id="sv2#area14#miu13#oln44" name="OKFlow22" to="sv2#area14#page82#dau16">
+        <LinkParameter id="sv2#area14#miu13#oln44#par112" name="oid raccolta_KeyCondition4 [oid]" source="mov1#hym2#okcu2#ocp2" target="sv2#area14#page82#dau16#su110#kcond62.ent17#att33"/>
+      </OKLink>
+    </ModuleInstanceUnit>
+  </OperationUnits>
+</Area>

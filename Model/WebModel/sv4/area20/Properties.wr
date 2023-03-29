@@ -1,0 +1,13 @@
+<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="1770" gr:y="845" id="sv4#area20" name="Area Gestione Raccolte Fondi" landmark="true" defaultPage="sv4#area20#page35">
+  <OperationUnits>
+    <CreateUnit gr:x="320" gr:y="240" id="sv4#area20#cru12" name="Crea Raccolta" entity="ent17">
+      <OKLink id="sv4#area20#cru12#oln72" name="OKFlow72" to="sv4#area20#page35" automaticCoupling="true"/>
+    </CreateUnit>
+    <ModifyUnit gr:x="900" gr:y="395" id="sv4#area20#mfu9" name="Modifica Raccolta" entity="ent17">
+      <Selector id="sv4#area20#mfu9#su149" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area20#mfu9#su149#kcond106" name="KeyCondition106" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="sv4#area20#mfu9#oln75" name="OKFlow75" to="sv4#area20#page35" automaticCoupling="true"/>
+    </ModifyUnit>
+  </OperationUnits>
+</Area>

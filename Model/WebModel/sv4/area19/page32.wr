@@ -1,0 +1,53 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="950" gr:y="855" id="sv4#area19#page32" name="Associa Evento a Raccolta Fondi">
+  <ContentUnits>
+    <EntryUnit gr:x="0" gr:y="10" id="sv4#area19#page32#enu9" name="Form Raccolta Fondi" linkOrder="sv4#area19#page32#enu9#ln78">
+      <SelectionField id="sv4#area19#page32#enu9#sfld3" name="Raccolta" type="string"/>
+      <Link id="sv4#area19#page32#enu9#ln78" name="Flow78" to="sv4#area19#cnu7" type="normal" validate="true">
+        <LinkParameter id="sv4#area19#page32#enu9#ln78#par231" name="Raccolta_KeyCondition93 [oid] [RaccoltaFondi] [Target]" source="sv4#area19#page32#enu9#sfld3" target="sv4#area19#cnu7#su133#kcond93.ent17#att33"/>
+        <LinkParameter id="sv4#area19#page32#enu9#ln78#par234" name="oid_PASSING_KeyCondition92 [oid] [Evento] [Source]" sourceLinkParameter="sv4#area19#page32#seu9#ln76#par233" target="sv4#area19#cnu7#su132#kcond92.ent1#att1"/>
+      </Link>
+    </EntryUnit>
+    <SelectorUnit gr:x="205" gr:y="0" id="sv4#area19#page32#seu9" name="Selector9" entity="ent17">
+      <Link id="sv4#area19#page32#seu9#ln76" name="Flow76" to="sv4#area19#page32#enu9" type="transport" validate="true">
+        <LinkParameter id="sv4#area19#page32#seu9#ln76#par229" name="titolo_Raccolta [label]" source="ent17#att35Array" target="sv4#area19#page32#enu9#sfld3_label"/>
+        <LinkParameter id="sv4#area19#page32#seu9#ln76#par230" name="oid_Raccolta [output]" source="ent17#att33Array" target="sv4#area19#page32#enu9#sfld3_output"/>
+        <LinkParameter id="sv4#area19#page32#seu9#ln76#par233" name="oid_PASSING" sourceLinkParameter="sv4#area19#page31#dau22#ln77#par232" passing="true"/>
+      </Link>
+    </SelectorUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv4#area19#page32#enu9">
+          <layout:Field field="sv4#area19#page32#enu9#sfld3"/>
+          <layout:Link link="sv4#area19#page32#enu9#ln78"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

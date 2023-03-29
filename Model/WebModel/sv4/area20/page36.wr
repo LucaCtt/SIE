@@ -1,0 +1,102 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv4#area20#page36" name="Dettagli Raccolta Fondi" gr:x="470" gr:y="0">
+  <ContentUnits>
+    <DataUnit id="sv4#area20#page36#dau25" name="Dettagli Raccolta Fondi" gr:x="0" gr:y="0" entity="ent17" displayAttributes="ent17#att35 ent17#att36 ent17#att37 ent17#att51 ent17#att41">
+      <Selector id="sv4#area20#page36#dau25#su141" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area20#page36#dau25#su141#kcond101" name="KeyCondition4" predicate="in" implied="false"/>
+      </Selector>
+      <Link id="sv4#area20#page36#dau25#ln131" name="Flow131" to="sv4#area20#page36#mdu12" automaticCoupling="true" type="transport" validate="true"/>
+      <Link id="sv4#area20#page36#dau25#ln132" name="Flow132" to="sv4#area20#page36#inu11" type="transport" validate="true">
+        <LinkParameter id="sv4#area20#page36#dau25#ln132#par255" name="oid_RoleCondition36 [oid]" source="data.ent17#att33" target="sv4#area20#page36#inu11#su142#rcond36.ent1#att1"/>
+      </Link>
+    </DataUnit>
+    <IndexUnit gr:x="245" gr:y="0" id="sv4#area20#page36#inu11" name="Lista Eventi Correlati" entity="ent17" displayAttributes="ent17#att35 ent17#att37 ent17#att51">
+      <Selector id="sv4#area20#page36#inu11#su142" defaultPolicy="fill" booleanOperator="and">
+        <RelationshipRoleCondition id="sv4#area20#page36#inu11#su142#rcond36" name="RoleCondition36" predicate="in" implied="false" role="rel5#role10"/>
+      </Selector>
+      <SortAttribute attribute="ent17#att51" order="descending"/>
+    </IndexUnit>
+    <MultiDataUnit gr:x="235" gr:y="125" id="sv4#area20#page36#mdu12" name="Lista Donazioni" entity="ent18" displayAttributes="ent18#att38 ent18#att39">
+      <Selector id="sv4#area20#page36#mdu12#su143" defaultPolicy="fill" booleanOperator="and">
+        <RelationshipRoleCondition id="sv4#area20#page36#mdu12#su143#rcond37" name="RoleCondition37" role="rel14#role27" predicate="in" implied="false"/>
+      </Selector>
+      <SortAttribute attribute="ent18#att38" order="ascending"/>
+    </MultiDataUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv4#area20#page36#dau25">
+          <layout:Attribute attribute="ent17#att35"/>
+          <layout:Attribute attribute="ent17#att36"/>
+          <layout:Attribute attribute="ent17#att37"/>
+          <layout:Attribute attribute="ent17#att51"/>
+          <layout:Attribute attribute="ent17#att41"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv4#area20#page36#inu11">
+          <layout:Attribute attribute="ent17#att35"/>
+          <layout:Attribute attribute="ent17#att37"/>
+          <layout:Attribute attribute="ent17#att51"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv4#area20#page36#mdu12">
+          <layout:Attribute attribute="ent18#att38"/>
+          <layout:Attribute attribute="ent18#att39"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

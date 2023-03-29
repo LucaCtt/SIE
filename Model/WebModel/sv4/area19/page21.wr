@@ -1,0 +1,74 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="460" gr:y="0" id="sv4#area19#page21" name="Aggiungi Evento" linkOrder="sv4#area19#page21#ln45">
+  <ContentUnits>
+    <EntryUnit gr:x="15" gr:y="10" id="sv4#area19#page21#enu7" name="Form Evento" linkOrder="sv4#area19#page21#enu7#ln51">
+      <Field id="sv4#area19#page21#enu7#fld50" name="Titolo" type="string" modifiable="true"/>
+      <Field id="sv4#area19#page21#enu7#fld51" name="Descrizione" type="text" modifiable="true"/>
+      <Field id="sv4#area19#page21#enu7#fld66" name="Data" type="date" modifiable="true"/>
+      <Field id="sv4#area19#page21#enu7#fld70" name="OraInizio" type="time" modifiable="true"/>
+      <Field id="sv4#area19#page21#enu7#fld71" name="OraFine" type="time" modifiable="true"/>
+      <SelectionField id="sv4#area19#page21#enu7#sfld1" name="TipologiaEvento" type="string"/>
+      <Field id="sv4#area19#page21#enu7#fld72" name="OidStaff" type="string" modifiable="false" preloaded="true" hidden="true"/>
+      <Link id="sv4#area19#page21#enu7#ln51" name="Aggiungi" to="sv4#area19#opg7#cru9" type="normal" validate="true">
+        <LinkParameter id="sv4#area19#page21#enu7#ln51#par35" name="Data_data" source="sv4#area19#page21#enu7#fld66" target="sv4#area19#opg7#cru9.ent1#att6"/>
+        <LinkParameter id="sv4#area19#page21#enu7#ln51#par36" name="Descrizione_descrizione" source="sv4#area19#page21#enu7#fld51" target="sv4#area19#opg7#cru9.ent1#att5"/>
+        <LinkParameter id="sv4#area19#page21#enu7#ln51#par37" name="OraFine_orario_fine" source="sv4#area19#page21#enu7#fld71" target="sv4#area19#opg7#cru9.ent1#att8"/>
+        <LinkParameter id="sv4#area19#page21#enu7#ln51#par38" name="OraFine_orario_inizio" source="sv4#area19#page21#enu7#fld70" target="sv4#area19#opg7#cru9.ent1#att7"/>
+        <LinkParameter id="sv4#area19#page21#enu7#ln51#par39" name="Titolo_titolo" source="sv4#area19#page21#enu7#fld50" target="sv4#area19#opg7#cru9.ent1#att4"/>
+        <LinkParameter id="sv4#area19#page21#enu7#ln51#par40" name="OidStaff_PASSING" source="sv4#area19#page21#enu7#fld72" passing="true"/>
+        <LinkParameter id="sv4#area19#page21#enu7#ln51#par46" name="TipologiaEvento_PASSING" source="sv4#area19#page21#enu7#sfld1" passing="true"/>
+      </Link>
+    </EntryUnit>
+    <SelectorUnit gr:x="195" gr:y="0" id="sv4#area19#page21#seu1" name="Seleziona Tipologia Evento" entity="ent9">
+      <Link id="sv4#area19#page21#seu1#ln43" name="Flow43" to="sv4#area19#page21#enu7" type="transport" validate="true">
+        <LinkParameter id="sv4#area19#page21#seu1#ln43#par26" name="titolo_TipologiaEvento [label]" source="ent9#att23Array" target="sv4#area19#page21#enu7#sfld1_label"/>
+        <LinkParameter id="sv4#area19#page21#seu1#ln43#par27" name="oid_TipologiaEvento [output]" source="ent9#att18Array" target="sv4#area19#page21#enu7#sfld1_output"/>
+      </Link>
+    </SelectorUnit>
+    <GetUnit gr:x="0" gr:y="120" id="sv4#area19#page21#gtu7" name="Get Oid" contextParameters="UserCtxParam">
+      <Link id="sv4#area19#page21#gtu7#ln46" name="Flow46" to="sv4#area19#page21#enu7" type="transport" validate="true">
+        <LinkParameter id="sv4#area19#page21#gtu7#ln46#par28" name="UserCtxParam.oid_OidStaff" source="sv4#area19#page21#gtu7.UserCtxParam" target="sv4#area19#page21#enu7#fld72_slot"/>
+      </Link>
+    </GetUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv4#area19#page21#enu7">
+          <layout:Field field="sv4#area19#page21#enu7#fld50"/>
+          <layout:Field field="sv4#area19#page21#enu7#fld51"/>
+          <layout:Field field="sv4#area19#page21#enu7#fld66"/>
+          <layout:Field field="sv4#area19#page21#enu7#fld70"/>
+          <layout:Field field="sv4#area19#page21#enu7#fld71"/>
+          <layout:Field field="sv4#area19#page21#enu7#sfld1"/>
+          <layout:Link link="sv4#area19#page21#enu7#ln51"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+  <Link id="sv4#area19#page21#ln45" name="Aggiungi Tipologia" to="sv4#area19#page24" automaticCoupling="true" type="normal" validate="true"/>
+</Page>

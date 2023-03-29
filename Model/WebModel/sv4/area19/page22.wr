@@ -1,0 +1,54 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="755" gr:y="275" id="sv4#area19#page22" name="Modifica Evento">
+  <ContentUnits>
+    <EntryUnit id="sv4#area19#page22#enu8" name="Form Evento" gr:x="0" gr:y="5" linkOrder="sv4#area19#page22#enu8#ln64">
+      <Field id="sv4#area19#page22#enu8#fld73" name="Titolo" type="string" modifiable="true" preloaded="true"/>
+      <Field id="sv4#area19#page22#enu8#fld74" name="Descrizione" type="text" modifiable="true" preloaded="true"/>
+      <Field id="sv4#area19#page22#enu8#fld75" name="Data" type="date" modifiable="true" preloaded="true"/>
+      <Field id="sv4#area19#page22#enu8#fld76" name="OraInizio" type="time" modifiable="true" preloaded="true"/>
+      <Field id="sv4#area19#page22#enu8#fld77" name="OraFine" type="time" modifiable="true" preloaded="true"/>
+      <SelectionField id="sv4#area19#page22#enu8#sfld2" name="TipologiaEvento" type="string"/>
+      <Field id="sv4#area19#page22#enu8#fld78" name="Oid" type="string" modifiable="false" preloaded="true" hidden="true"/>
+      <Link id="sv4#area19#page22#enu8#ln64" name="Conferma" to="sv4#area19#opg9#mfu3" type="normal" validate="true">
+        <LinkParameter id="sv4#area19#page22#enu8#ln64#par89" name="Data_data" source="sv4#area19#page22#enu8#fld75" target="sv4#area19#opg9#mfu3.ent1#att6"/>
+        <LinkParameter id="sv4#area19#page22#enu8#ln64#par90" name="Descrizione_descrizione" source="sv4#area19#page22#enu8#fld74" target="sv4#area19#opg9#mfu3.ent1#att5"/>
+        <LinkParameter id="sv4#area19#page22#enu8#ln64#par93" name="OraFine_orario_fine" source="sv4#area19#page22#enu8#fld77" target="sv4#area19#opg9#mfu3.ent1#att8"/>
+        <LinkParameter id="sv4#area19#page22#enu8#ln64#par94" name="OraInizio_orario_inizio" source="sv4#area19#page22#enu8#fld76" target="sv4#area19#opg9#mfu3.ent1#att7"/>
+        <LinkParameter id="sv4#area19#page22#enu8#ln64#par98" name="Titolo_titolo" source="sv4#area19#page22#enu8#fld73" target="sv4#area19#opg9#mfu3.ent1#att4"/>
+        <LinkParameter id="sv4#area19#page22#enu8#ln64#par101" name="Oid_KeyCondition74 [oid]" source="sv4#area19#page22#enu8#fld78" target="sv4#area19#opg9#mfu3#su44#kcond74.ent1#att1"/>
+        <LinkParameter id="sv4#area19#page22#enu8#ln64#par122" name="TipologiaEvento_PASSING" source="sv4#area19#page22#enu8#sfld2" passing="true"/>
+      </Link>
+    </EntryUnit>
+    <SelectorUnit id="sv4#area19#page22#seu2" name="Seleziona Tipologia Evento" gr:x="195" gr:y="0" entity="ent9">
+      <Link id="sv4#area19#page22#seu2#ln61" name="Flow43" to="sv4#area19#page22#enu8" type="transport" validate="true">
+        <LinkParameter id="sv4#area19#page22#seu2#ln61#par87" name="titolo_TipologiaEvento [label]" source="ent9#att23Array" target="sv4#area19#page22#enu8#sfld2_label"/>
+        <LinkParameter id="sv4#area19#page22#seu2#ln61#par88" name="oid_TipologiaEvento [output]" source="ent9#att18Array" target="sv4#area19#page22#enu8#sfld2_output"/>
+      </Link>
+    </SelectorUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv4#area19#page22#enu8">
+          <layout:Field field="sv4#area19#page22#enu8#fld73"/>
+          <layout:Field field="sv4#area19#page22#enu8#fld74"/>
+          <layout:Field field="sv4#area19#page22#enu8#fld75"/>
+          <layout:Field field="sv4#area19#page22#enu8#fld76"/>
+          <layout:Field field="sv4#area19#page22#enu8#fld77"/>
+          <layout:Field field="sv4#area19#page22#enu8#sfld2"/>
+          <layout:Link link="sv4#area19#page22#enu8#ln64"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

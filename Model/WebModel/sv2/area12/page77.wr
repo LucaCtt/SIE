@@ -1,0 +1,29 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv2#area12#page77" name="Lista Tipologie Evento" landmark="true" gr:x="120" gr:y="780">
+  <ContentUnits>
+    <IndexUnit id="sv2#area12#page77#inu49" name="Lista Tipologie Evento" linkOrder="sv2#area12#page77#inu49#ln164" gr:x="0" gr:y="0" entity="ent9" displayAttributes="ent9#att23">
+      <Link id="sv2#area12#page77#inu49#ln164" name="Vedi eventi di questa tipologia" to="sv2#area12#page76#scu29" type="normal" automaticCoupling="true" validate="true"/>
+      <SortAttribute attribute="ent9#att23" order="ascending"/>
+    </IndexUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv2#area12#page77#inu49">
+          <layout:Link link="sv2#area12#page77#inu49#ln164"/>
+          <layout:Attribute attribute="ent9#att23"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

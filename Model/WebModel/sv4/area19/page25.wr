@@ -1,0 +1,33 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="110" gr:y="1405" id="sv4#area19#page25" name="Modifica Tipologia Evento">
+  <ContentUnits>
+    <EntryUnit gr:x="0" gr:y="0" id="sv4#area19#page25#enu6" name="Form Tipologia Evento" linkOrder="sv4#area19#page25#enu6#ln42">
+      <Field id="sv4#area19#page25#enu6#fld16" name="Titolo" type="string" modifiable="true" preloaded="true"/>
+      <Field id="sv4#area19#page25#enu6#fld35" name="Oid" type="string" modifiable="false" preloaded="true" hidden="true"/>
+      <Link id="sv4#area19#page25#enu6#ln42" name="Flow42" to="sv4#area19#mfu2" type="normal" validate="true">
+        <LinkParameter id="sv4#area19#page25#enu6#ln42#par24" name="Oid_KeyCondition50 [oid]" source="sv4#area19#page25#enu6#fld35" target="sv4#area19#mfu2#su32#kcond50.ent9#att18"/>
+        <LinkParameter id="sv4#area19#page25#enu6#ln42#par25" name="Titolo_titolo" source="sv4#area19#page25#enu6#fld16" target="sv4#area19#mfu2.ent9#att23"/>
+      </Link>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv4#area19#page25#enu6">
+          <layout:Field field="sv4#area19#page25#enu6#fld16"/>
+          <layout:Link link="sv4#area19#page25#enu6#ln42"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

@@ -1,0 +1,64 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="55" gr:y="1215" id="sv4#area19#page23" name="Lista Tipologie Evento" linkOrder="sv4#area19#page23#ln40">
+  <ContentUnits>
+    <ScrollerUnit gr:x="0" gr:y="0" id="sv4#area19#page23#scu25" name="Scroller Tipologie Evento" useCountQuery="false" entity="ent9" linkOrder="sv4#area19#page23#scu25#ln33" blockFactor="10">
+      <Link id="sv4#area19#page23#scu25#ln33" name="Flow33" to="sv4#area19#page23#inu9" automaticCoupling="true" type="automatic" validate="true"/>
+      <SortAttribute attribute="ent9#att23" order="ascending"/>
+    </ScrollerUnit>
+    <IndexUnit gr:x="240" gr:y="0" id="sv4#area19#page23#inu9" name="Lista Tipologie Evento" entity="ent9" linkOrder="sv4#area19#page23#inu9#ln34 sv4#area19#page23#inu9#ln41" displayAttributes="ent9#att23">
+      <Link id="sv4#area19#page23#inu9#ln34" name="Rimuovi" to="sv4#area19#opg4#dlu4" type="normal" validate="true">
+        <LinkParameter id="sv4#area19#page23#inu9#ln34#par285" name="oid_RoleCondition26 [oid]" source="data[].ent9#att18" target="sv4#area19#opg4#dlu4#su27#rcond26.ent9#att18"/>
+        <LinkParameter id="sv4#area19#page23#inu9#ln34#par286" name="oid_PASSING" source="data[].ent9#att18" passing="true"/>
+      </Link>
+      <Link id="sv4#area19#page23#inu9#ln41" name="Modifica" to="sv4#area19#page25#enu6" type="normal" validate="true">
+        <LinkParameter id="sv4#area19#page23#inu9#ln41#par22" name="titolo_Titolo" source="data[].ent9#att23" target="sv4#area19#page25#enu6#fld16_slot"/>
+        <LinkParameter id="sv4#area19#page23#inu9#ln41#par23" name="oid_Oid" source="data[].ent9#att18" target="sv4#area19#page25#enu6#fld35_slot"/>
+      </Link>
+      <SortAttribute attribute="ent9#att23" order="ascending"/>
+    </IndexUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv4#area19#page23#scu25">
+          <layout:Link link="sv4#area19#page23#scu25First"/>
+          <layout:Link link="sv4#area19#page23#scu25Previous"/>
+          <layout:Link link="sv4#area19#page23#scu25Block"/>
+          <layout:Link link="sv4#area19#page23#scu25Next"/>
+          <layout:Link link="sv4#area19#page23#scu25Last"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv4#area19#page23#inu9">
+          <layout:Link link="sv4#area19#page23#inu9#ln34"/>
+          <layout:Link link="sv4#area19#page23#inu9#ln41"/>
+          <layout:Attribute attribute="ent9#att23"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+  <Link id="sv4#area19#page23#ln40" name="Aggiungi Tipologia Evento" to="sv4#area19#page24" automaticCoupling="true" type="normal" validate="true"/>
+</Page>

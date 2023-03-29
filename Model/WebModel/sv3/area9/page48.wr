@@ -1,0 +1,273 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="585" gr:y="0" id="sv3#area9#page48" name="Profilo personale">
+  <ContentUnits>
+    <GetUnit gr:x="0" gr:y="5" id="sv3#area9#page48#gtu4" name="Get Utente" contextParameters="UserCtxParam">
+      <Link id="sv3#area9#page48#gtu4#ln92" name="Flow92" to="sv3#area9#page48#dau7" type="transport" validate="true">
+        <LinkParameter id="sv3#area9#page48#gtu4#ln92#par58" name="UserCtxParam.oid_KeyCondition22 [oid]" source="sv3#area9#page48#gtu4.UserCtxParam" target="sv3#area9#page48#dau7#su48#kcond22.userOID"/>
+      </Link>
+    </GetUnit>
+    <DataUnit gr:x="190" gr:y="0" id="sv3#area9#page48#dau7" name="Profilo Utente" entity="ent11" linkOrder="sv3#area9#page48#dau7#ln113 sv3#area9#page48#dau7#ln116 sv3#area9#page48#dau7#ln119" displayAttributes="userName email ent11#att12 ent11#att19 ent11#att20 ent5#att16 ent5#att17">
+      <Selector id="sv3#area9#page48#dau7#su48" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv3#area9#page48#dau7#su48#kcond22" name="KeyCondition22" predicate="in" implied="false"/>
+      </Selector>
+      <Link id="sv3#area9#page48#dau7#ln93" name="Flow93" to="sv3#area9#page48#scu17" automaticCoupling="true" type="transport" validate="true"/>
+      <Link id="sv3#area9#page48#dau7#ln94" name="Flow94" to="sv3#area9#page48#scu18" automaticCoupling="true" type="transport" validate="true"/>
+      <Link id="sv3#area9#page48#dau7#ln98" name="Flow98" to="sv3#area9#page48#dau8" automaticCoupling="true" type="transport" validate="true"/>
+      <Link id="sv3#area9#page48#dau7#ln113" name="Aggiungi Qualifica" to="sv3#area9#page52#enu34" type="normal" validate="true">
+        <LinkParameter id="sv3#area9#page48#dau7#ln113#par185" name="oid_PASSING" source="data.userOID" passing="true"/>
+      </Link>
+      <Link id="sv3#area9#page48#dau7#ln116" name="Aggiungi Posizione" to="sv3#area9#page53#enu35" type="normal" validate="true">
+        <LinkParameter id="sv3#area9#page48#dau7#ln116#par71" name="oid_PASSING" source="data.userOID" passing="true"/>
+      </Link>
+      <Link id="sv3#area9#page48#dau7#ln119" name="Modifica Profilo" to="sv3#area9#page54#enu21" type="normal" validate="true">
+        <LinkParameter id="sv3#area9#page48#dau7#ln119#par206" name="cognome_Cognome" source="data.ent5#att17" target="sv3#area9#page54#enu21#fld58_slot"/>
+        <LinkParameter id="sv3#area9#page48#dau7#ln119#par207" name="data_nascita_DataNascita" source="data.ent11#att19" target="sv3#area9#page54#enu21#fld63_slot"/>
+        <LinkParameter id="sv3#area9#page48#dau7#ln119#par208" name="email_Email" source="data.email" target="sv3#area9#page54#enu21#fld60_slot"/>
+        <LinkParameter id="sv3#area9#page48#dau7#ln119#par209" name="nazionalita_Nazionalita" source="data.ent11#att12" target="sv3#area9#page54#enu21#fld61_slot"/>
+        <LinkParameter id="sv3#area9#page48#dau7#ln119#par210" name="nome_Nome" source="data.ent5#att16" target="sv3#area9#page54#enu21#fld57_slot"/>
+        <LinkParameter id="sv3#area9#page48#dau7#ln119#par211" name="oid_Oid" source="data.userOID" target="sv3#area9#page54#enu21#fld59_slot"/>
+        <LinkParameter id="sv3#area9#page48#dau7#ln119#par212" name="telefono_Telefono" source="data.ent11#att20" target="sv3#area9#page54#enu21#fld62_slot"/>
+      </Link>
+    </DataUnit>
+    <ScrollerUnit gr:x="385" gr:y="0" id="sv3#area9#page48#scu17" name="Scroller Qualifiche" useCountQuery="false" entity="ent14" linkOrder="sv3#area9#page48#scu17#ln101" blockFactor="5">
+      <Selector id="sv3#area9#page48#scu17#su49" defaultPolicy="fill" booleanOperator="and">
+        <RelationshipRoleCondition id="sv3#area9#page48#scu17#su49#rcond16" name="RoleCondition16" role="rel7#role14" predicate="in" implied="false"/>
+      </Selector>
+      <Link id="sv3#area9#page48#scu17#ln101" name="Flow101" to="sv3#area9#page48#inu34" automaticCoupling="true" type="automatic" validate="true"/>
+      <SortAttribute attribute="ent14#att45" order="descending"/>
+    </ScrollerUnit>
+    <ScrollerUnit gr:x="360" gr:y="120" id="sv3#area9#page48#scu18" name="Scroller Posizioni Lavorative" useCountQuery="false" entity="ent15" linkOrder="sv3#area9#page48#scu18#ln105" blockFactor="5">
+      <Selector id="sv3#area9#page48#scu18#su50" defaultPolicy="fill" booleanOperator="and">
+        <RelationshipRoleCondition id="sv3#area9#page48#scu18#su50#rcond17" name="RoleCondition17" predicate="in" implied="false" role="rel8#role16"/>
+      </Selector>
+      <Link id="sv3#area9#page48#scu18#ln105" name="Flow105" to="sv3#area9#page48#inu35" automaticCoupling="true" type="automatic" validate="true"/>
+      <SortAttribute attribute="ent15#att48" order="descending"/>
+      <SortAttribute attribute="ent15#att49" order="descending"/>
+    </ScrollerUnit>
+    <DataUnit gr:x="190" gr:y="205" id="sv3#area9#page48#dau8" name="Dettagli Indirizzo" entity="ent13" linkOrder="sv3#area9#page48#dau8#ln103" displayAttributes="ent13#att28 ent13#att30 ent13#att29 ent13#att32">
+      <Selector id="sv3#area9#page48#dau8#su53" defaultPolicy="fill" booleanOperator="and">
+        <RelationshipRoleCondition id="sv3#area9#page48#dau8#su53#rcond18" name="RoleCondition18" predicate="in" implied="false" role="rel21#role41"/>
+      </Selector>
+      <Link id="sv3#area9#page48#dau8#ln103" name="Modifica" to="sv3#area9#page49#enu16" type="normal" validate="true">
+        <LinkParameter id="sv3#area9#page48#dau8#ln103#par60" name="IndirizzoToAlumno.oid_PASSING" source="data.rel21#role42_userOID" passing="true"/>
+        <LinkParameter id="sv3#area9#page48#dau8#ln103#par164" name="cap_Cap" source="data.ent13#att32" target="sv3#area9#page49#enu16#fld45_slot"/>
+        <LinkParameter id="sv3#area9#page48#dau8#ln103#par165" name="citta_Citta" source="data.ent13#att29" target="sv3#area9#page49#enu16#fld44_slot"/>
+        <LinkParameter id="sv3#area9#page48#dau8#ln103#par166" name="numero_Numero" source="data.ent13#att30" target="sv3#area9#page49#enu16#fld43_slot"/>
+        <LinkParameter id="sv3#area9#page48#dau8#ln103#par167" name="via_Via" source="data.ent13#att28" target="sv3#area9#page49#enu16#fld42_slot"/>
+        <LinkParameter id="sv3#area9#page48#dau8#ln103#par168" name="oid_Oid" source="data.ent13#att27" target="sv3#area9#page49#enu16#fld46_slot"/>
+      </Link>
+      <Link id="sv3#area9#page48#dau8#ln124" name="Flow124" to="sv3#area9#dlu3" automaticCoupling="true" type="transport" validate="true"/>
+    </DataUnit>
+    <IndexUnit gr:x="625" gr:y="5" id="sv3#area9#page48#inu34" name="Lista Qualifiche" entity="ent14" displayAttributes="ent14#att43 ent14#att44 ent14#att45" linkOrder="sv3#area9#page48#inu34#ln121 sv3#area9#page48#inu34#ln207">
+      <Selector id="sv3#area9#page48#inu34#su56" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv3#area9#page48#inu34#su56#kcond27" name="KeyCondition27" predicate="in" implied="false"/>
+      </Selector>
+      <Link id="sv3#area9#page48#inu34#ln121" name="Rimuovi" to="sv3#area9#dlu1" automaticCoupling="true" type="normal" validate="true"/>
+      <SortAttribute attribute="ent14#att45" order="descending"/>
+      <Link id="sv3#area9#page48#inu34#ln207" name="Flow207" to="sv3#area9#page51#enu18" type="normal" validate="true">
+        <LinkParameter id="sv3#area9#page48#inu34#ln207#par148" name="data_conseguimento_DataConseguimento" source="data[].ent14#att45" target="sv3#area9#page51#enu18#fld33_slot"/>
+        <LinkParameter id="sv3#area9#page48#inu34#ln207#par149" name="istituzione_Istituzione" source="data[].ent14#att44" target="sv3#area9#page51#enu18#fld32_slot"/>
+        <LinkParameter id="sv3#area9#page48#inu34#ln207#par150" name="oid_Oid" source="data[].ent14#att24" target="sv3#area9#page51#enu18#fld34_slot"/>
+        <LinkParameter id="sv3#area9#page48#inu34#ln207#par151" name="titolo_Titolo" source="data[].ent14#att43" target="sv3#area9#page51#enu18#fld31_slot"/>
+      </Link>
+    </IndexUnit>
+    <IndexUnit gr:x="620" gr:y="180" id="sv3#area9#page48#inu35" name="Lista Posizioni Lavorative" entity="ent15" displayAttributes="ent15#att46 ent15#att47 ent15#att48 ent15#att49 ent15#att11" linkOrder="sv3#area9#page48#inu35#ln106 sv3#area9#page48#inu35#ln123">
+      <Selector id="sv3#area9#page48#inu35#su60" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv3#area9#page48#inu35#su60#kcond31" name="KeyCondition31" predicate="in" implied="false"/>
+      </Selector>
+      <Link id="sv3#area9#page48#inu35#ln106" name="Modifica" to="sv3#area9#page50#enu17" type="normal" validate="true">
+        <LinkParameter id="sv3#area9#page48#inu35#ln106#par152" name="azienda_Azienda" source="data[].ent15#att47" target="sv3#area9#page50#enu17#fld38_slot"/>
+        <LinkParameter id="sv3#area9#page48#inu35#ln106#par153" name="data_fine_DataFine" source="data[].ent15#att49" target="sv3#area9#page50#enu17#fld40_slot"/>
+        <LinkParameter id="sv3#area9#page48#inu35#ln106#par154" name="data_inizio_DataInizio" source="data[].ent15#att48" target="sv3#area9#page50#enu17#fld39_slot"/>
+        <LinkParameter id="sv3#area9#page48#inu35#ln106#par155" name="descrizione_Descrizione" source="data[].ent15#att11" target="sv3#area9#page50#enu17#fld41_slot"/>
+        <LinkParameter id="sv3#area9#page48#inu35#ln106#par156" name="oid_Oid" source="data[].ent15#att25" target="sv3#area9#page50#enu17#fld36_slot"/>
+        <LinkParameter id="sv3#area9#page48#inu35#ln106#par157" name="titolo_Titolo" source="data[].ent15#att46" target="sv3#area9#page50#enu17#fld37_slot"/>
+      </Link>
+      <Link id="sv3#area9#page48#inu35#ln123" name="Rimuovi" to="sv3#area9#dlu2" automaticCoupling="true" type="normal" validate="true"/>
+      <SortAttribute attribute="ent15#att48" order="descending"/>
+      <SortAttribute attribute="ent15#att49" order="descending"/>
+    </IndexUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv3#area9#page48#dau7">
+          <layout:Link link="sv3#area9#page48#dau7#ln113"/>
+          <layout:Link link="sv3#area9#page48#dau7#ln116"/>
+          <layout:Link link="sv3#area9#page48#dau7#ln119"/>
+          <layout:Attribute attribute="userName"/>
+          <layout:Attribute attribute="email"/>
+          <layout:Attribute attribute="ent11#att12"/>
+          <layout:Attribute attribute="ent11#att19"/>
+          <layout:Attribute attribute="ent11#att20"/>
+          <layout:Attribute attribute="ent5#att16"/>
+          <layout:Attribute attribute="ent5#att17"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv3#area9#page48#scu17">
+          <layout:Link link="sv3#area9#page48#scu17First"/>
+          <layout:Link link="sv3#area9#page48#scu17Previous"/>
+          <layout:Link link="sv3#area9#page48#scu17Block"/>
+          <layout:Link link="sv3#area9#page48#scu17Next"/>
+          <layout:Link link="sv3#area9#page48#scu17Last"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv3#area9#page48#scu18">
+          <layout:Link link="sv3#area9#page48#scu18First"/>
+          <layout:Link link="sv3#area9#page48#scu18Previous"/>
+          <layout:Link link="sv3#area9#page48#scu18Block"/>
+          <layout:Link link="sv3#area9#page48#scu18Next"/>
+          <layout:Link link="sv3#area9#page48#scu18Last"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv3#area9#page48#dau8">
+          <layout:Link link="sv3#area9#page48#dau8#ln103"/>
+          <layout:Attribute attribute="ent13#att28"/>
+          <layout:Attribute attribute="ent13#att30"/>
+          <layout:Attribute attribute="ent13#att29"/>
+          <layout:Attribute attribute="ent13#att32"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv3#area9#page48#inu34">
+          <layout:Attribute attribute="ent14#att43"/>
+          <layout:Attribute attribute="ent14#att44"/>
+          <layout:Attribute attribute="ent14#att45"/>
+          <layout:Link link="sv3#area9#page48#inu34#ln121"/>
+          <layout:Link link="sv3#area9#page48#inu34#ln207"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv3#area9#page48#inu35">
+          <layout:Attribute attribute="ent15#att46"/>
+          <layout:Attribute attribute="ent15#att47"/>
+          <layout:Attribute attribute="ent15#att48"/>
+          <layout:Attribute attribute="ent15#att49"/>
+          <layout:Attribute attribute="ent15#att11"/>
+          <layout:Link link="sv3#area9#page48#inu35#ln106"/>
+          <layout:Link link="sv3#area9#page48#inu35#ln123"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

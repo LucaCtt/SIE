@@ -1,0 +1,26 @@
+[27 mar 2023 16:40:09] DEBUG Executing SQL script
+[27 mar 2023 16:40:09] INFO ================================================================================
+[27 mar 2023 16:40:09] INFO onError= 'stop'
+[27 mar 2023 16:40:09] INFO autoCommit= 'false'
+[27 mar 2023 16:40:09] INFO username= 'root'
+[27 mar 2023 16:40:09] INFO outputPath= 'C:\WebRatio\WebRatio Platform 7.2.18.x64bit\workspace\SIE_Luca_Cotti\.Temp~\UpdateSQL.xml'
+[27 mar 2023 16:40:09] INFO outputLogPath= 'C:\WebRatio\WebRatio Platform 7.2.18.x64bit\workspace\SIE_Luca_Cotti\.Temp~\UpdateSQL.xml.log'
+[27 mar 2023 16:40:09] INFO encoding= ''
+[27 mar 2023 16:40:09] INFO driverClass= 'com.mysql.jdbc.Driver'
+[27 mar 2023 16:40:09] INFO sqlScript= 'C:\WebRatio\WebRatio Platform 7.2.18.x64bit\workspace\SIE_Luca_Cotti\.Temp~\UpdateSQL.sql'
+[27 mar 2023 16:40:09] INFO eventSocketPort= '58835'
+[27 mar 2023 16:40:09] INFO statementSeparator= ';'
+[27 mar 2023 16:40:09] INFO derby.system.home= 'C:\WebRatio\WebRatio Platform 7.2.18.x64bit\workspace\.metadata\.plugins\com.webratio.commons.db\derby'
+[27 mar 2023 16:40:09] INFO password= ''
+[27 mar 2023 16:40:09] INFO url= 'jdbc:mysql://localhost:3306/sie_luca_cotti'
+[27 mar 2023 16:40:09] INFO ================================================================================
+[27 mar 2023 16:40:09] INFO Connecting to the Database...
+[27 mar 2023 16:40:10] INFO Database connection estabilished
+[27 mar 2023 16:40:10] INFO transaction isolation: 4
+[27 mar 2023 16:40:10] DEBUG ================================================================================
+[27 mar 2023 16:40:10] DEBUG Executing SQL script file: C:\WebRatio\WebRatio Platform 7.2.18.x64bit\workspace\SIE_Luca_Cotti\.Temp~\UpdateSQL.sql
+[27 mar 2023 16:40:10] DEBUG Executing statement:  alter table `nazione`  add column  `nome`  varchar(255)
+[27 mar 2023 16:40:10] DEBUG ================================================================================
+[27 mar 2023 16:40:10] DEBUG SQL SCRIPT SUCCESSFULLY EXECUTED
+[27 mar 2023 16:40:10] INFO Database connection closed
+[27 mar 2023 16:40:10] DEBUG Total time: 250 milliseconds

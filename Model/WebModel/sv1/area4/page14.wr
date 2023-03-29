@@ -1,0 +1,14 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv1#area4#page14" name="Dettagli Raccolta Fondi" gr:x="275" gr:y="0">
+  <ContentUnits>
+    <DataUnit id="sv1#area4#page14#dau2" name="Dettagli Raccolta Fondi" gr:x="0" gr:y="0" entity="ent17" linkOrder="sv1#area4#page14#dau2#ln19" displayAttributes="ent17#att35 ent17#att36 ent17#att37 ent17#att51 ent17#att41">
+      <Selector id="sv1#area4#page14#dau2#su7" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#area4#page14#dau2#su7#kcond6" name="KeyCondition4" predicate="in" implied="false"/>
+      </Selector>
+      <Link id="sv1#area4#page14#dau2#ln19" name="Vedi evento collegato" to="sv1#area2#page9#dau1" type="normal" validate="true">
+        <LinkParameter id="sv1#area4#page14#dau2#ln19#par50" name="RaccoltaFondiToEvento.oid_KeyCondition4 [oid]" source="data.rel5#role9_ent1#att1" target="sv1#area2#page9#dau1#su4#kcond4.ent1#att1"/>
+      </Link>
+      <Link id="sv1#area4#page14#dau2#ln20" name="Dona alla raccolta fondi" to="sv1#area4#page14#mssu1" automaticCoupling="true" type="transport" validate="true"/>
+    </DataUnit>
+    <MultiMessageUnit gr:x="245" gr:y="5" id="sv1#area4#page14#mssu1" name="Dona a Raccolta Fondi">
+      <Message xml:space="preserve">Effettua una donazione usando un servizio esterno (Paypal, Google Pay, Apple Pay, ecc)
+</Message>    </MultiMessageUnit>  </ContentUnits>  <layout:Grid containerType="grid">    <layout:Row>      <layout:Cell colspan="12">        <layout:Unit unitId="sv1#area4#page14#dau2">          <layout:Link link="sv1#area4#page14#dau2#ln19"/>          <layout:Attribute attribute="ent17#att35"/>          <layout:Attribute attribute="ent17#att36"/>          <layout:Attribute attribute="ent17#att37"/>          <layout:Attribute attribute="ent17#att51"/>          <layout:Attribute attribute="ent17#att41"/>        </layout:Unit>      </layout:Cell>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>    </layout:Row>    <layout:Row>      <layout:Cell colspan="12">        <layout:Unit unitId="sv1#area4#page14#mssu1"/>      </layout:Cell>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>    </layout:Row>    <layout:Row>      <layout:Cell colspan="12"/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>    </layout:Row>  </layout:Grid></Page>

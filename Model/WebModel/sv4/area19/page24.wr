@@ -1,0 +1,31 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="650" gr:y="1195" id="sv4#area19#page24" name="Aggiungi Tipologia Evento">
+  <ContentUnits>
+    <EntryUnit gr:x="0" gr:y="0" id="sv4#area19#page24#enu5" name="Form Tipologia Evento" linkOrder="sv4#area19#page24#enu5#ln37">
+      <Field id="sv4#area19#page24#enu5#fld15" name="Titolo" type="string" modifiable="true"/>
+      <Link id="sv4#area19#page24#enu5#ln37" name="Flow37" to="sv4#area19#cru7" type="normal" validate="true">
+        <LinkParameter id="sv4#area19#page24#enu5#ln37#par21" name="Titolo_titolo" source="sv4#area19#page24#enu5#fld15" target="sv4#area19#cru7.ent9#att23"/>
+      </Link>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv4#area19#page24#enu5">
+          <layout:Field field="sv4#area19#page24#enu5#fld15"/>
+          <layout:Link link="sv4#area19#page24#enu5#ln37"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

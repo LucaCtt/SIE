@@ -1,0 +1,204 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="mov1#hym2#page58" name="Lista Raccolte Fondi" gr:x="315" gr:y="5" landmark="true">
+  <ContentUnits>
+    <EntryUnit id="mov1#hym2#page58#enu22" name="Cerca per Titolo" linkOrder="mov1#hym2#page58#enu22#ln87" gr:x="0" gr:y="150">
+      <Field id="mov1#hym2#page58#enu22#fld17" name="Titolo" type="string" modifiable="true"/>
+      <Link id="mov1#hym2#page58#enu22#ln87" name="Cerca" to="mov1#hym2#page58#alt10#page60#scu39" type="normal" validate="true">
+        <LinkParameter id="mov1#hym2#page58#enu22#ln87#par45" name="Titolo_PASSING" source="mov1#hym2#page58#enu22#fld17" passing="true"/>
+        <LinkParameter id="mov1#hym2#page58#enu22#ln87#par131" name="Titolo_AttCondition25" source="mov1#hym2#page58#enu22#fld17" target="mov1#hym2#page58#alt10#page60#scu39#su124#acond25"/>
+      </Link>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:SubPage pageId="mov1#hym2#page58#alt10#page59">
+          <layout:Grid containerType="grid">
+            <layout:Row>
+              <layout:Cell colspan="12">
+                <layout:Unit unitId="mov1#hym2#page58#alt10#page59#scu40">
+                  <layout:Link link="mov1#hym2#page58#alt10#page59#scu40First"/>
+                  <layout:Link link="mov1#hym2#page58#alt10#page59#scu40Previous"/>
+                  <layout:Link link="mov1#hym2#page58#alt10#page59#scu40Block"/>
+                  <layout:Link link="mov1#hym2#page58#alt10#page59#scu40Next"/>
+                  <layout:Link link="mov1#hym2#page58#alt10#page59#scu40Last"/>
+                </layout:Unit>
+              </layout:Cell>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+            </layout:Row>
+          </layout:Grid>
+        </layout:SubPage>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov1#hym2#page58#alt10#page59#inu36">
+          <layout:Attribute attribute="ent17#att35"/>
+          <layout:Attribute attribute="ent17#att51"/>
+          <layout:Link link="mov1#hym2#page58#alt10#page59#inu36#ln96"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov1#hym2#page58#enu22">
+          <layout:Field field="mov1#hym2#page58#enu22#fld17"/>
+          <layout:Link link="mov1#hym2#page58#enu22#ln87"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:SubPage pageId="mov1#hym2#page58#alt10#page60">
+          <layout:Grid containerType="grid">
+            <layout:Row>
+              <layout:Cell colspan="12">
+                <layout:Unit unitId="mov1#hym2#page58#alt10#page60#inu37">
+                  <layout:Attribute attribute="ent17#att35"/>
+                  <layout:Attribute attribute="ent17#att51"/>
+                  <layout:Link link="mov1#hym2#page58#alt10#page60#inu37#ln95"/>
+                </layout:Unit>
+              </layout:Cell>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+            </layout:Row>
+            <layout:Row>
+              <layout:Cell colspan="12">
+                <layout:Unit unitId="mov1#hym2#page58#alt10#page60#scu39">
+                  <layout:Link link="mov1#hym2#page58#alt10#page60#scu39First"/>
+                  <layout:Link link="mov1#hym2#page58#alt10#page60#scu39Previous"/>
+                  <layout:Link link="mov1#hym2#page58#alt10#page60#scu39Block"/>
+                  <layout:Link link="mov1#hym2#page58#alt10#page60#scu39Next"/>
+                  <layout:Link link="mov1#hym2#page58#alt10#page60#scu39Last"/>
+                </layout:Unit>
+              </layout:Cell>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+            </layout:Row>
+          </layout:Grid>
+        </layout:SubPage>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+  <Alternative id="mov1#hym2#page58#alt10" name="Alternative2" defaultPage="mov1#hym2#page58#alt10#page59" gr:x="215" gr:y="0">
+    <Page id="mov1#hym2#page58#alt10#page59" name="Lista Raccolte Completa" gr:x="10" gr:y="190">
+      <ContentUnits>
+        <IndexUnit id="mov1#hym2#page58#alt10#page59#inu36" name="Lista Raccolte Fondi" gr:x="205" gr:y="0" entity="ent17" displayAttributes="ent17#att35 ent17#att51" linkOrder="mov1#hym2#page58#alt10#page59#inu36#ln96">
+          <SortAttribute attribute="ent17#att51" order="descending"/>
+          <Link id="mov1#hym2#page58#alt10#page59#inu36#ln96" name="Dettagli" to="mov1#hym2#okcu2" type="normal" validate="true">
+            <LinkParameter id="mov1#hym2#page58#alt10#page59#inu36#ln96#par48" name="oid_oid raccolta" source="data[].ent17#att33" target="mov1#hym2#okcu2#ocp2"/>
+          </Link>
+          <Selector id="mov1#hym2#page58#alt10#page59#inu36#su126" defaultPolicy="fill" booleanOperator="and">
+            <KeyCondition id="mov1#hym2#page58#alt10#page59#inu36#su126#kcond71" name="KeyCondition71" predicate="in" implied="false"/>
+          </Selector>
+        </IndexUnit>
+        <ScrollerUnit gr:x="0" gr:y="0" id="mov1#hym2#page58#alt10#page59#scu40" name="Scroller Raccolte" useCountQuery="false" entity="ent17" blockFactor="10" linkOrder="mov1#hym2#page58#alt10#page59#scu40#ln201">
+          <Link id="mov1#hym2#page58#alt10#page59#scu40#ln201" name="Flow201" to="mov1#hym2#page58#alt10#page59#inu36" automaticCoupling="true" type="automatic" validate="true"/>
+        </ScrollerUnit>
+      </ContentUnits>
+    </Page>
+    <Page id="mov1#hym2#page58#alt10#page60" name="Lista Raccolte per Titolo" gr:x="0" gr:y="0">
+      <ContentUnits>
+        <IndexUnit id="mov1#hym2#page58#alt10#page60#inu37" name="Lista raccolte per titolo" gr:x="190" gr:y="0" entity="ent17" displayAttributes="ent17#att35 ent17#att51" linkOrder="mov1#hym2#page58#alt10#page60#inu37#ln95">
+          <Selector id="mov1#hym2#page58#alt10#page60#inu37#su51" defaultPolicy="fill" booleanOperator="and">
+            <KeyCondition id="mov1#hym2#page58#alt10#page60#inu37#su51#kcond69" name="KeyCondition69" predicate="in" implied="false"/>
+          </Selector>
+          <Link id="mov1#hym2#page58#alt10#page60#inu37#ln95" name="Dettagli" to="mov1#hym2#okcu2" type="normal" validate="true">
+            <LinkParameter id="mov1#hym2#page58#alt10#page60#inu37#ln95#par47" name="oid_oid raccolta" source="data[].ent17#att33" target="mov1#hym2#okcu2#ocp2"/>
+          </Link>
+        </IndexUnit>
+        <ScrollerUnit gr:x="0" gr:y="0" id="mov1#hym2#page58#alt10#page60#scu39" name="Scroller Raccolte" useCountQuery="false" entity="ent17" blockFactor="10" linkOrder="mov1#hym2#page58#alt10#page60#scu39#ln200">
+          <Selector id="mov1#hym2#page58#alt10#page60#scu39#su124" defaultPolicy="fill" booleanOperator="and">
+            <AttributesCondition id="mov1#hym2#page58#alt10#page60#scu39#su124#acond25" name="AttCondition25" predicate="contains" booleanOperator="or" implied="false" attributes="ent17#att35"/>
+          </Selector>
+          <Link id="mov1#hym2#page58#alt10#page60#scu39#ln200" name="Flow200" to="mov1#hym2#page58#alt10#page60#inu37" automaticCoupling="true" type="automatic" validate="true"/>
+        </ScrollerUnit>
+      </ContentUnits>
+    </Page>
+  </Alternative>
+</Page>

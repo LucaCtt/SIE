@@ -1,0 +1,32 @@
+<OperationGroup xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="930" gr:y="50" id="sv4#area19#opg7" name="Operation Group 7" transaction="true">
+  <OperationUnits>
+    <CreateUnit id="sv4#area19#opg7#cru9" name="Crea Evento" gr:x="0" gr:y="15" entity="ent1">
+      <OKLink id="sv4#area19#opg7#cru9#oln50" name="OKFlow50" to="sv4#area19#opg7#cnu4">
+        <LinkParameter id="sv4#area19#opg7#cru9#oln50#par43" name="OidStaff_PASSING_KeyCondition51 [oid] [Staff] [Source]" sourceLinkParameter="sv4#area19#page21#enu7#ln51#par40" target="sv4#area19#opg7#cnu4#su34#kcond51.userOID"/>
+        <LinkParameter id="sv4#area19#opg7#cru9#oln50#par44" name="oid_KeyCondition64 [oid] [Evento] [Target]" source="ent1#att1Array" target="sv4#area19#opg7#cnu4#su35#kcond64.ent1#att1"/>
+        <LinkParameter id="sv4#area19#opg7#cru9#oln50#par53" name="TipologiaEvento_PASSING" sourceLinkParameter="sv4#area19#page21#enu7#ln51#par46" passing="true"/>
+      </OKLink>
+    </CreateUnit>
+    <ConnectUnit gr:x="160" gr:y="0" id="sv4#area19#opg7#cnu4" name="Connetti a Staff" relationship="rel4#role7">
+      <SourceSelector id="sv4#area19#opg7#cnu4#su34" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area19#opg7#cnu4#su34#kcond51" name="KeyCondition51" predicate="in" implied="false"/>
+      </SourceSelector>
+      <TargetSelector id="sv4#area19#opg7#cnu4#su35" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area19#opg7#cnu4#su35#kcond64" name="KeyCondition64" predicate="in" implied="false"/>
+      </TargetSelector>
+      <OKLink id="sv4#area19#opg7#cnu4#oln51" name="OKFlow51" to="sv4#area19#opg7#cnu5">
+        <LinkParameter id="sv4#area19#opg7#cnu4#oln51#par55" name="Target oid [Evento]_KeyCondition65 [oid] [Evento] [Source]" source="targetent1#att1" target="sv4#area19#opg7#cnu5#su42#kcond65.ent1#att1"/>
+        <LinkParameter id="sv4#area19#opg7#cnu4#oln51#par59" name="TipologiaEvento_PASSING_KeyCondition66 [oid] [TipologiaEvento] [Target]" sourceLinkParameter="sv4#area19#opg7#cru9#oln50#par53" target="sv4#area19#opg7#cnu5#su43#kcond66.ent9#att18"/>
+      </OKLink>
+    </ConnectUnit>
+    <ConnectUnit gr:x="350" gr:y="0" id="sv4#area19#opg7#cnu5" name="Connetti a Tipologia" relationship="rel3#role6">
+      <SourceSelector id="sv4#area19#opg7#cnu5#su42" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area19#opg7#cnu5#su42#kcond65" name="KeyCondition65" predicate="in" implied="false"/>
+      </SourceSelector>
+      <TargetSelector id="sv4#area19#opg7#cnu5#su43" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area19#opg7#cnu5#su43#kcond66" name="KeyCondition66" predicate="in" implied="false"/>
+      </TargetSelector>
+      <OKLink id="sv4#area19#opg7#cnu5#oln52" name="OKFlow52" to="sv4#area19#page18" automaticCoupling="true"/>
+    </ConnectUnit>
+  </OperationUnits>
+</OperationGroup>

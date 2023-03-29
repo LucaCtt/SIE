@@ -1,0 +1,76 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="715" gr:y="735" id="sv3#area3#page46" name="Attivit&#224; a cui l'utente &#232; iscritto" landmark="true">
+  <ContentUnits>
+    <GetUnit gr:x="0" gr:y="0" id="sv3#area3#page46#gtu3" name="Get id" contextParameters="UserCtxParam">
+      <Link id="sv3#area3#page46#gtu3#ln81" name="Flow81" to="sv3#area3#page46#scu14" automaticCoupling="true" type="transport" validate="true"/>
+      <Link id="sv3#area3#page46#gtu3#ln84" name="Flow84" to="sv3#area3#dcnu1" type="transport" validate="true">
+        <LinkParameter id="sv3#area3#page46#gtu3#ln84#par57" name="UserCtxParam.oid_KeyCondition15 [oid] [Utente] [Source]" source="sv3#area3#page46#gtu3.UserCtxParam" target="sv3#area3#dcnu1#su39#kcond15.userOID"/>
+      </Link>
+    </GetUnit>
+    <ScrollerUnit gr:x="190" gr:y="0" id="sv3#area3#page46#scu14" name="Scroller eventi" useCountQuery="false" entity="ent1" linkOrder="sv3#area3#page46#scu14#ln82" blockFactor="10">
+      <Selector id="sv3#area3#page46#scu14#su38" defaultPolicy="fill" booleanOperator="and">
+        <RelationshipRoleCondition id="sv3#area3#page46#scu14#su38#rcond14" name="RoleCondition14" predicate="in" implied="false" role="rel18#role35"/>
+      </Selector>
+      <Link id="sv3#area3#page46#scu14#ln82" name="Flow82" to="sv3#area3#page46#inu27" automaticCoupling="true" type="automatic" validate="true"/>
+      <SortAttribute attribute="ent1#att7" order="descending"/>
+      <SortAttribute attribute="ent1#att8" order="descending"/>
+    </ScrollerUnit>
+    <IndexUnit gr:x="20" gr:y="120" id="sv3#area3#page46#inu27" name="Lista eventi a cui utente &#232; iscritto" linkOrder="sv3#area3#page46#inu27#ln83 sv3#area3#page46#inu27#ln85" entity="ent1" displayAttributes="ent1#att4 ent1#att6 ent1#att7 ent1#att8">
+      <Link id="sv3#area3#page46#inu27#ln83" name="Flow83" to="sv3#area3#page20#dau4" automaticCoupling="true" type="normal" validate="true"/>
+      <Link id="sv3#area3#page46#inu27#ln85" name="Flow85" to="sv3#area3#dcnu1" type="normal" validate="true">
+        <LinkParameter id="sv3#area3#page46#inu27#ln85#par56" name="oid_KeyCondition16 [oid] [Evento] [Target]" source="data[].ent1#att1" target="sv3#area3#dcnu1#su40#kcond16.ent1#att1"/>
+      </Link>
+      <Selector id="sv3#area3#page46#inu27#su41" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv3#area3#page46#inu27#su41#kcond17" name="KeyCondition17" predicate="in" implied="false"/>
+      </Selector>
+      <SortAttribute attribute="ent1#att7" order="descending"/>
+      <SortAttribute attribute="ent1#att8" order="descending"/>
+    </IndexUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv3#area3#page46#scu14">
+          <layout:Link link="sv3#area3#page46#scu14First"/>
+          <layout:Link link="sv3#area3#page46#scu14Previous"/>
+          <layout:Link link="sv3#area3#page46#scu14Block"/>
+          <layout:Link link="sv3#area3#page46#scu14Next"/>
+          <layout:Link link="sv3#area3#page46#scu14Last"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv3#area3#page46#inu27">
+          <layout:Link link="sv3#area3#page46#inu27#ln83"/>
+          <layout:Link link="sv3#area3#page46#inu27#ln85"/>
+          <layout:Attribute attribute="ent1#att4"/>
+          <layout:Attribute attribute="ent1#att6"/>
+          <layout:Attribute attribute="ent1#att7"/>
+          <layout:Attribute attribute="ent1#att8"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

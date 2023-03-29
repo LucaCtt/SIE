@@ -1,0 +1,18 @@
+<OperationGroup xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="695" gr:y="510" id="sv3#area3#opg1" name="Operation Group 1" transaction="true">
+  <OperationUnits>
+    <ConnectUnit gr:x="0" gr:y="0" id="sv3#area3#opg1#cnu1" name="Iscrivi a evento" relationship="rel18#role35">
+      <SourceSelector id="sv3#area3#opg1#cnu1#su36" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv3#area3#opg1#cnu1#su36#kcond13" name="KeyCondition13" predicate="in" implied="false"/>
+      </SourceSelector>
+      <TargetSelector id="sv3#area3#opg1#cnu1#su37" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv3#area3#opg1#cnu1#su37#kcond14" name="KeyCondition14" predicate="in" implied="false"/>
+      </TargetSelector>
+      <OKLink id="sv3#area3#opg1#cnu1#oln3" name="OKFlow3" to="sv3#area3#page46" automaticCoupling="true"/>
+    </ConnectUnit>
+    <GetUnit gr:x="245" gr:y="15" id="sv3#area3#opg1#gtu2" name="Get id" contextParameters="UserCtxParam">
+      <Link id="sv3#area3#opg1#gtu2#ln80" name="Flow80" to="sv3#area3#opg1#cnu1" type="transport" validate="true">
+        <LinkParameter id="sv3#area3#opg1#gtu2#ln80#par54" name="UserCtxParam.oid_KeyCondition13 [oid] [Utente] [Source]" source="sv3#area3#opg1#gtu2.UserCtxParam" target="sv3#area3#opg1#cnu1#su36#kcond13.userOID"/>
+      </Link>
+    </GetUnit>
+  </OperationUnits>
+</OperationGroup>

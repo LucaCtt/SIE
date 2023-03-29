@@ -1,0 +1,50 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv4#area20#page35" name="Lista Raccolte Completa" gr:x="40" gr:y="5" linkOrder="sv4#area20#page35#ln133">
+  <ContentUnits>
+    <IndexUnit id="sv4#area20#page35#inu10" name="Lista Raccolte Fondi" gr:x="205" gr:y="0" entity="ent17" displayAttributes="ent17#att35 ent17#att51" linkOrder="sv4#area20#page35#inu10#ln117 sv4#area20#page35#inu10#ln135 sv4#area20#page35#inu10#ln143">
+      <SortAttribute attribute="ent17#att51" order="descending"/>
+      <Selector id="sv4#area20#page35#inu10#su140" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area20#page35#inu10#su140#kcond100" name="KeyCondition71" predicate="in" implied="false"/>
+      </Selector>
+      <Link id="sv4#area20#page35#inu10#ln117" name="Flow117" to="sv4#area20#page36#dau25" automaticCoupling="true" type="normal" validate="true"/>
+      <Link id="sv4#area20#page35#inu10#ln135" name="Flow135" to="sv4#area20#opg12#seu11" type="normal" validate="true">
+        <LinkParameter id="sv4#area20#page35#inu10#ln135#par261" name="oid_RoleCondition38 [oid]" source="data[].ent17#att33" target="sv4#area20#opg12#seu11#su148#rcond38.ent17#att33"/>
+      </Link>
+      <Link id="sv4#area20#page35#inu10#ln143" name="Aggiungi Nuova Raccolta Fondi" to="sv4#area20#page41#enu12" type="normal" validate="true">
+        <LinkParameter id="sv4#area20#page35#inu10#ln143#par270" name="data_pubblicazione_DataPubblicazione" source="data[].ent17#att51" target="sv4#area20#page41#enu12#fld88_slot"/>
+        <LinkParameter id="sv4#area20#page35#inu10#ln143#par271" name="descrizione_Descrizione" source="data[].ent17#att36" target="sv4#area20#page41#enu12#fld86_slot"/>
+        <LinkParameter id="sv4#area20#page35#inu10#ln143#par272" name="titolo_Titolo" source="data[].ent17#att35" target="sv4#area20#page41#enu12#fld85_slot"/>
+        <LinkParameter id="sv4#area20#page35#inu10#ln143#par273" name="totale_obiettivo_TotaleObiettivo" source="data[].ent17#att37" target="sv4#area20#page41#enu12#fld87_slot"/>
+        <LinkParameter id="sv4#area20#page35#inu10#ln143#par274" name="oid_PASSING" source="data[].ent17#att33" passing="true"/>
+      </Link>
+    </IndexUnit>
+    <ScrollerUnit id="sv4#area20#page35#scu26" name="Scroller Raccolte" linkOrder="sv4#area20#page35#scu26#ln110" gr:x="0" gr:y="0" useCountQuery="false" entity="ent17" blockFactor="10">
+      <Link id="sv4#area20#page35#scu26#ln110" name="Flow201" to="sv4#area20#page35#inu10" type="automatic" automaticCoupling="true" validate="true"/>
+      <SortAttribute attribute="ent17#att51" order="descending"/>
+    </ScrollerUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv4#area20#page35#scu26">
+          <layout:Link link="sv4#area20#page35#scu26First"/>
+          <layout:Link link="sv4#area20#page35#scu26Previous"/>
+          <layout:Link link="sv4#area20#page35#scu26Block"/>
+          <layout:Link link="sv4#area20#page35#scu26Next"/>
+          <layout:Link link="sv4#area20#page35#scu26Last"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+  <Link id="sv4#area20#page35#ln133" name="Aggiungi Nuova Raccolta Fondi" to="sv4#area20#page37#enu11" automaticCoupling="true" type="normal" validate="true"/>
+</Page>

@@ -1,0 +1,22 @@
+<OperationGroup xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="1305" gr:y="245" id="sv4#area19#opg9" name="Operation Group 9" transaction="true">
+  <OperationUnits>
+    <ModifyUnit gr:x="0" gr:y="0" id="sv4#area19#opg9#mfu3" name="Modifica Evento" entity="ent1">
+      <Selector id="sv4#area19#opg9#mfu3#su44" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area19#opg9#mfu3#su44#kcond74" name="KeyCondition74" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="sv4#area19#opg9#mfu3#oln53" name="OKFlow53" to="sv4#area19#opg9#rcnu3">
+        <LinkParameter id="sv4#area19#opg9#mfu3#oln53#par102" name="oid_KeyCondition75 [oid] [Evento] [ConnectSource]" source="ent1#att1Array" target="sv4#area19#opg9#rcnu3#su45#kcond75.ent1#att1"/>
+        <LinkParameter id="sv4#area19#opg9#mfu3#oln53#par123" name="TipologiaEvento_PASSING_KeyCondition76 [oid] [TipologiaEvento] [ConnectTarget]" sourceLinkParameter="sv4#area19#page22#enu8#ln64#par122" target="sv4#area19#opg9#rcnu3#su46#kcond76.ent9#att18"/>
+      </OKLink>
+    </ModifyUnit>
+    <ReconnectUnit gr:x="185" gr:y="40" id="sv4#area19#opg9#rcnu3" name="Reconnect3" relationship="rel3#role6">
+      <SourceSelector id="sv4#area19#opg9#rcnu3#su45" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area19#opg9#rcnu3#su45#kcond75" name="KeyCondition75" predicate="in" implied="false"/>
+      </SourceSelector>
+      <TargetSelector id="sv4#area19#opg9#rcnu3#su46" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area19#opg9#rcnu3#su46#kcond76" name="KeyCondition76" predicate="in" implied="false"/>
+      </TargetSelector>
+      <OKLink id="sv4#area19#opg9#rcnu3#oln54" name="OKFlow54" to="sv4#area19#page18" automaticCoupling="true"/>
+    </ReconnectUnit>
+  </OperationUnits>
+</OperationGroup>

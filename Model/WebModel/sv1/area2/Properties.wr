@@ -1,0 +1,9 @@
+<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="1160" gr:y="0" id="sv1#area2" name="Area Eventi" landmark="true" landmarks="sv1#area2#page8" defaultPage="sv1#area2#miu1">
+  <OperationUnits>
+    <ModuleInstanceUnit gr:x="0" gr:y="50" id="sv1#area2#miu1" moduleId="mov1#hym1" action="false" landmark="false">
+      <OKLink id="sv1#area2#miu1#oln8" name="OKFlow8" to="sv1#area2#page9#dau1">
+        <LinkParameter id="sv1#area2#miu1#oln8#par124" name="oid evento_KeyCondition4 [oid]" source="mov1#hym1#okcu1#ocp1" target="sv1#area2#page9#dau1#su4#kcond4.ent1#att1"/>
+      </OKLink>
+    </ModuleInstanceUnit>
+  </OperationUnits>
+</Area>

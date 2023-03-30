@@ -6,7 +6,7 @@
       </Selector>
       <Link id="mov1#hym4#page65#scu22#ln125" name="Flow90" to="mov1#hym4#page65#inu41" type="automatic" automaticCoupling="true" validate="true"/>
     </ScrollerUnit>
-    <IndexUnit id="mov1#hym4#page65#inu41" name="Lista alumni con qualifica" gr:x="230" gr:y="0" entity="ent11" linkOrder="mov1#hym4#page65#inu41#ln126">
+    <IndexUnit id="mov1#hym4#page65#inu41" name="Lista alumni con qualifica" gr:x="230" gr:y="0" entity="ent11" linkOrder="mov1#hym4#page65#inu41#ln126" displayAttributes="email ent5#att16 ent5#att17">
       <Selector id="mov1#hym4#page65#inu41#su74" defaultPolicy="fill" booleanOperator="and">
         <KeyCondition id="mov1#hym4#page65#inu41#su74#kcond19" name="KeyCondition21" predicate="in" implied="false"/>
       </Selector>
@@ -42,6 +42,9 @@
       <layout:Cell colspan="12">
         <layout:Unit unitId="mov1#hym4#page65#inu41">
           <layout:Link link="mov1#hym4#page65#inu41#ln126"/>
+          <layout:Attribute attribute="email"/>
+          <layout:Attribute attribute="ent5#att16"/>
+          <layout:Attribute attribute="ent5#att17"/>
         </layout:Unit>
       </layout:Cell>
       <layout:Cell/>

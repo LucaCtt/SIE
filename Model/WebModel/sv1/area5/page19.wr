@@ -14,7 +14,7 @@
       </Selector>
       <Link id="sv1#area5#page19#scu5#ln23" name="Flow23" to="sv1#area5#page19#mdu2" automaticCoupling="true" type="automatic" validate="true"/>
     </ScrollerUnit>
-    <MultiDataUnit gr:x="515" gr:y="0" id="sv1#area5#page19#mdu2" name="Qualifiche" entity="ent14" displayAttributes="ent14#att43 ent14#att44 ent14#att45">
+    <MultiDataUnit gr:x="455" gr:y="0" id="sv1#area5#page19#mdu2" name="Qualifiche" entity="ent14" displayAttributes="ent14#att43 ent14#att44 ent14#att45">
       <Selector id="sv1#area5#page19#mdu2#su10" defaultPolicy="fill" booleanOperator="and">
         <KeyCondition id="sv1#area5#page19#mdu2#su10#kcond1" name="KeyCondition1" predicate="in" implied="false"/>
       </Selector>

@@ -1,0 +1,46 @@
+<HybridModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="85" gr:y="380" id="mov1#hym6" name="Dettagli Profilo Alumno">
+  <OperationUnits>
+    <DeleteUnit id="mov1#hym6#dlu10" name="Rimuovi Indirizzo" gr:x="970" gr:y="465" entity="ent13">
+      <Selector id="mov1#hym6#dlu10#su175" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="mov1#hym6#dlu10#su175#kcond125" name="KeyCondition43" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="mov1#hym6#dlu10#oln88" name="OKFlow19" to="mov1#hym6#page83" automaticCoupling="true"/>
+    </DeleteUnit>
+    <DeleteUnit id="mov1#hym6#dlu11" name="Rimuovi Qualifica" gr:x="1210" gr:y="160" entity="ent14">
+      <Selector id="mov1#hym6#dlu11#su176" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="mov1#hym6#dlu11#su176#kcond126" name="KeyCondition41" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="mov1#hym6#dlu11#oln89" name="OKFlow17" to="mov1#hym6#page83" automaticCoupling="true"/>
+    </DeleteUnit>
+    <DeleteUnit id="mov1#hym6#dlu12" name="Rimuovi Posizione" gr:x="1170" gr:y="445" entity="ent15">
+      <Selector id="mov1#hym6#dlu12#su187" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="mov1#hym6#dlu12#su187#kcond137" name="KeyCondition42" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="mov1#hym6#dlu12#oln92" name="OKFlow18" to="mov1#hym6#page83" automaticCoupling="true"/>
+    </DeleteUnit>
+    <ModifyUnit id="mov1#hym6#mfu17" name="Update Posizione" gr:x="1395" gr:y="430" entity="ent15">
+      <Selector id="mov1#hym6#mfu17#su191" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="mov1#hym6#mfu17#su191#kcond142" name="KeyCondition32" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="mov1#hym6#mfu17#oln96" name="OKFlow7" to="mov1#hym6#page83" automaticCoupling="true"/>
+    </ModifyUnit>
+    <ModifyUnit id="mov1#hym6#mfu18" name="Update Profilo" gr:x="210" gr:y="320" entity="ent11">
+      <Selector id="mov1#hym6#mfu18#su198" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="mov1#hym6#mfu18#su198#kcond143" name="KeyCondition40" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="mov1#hym6#mfu18#oln97" name="OKFlow13" to="mov1#hym6#page83" automaticCoupling="true"/>
+    </ModifyUnit>
+    <ModifyUnit id="mov1#hym6#mfu19" name="Update Qualifica" gr:x="1435" gr:y="65" entity="ent14">
+      <Selector id="mov1#hym6#mfu19#su199" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="mov1#hym6#mfu19#su199#kcond144" name="KeyCondition35" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="mov1#hym6#mfu19#oln99" name="OKFlow16" to="mov1#hym6#page83" automaticCoupling="true"/>
+    </ModifyUnit>
+    <InputCollectorUnit gr:x="-200" gr:y="250" id="mov1#hym6#icu2">
+      <OKLink id="mov1#hym6#icu2#oln100" name="OKFlow100" to="mov1#hym6#page83#dau29">
+        <LinkParameter id="mov1#hym6#icu2#oln100#par390" name="Oid_KeyCondition22 [oid]" source="mov1#hym6#icu2#icp2" target="mov1#hym6#page83#dau29#su177#kcond127.userOID"/>
+      </OKLink>
+      <InputCollectorParameter id="mov1#hym6#icu2#icp2" name="Oid"/>
+    </InputCollectorUnit>
+  </OperationUnits>
+</HybridModule>

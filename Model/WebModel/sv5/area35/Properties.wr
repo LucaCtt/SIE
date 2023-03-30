@@ -1,3 +1,50 @@
-<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="70" gr:y="745" id="sv5#area35" name="Area Gestione Utenti" landmark="true">
-  <OperationUnits/>
+<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="50" gr:y="825" id="sv5#area35" name="Area Gestione Utenti" landmark="true" defaultPage="sv5#area35#page42">
+  <OperationUnits>
+    <ModuleInstanceUnit gr:x="565" gr:y="1155" id="sv5#area35#miu17" action="false" moduleId="mov1#hym5"/>
+    <ModuleInstanceUnit gr:x="515" gr:y="170" id="sv5#area35#miu18" action="false" moduleId="mov1#hym6"/>
+    <ModuleInstanceUnit gr:x="535" gr:y="860" id="sv5#area35#miu19" action="false" moduleId="mov1#hym7"/>
+    <ModuleInstanceUnit gr:x="520" gr:y="580" id="sv5#area35#miu20" action="false" moduleId="mov1#hym8"/>
+    <ModifyUnit gr:x="560" gr:y="265" id="sv5#area35#mfu24" name="Approva Alumno" entity="ent11">
+      <Selector id="sv5#area35#mfu24#su214" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv5#area35#mfu24#su214#kcond159" name="KeyCondition159" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="sv5#area35#mfu24#oln110" name="OKFlow110" to="sv5#area35#page42" automaticCoupling="true"/>
+    </ModifyUnit>
+    <DeleteUnit gr:x="730" gr:y="265" id="sv5#area35#dlu13" name="Rimuovi Alumno" entity="ent11">
+      <Selector id="sv5#area35#dlu13#su215" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv5#area35#dlu13#su215#kcond160" name="KeyCondition160" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="sv5#area35#dlu13#oln111" name="OKFlow111" to="sv5#area35#page42" automaticCoupling="true"/>
+    </DeleteUnit>
+    <ModifyUnit id="sv5#area35#mfu25" name="Approva Azienda" gr:x="560" gr:y="1245" entity="ent8">
+      <Selector id="sv5#area35#mfu25#su216" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv5#area35#mfu25#su216#kcond161" name="KeyCondition159" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="sv5#area35#mfu25#oln112" name="OKFlow110" to="sv5#area35#page42" automaticCoupling="true"/>
+    </ModifyUnit>
+    <DeleteUnit id="sv5#area35#dlu14" name="Rimuovi Azienda" gr:x="720" gr:y="1245" entity="ent8">
+      <Selector id="sv5#area35#dlu14#su217" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv5#area35#dlu14#su217#kcond162" name="KeyCondition160" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="sv5#area35#dlu14#oln113" name="OKFlow111" to="sv5#area35#page42" automaticCoupling="true"/>
+    </DeleteUnit>
+    <DeleteUnit id="sv5#area35#dlu15" name="Rimuovi Staff" gr:x="825" gr:y="840" entity="ent10">
+      <Selector id="sv5#area35#dlu15#su218" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv5#area35#dlu15#su218#kcond163" name="KeyCondition160" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="sv5#area35#dlu15#oln114" name="OKFlow111" to="sv5#area35#page42" automaticCoupling="true"/>
+    </DeleteUnit>
+    <CreateUnit id="sv5#area35#cru3" name="Crea Azienda" gr:x="985" gr:y="1030" entity="ent8">
+      <OKLink id="sv5#area35#cru3#oln35" name="OKFlow35" to="sv5#area35#page42" automaticCoupling="true"/>
+    </CreateUnit>
+    <CreateUnit id="sv5#area35#cru4" name="Crea Alumno" gr:x="905" gr:y="5" entity="ent11">
+      <OKLink id="sv5#area35#cru4#oln32" name="OKFlow32" to="sv5#area35#page42" automaticCoupling="true"/>
+    </CreateUnit>
+    <CreateUnit id="sv5#area35#cru13" name="Crea Profilo" gr:x="995" gr:y="450" entity="ent12">
+      <OKLink id="sv5#area35#cru13#oln76" name="OKFlow76" to="sv5#area35#page42" automaticCoupling="true"/>
+    </CreateUnit>
+    <CreateUnit id="sv5#area35#cru15" name="Crea Profilo" gr:x="945" gr:y="710" entity="ent10">
+      <OKLink id="sv5#area35#cru15#oln78" name="OKFlow78" to="sv5#area35#page42" automaticCoupling="true"/>
+    </CreateUnit>
+  </OperationUnits>
 </Area>

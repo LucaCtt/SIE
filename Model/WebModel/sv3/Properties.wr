@@ -1,6 +1,6 @@
 <SiteView xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv3" name="Alumno" landmarks="sv3#area8 sv3#area6 sv3#area7 sv3#area3 sv3#area9" homePage="sv3#area6#page30">
   <OperationUnits>
-    <LogoutUnit gr:x="70" gr:y="585" id="sv3#lou1" name="Logout1" siteView="sv1" invalidateSession="true">
+    <LogoutUnit gr:x="120" gr:y="90" id="sv3#lou1" name="Logout1" siteView="sv1" invalidateSession="true">
       <KOLink id="sv3#lou1#kln3" name="KOFlow3" to="sv3#area6#page30" automaticCoupling="true" gr:bendpoints="78,19,-312,-6"/>
     </LogoutUnit>
   </OperationUnits>

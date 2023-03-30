@@ -1,40 +1,5 @@
-<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="-440" gr:y="1150" id="sv3#area9" name="Area Personale" landmark="true" defaultPage="sv3#area9#page48">
+<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="565" gr:y="640" id="sv3#area9" name="Area Personale" landmark="true" defaultPage="sv3#area9#miu22">
   <OperationUnits>
-    <ModifyUnit id="sv3#area9#mfu4" name="Update Posizione" gr:x="1145" gr:y="620" entity="ent15">
-      <Selector id="sv3#area9#mfu4#su63" defaultPolicy="fill" booleanOperator="and">
-        <KeyCondition id="sv3#area9#mfu4#su63#kcond34" name="KeyCondition32" predicate="in" implied="false"/>
-      </Selector>
-      <OKLink id="sv3#area9#mfu4#oln9" name="OKFlow7" to="sv3#area9#page48" automaticCoupling="true"/>
-    </ModifyUnit>
-    <ModifyUnit gr:x="1505" gr:y="205" id="sv3#area9#mfu5" name="Update Qualifica" entity="ent14">
-      <Selector id="sv3#area9#mfu5#su64" defaultPolicy="fill" booleanOperator="and">
-        <KeyCondition id="sv3#area9#mfu5#su64#kcond35" name="KeyCondition35" predicate="in" implied="false"/>
-      </Selector>
-      <OKLink id="sv3#area9#mfu5#oln16" name="OKFlow16" to="sv3#area9#page48" automaticCoupling="true"/>
-    </ModifyUnit>
-    <ModifyUnit gr:x="75" gr:y="200" id="sv3#area9#mfu6" name="Update Profilo" entity="ent11">
-      <Selector id="sv3#area9#mfu6#su69" defaultPolicy="fill" booleanOperator="and">
-        <KeyCondition id="sv3#area9#mfu6#su69#kcond40" name="KeyCondition40" predicate="in" implied="false"/>
-      </Selector>
-      <OKLink id="sv3#area9#mfu6#oln13" name="OKFlow13" to="sv3#area9#page48" automaticCoupling="true"/>
-    </ModifyUnit>
-    <DeleteUnit gr:x="1580" gr:y="360" id="sv3#area9#dlu1" name="Rimuovi Qualifica" entity="ent14">
-      <Selector id="sv3#area9#dlu1#su70" defaultPolicy="fill" booleanOperator="and">
-        <KeyCondition id="sv3#area9#dlu1#su70#kcond41" name="KeyCondition41" predicate="in" implied="false"/>
-      </Selector>
-      <OKLink id="sv3#area9#dlu1#oln17" name="OKFlow17" to="sv3#area9#page48" automaticCoupling="true"/>
-    </DeleteUnit>
-    <DeleteUnit gr:x="1535" gr:y="485" id="sv3#area9#dlu2" name="Rimuovi Posizione" entity="ent15">
-      <Selector id="sv3#area9#dlu2#su71" defaultPolicy="fill" booleanOperator="and">
-        <KeyCondition id="sv3#area9#dlu2#su71#kcond42" name="KeyCondition42" predicate="in" implied="false"/>
-      </Selector>
-      <OKLink id="sv3#area9#dlu2#oln18" name="OKFlow18" to="sv3#area9#page48" automaticCoupling="true"/>
-    </DeleteUnit>
-    <DeleteUnit gr:x="1455" gr:y="615" id="sv3#area9#dlu3" name="Rimuovi Indirizzo" entity="ent13">
-      <Selector id="sv3#area9#dlu3#su72" defaultPolicy="fill" booleanOperator="and">
-        <KeyCondition id="sv3#area9#dlu3#su72#kcond43" name="KeyCondition43" predicate="in" implied="false"/>
-      </Selector>
-      <OKLink id="sv3#area9#dlu3#oln19" name="OKFlow19" to="sv3#area9#page48" automaticCoupling="true"/>
-    </DeleteUnit>
+    <ModuleInstanceUnit gr:x="0" gr:y="0" id="sv3#area9#miu22" action="false" moduleId="mov1#hym8"/>
   </OperationUnits>
 </Area>

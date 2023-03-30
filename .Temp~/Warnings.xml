@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Warnings> 
-  <Warning xpath="id('mov1#hym2#page58#enu22#ln87#par45')" rootXPath="id('mov1')" key="UNUSED_PASSING_PARAMETER" label="Titolo_PASSING"> 
-    <Message>The passing parameter 'Titolo_PASSING' is declared but never used</Message>  
-    <Resolution class="com.webratio.ide.ui.resources.RemoveElementResolutionGenerator">Remove the invalid link parameter 'mov1#hym2#page58#enu22#ln87#par45'</Resolution> 
+  <Warning xpath="id('mov1#hym8#area23#mfu23')" rootXPath="id('mov1')" error="false" label="Update Profilo" key="NO_OUTGOING_KO_LINKS"> 
+    <Message>No outgoing KO flow(s) for the operation 'Update Profilo'</Message> 
   </Warning>  
-  <Warning error="false" xpath="id('mov1#hym2#page58#alt10#page59#scu40')" rootXPath="id('mov1')" key="UNSPECIFIED_SORTING_ATTRIBUTE" label="Scroller Raccolte"> 
-    <Message>Sorting attribute are unspecified for the component 'Scroller Raccolte'</Message> 
+  <Warning xpath="id('mov1#hym8#area23#page95')" rootXPath="id('mov1')" label="Profilo Amministratore"> 
+    <Message>Security Warning: the public page 'Profilo Amministratore' shows information about the user</Message>  
+    <Resolution class="com.webratio.ide.ui.resources.ChangeAttributeResolutionGenerator" attribute="protected" value="true">Protect the page</Resolution> 
   </Warning>  
-  <Warning error="false" xpath="id('mov1#hym2#page58#alt10#page60#inu37')" rootXPath="id('mov1')" key="UNSPECIFIED_SORTING_ATTRIBUTE" label="Lista raccolte per titolo"> 
-    <Message>Sorting attribute are unspecified for the component 'Lista raccolte per titolo'</Message> 
-  </Warning>  
-  <Warning error="false" xpath="id('mov1#hym2#page58#alt10#page60#scu39')" rootXPath="id('mov1')" key="UNSPECIFIED_SORTING_ATTRIBUTE" label="Scroller Raccolte"> 
-    <Message>Sorting attribute are unspecified for the component 'Scroller Raccolte'</Message> 
-  </Warning>  
-  <Warning error="false" xpath="id('mov1#hym2#page58')" rootXPath="id('mov1')" key="" label="Lista Raccolte Fondi"> 
-    <Message>Security Warning: the page 'Lista Raccolte Fondi' is public but no captcha field is configured on its form component</Message> 
+  <Warning error="false" xpath="id('mov1#hym8#area23#page96')" rootXPath="id('mov1')" key="" label="Modifica Profilo"> 
+    <Message>Security Warning: the page 'Modifica Profilo' is public but no captcha field is configured on its form component</Message> 
   </Warning> 
 </Warnings>

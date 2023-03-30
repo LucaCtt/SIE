@@ -1,0 +1,41 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="mov1#hym8#area23#page96" name="Modifica Profilo" gr:x="255" gr:y="0">
+  <ContentUnits>
+    <EntryUnit id="mov1#hym8#area23#page96#enu41" name="Form Profilo" linkOrder="mov1#hym8#area23#page96#enu41#ln251" gr:x="0" gr:y="0">
+      <Link id="mov1#hym8#area23#page96#enu41#ln251" name="Flow120" to="mov1#hym8#area23#mfu23" type="normal" validate="true">
+        <LinkParameter id="mov1#hym8#area23#page96#enu41#ln251#par423" name="cognome_cognome" source="mov1#hym8#area23#page96#enu41#fld150" target="mov1#hym8#area23#mfu23.ent5#att17"/>
+        <LinkParameter id="mov1#hym8#area23#page96#enu41#ln251#par424" name="email_email" source="mov1#hym8#area23#page96#enu41#fld151" target="mov1#hym8#area23#mfu23.email"/>
+        <LinkParameter id="mov1#hym8#area23#page96#enu41#ln251#par425" name="oid_PASSING_KeyCondition40 [oid]" sourceLinkParameter="mov1#hym8#area23#page95#dau34#ln250#par422" target="mov1#hym8#area23#mfu23#su212#kcond157.userOID"/>
+        <LinkParameter id="mov1#hym8#area23#page96#enu41#ln251#par426" name="nome_nome" source="mov1#hym8#area23#page96#enu41#fld149" target="mov1#hym8#area23#mfu23.ent5#att16"/>
+        <LinkParameter id="mov1#hym8#area23#page96#enu41#ln251#par427" name="password_password" source="mov1#hym8#area23#page96#enu41#fld152" target="mov1#hym8#area23#mfu23.password"/>
+      </Link>
+      <Field id="mov1#hym8#area23#page96#enu41#fld149" name="nome" type="string" modifiable="true"/>
+      <Field id="mov1#hym8#area23#page96#enu41#fld150" name="cognome" type="string" modifiable="true"/>
+      <Field id="mov1#hym8#area23#page96#enu41#fld151" name="email" type="string" modifiable="true"/>
+      <Field id="mov1#hym8#area23#page96#enu41#fld152" name="password" type="string" modifiable="true"/>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov1#hym8#area23#page96#enu41">
+          <layout:Link link="mov1#hym8#area23#page96#enu41#ln251"/>
+          <layout:Field field="mov1#hym8#area23#page96#enu41#fld149"/>
+          <layout:Field field="mov1#hym8#area23#page96#enu41#fld150"/>
+          <layout:Field field="mov1#hym8#area23#page96#enu41#fld151"/>
+          <layout:Field field="mov1#hym8#area23#page96#enu41#fld152"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

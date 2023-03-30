@@ -1,0 +1,10 @@
+<HybridModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="85" gr:y="520" id="mov1#hym8" name="Dettagli Profilo Amministratori" landmarks="mov1#hym8#area23">
+  <OperationUnits>
+    <InputCollectorUnit id="mov1#hym8#icu8" gr:x="0" gr:y="150">
+      <InputCollectorParameter id="mov1#hym8#icu8#icp4" name="oid"/>
+      <OKLink id="mov1#hym8#icu8#oln109" name="OKFlow107" to="mov1#hym8#area23#page95#dau34">
+        <LinkParameter id="mov1#hym8#icu8#oln109#par428" name="oid_KeyCondition22 [oid]" source="mov1#hym8#icu8#icp4" target="mov1#hym8#area23#page95#dau34#su213#kcond158.userOID"/>
+      </OKLink>
+    </InputCollectorUnit>
+  </OperationUnits>
+</HybridModule>

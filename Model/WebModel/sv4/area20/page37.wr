@@ -1,11 +1,11 @@
-<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="55" gr:y="200" id="sv4#area20#page37" name="Aggiungi Raccolta Fondi">
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="55" gr:y="205" id="sv4#area20#page37" name="Aggiungi Nuova Raccolta">
   <ContentUnits>
     <EntryUnit gr:x="0" gr:y="0" id="sv4#area20#page37#enu11" name="Form Raccolta Fondi" linkOrder="sv4#area20#page37#enu11#ln134">
       <Field id="sv4#area20#page37#enu11#fld81" name="Titolo" type="string" modifiable="true"/>
       <Field id="sv4#area20#page37#enu11#fld82" name="Descrizione" type="text" modifiable="true"/>
       <Field id="sv4#area20#page37#enu11#fld83" name="TotaleObiettivo" type="float" modifiable="true"/>
       <Field id="sv4#area20#page37#enu11#fld84" name="DataPubblicazione" type="date" modifiable="true"/>
-      <Link id="sv4#area20#page37#enu11#ln134" name="Flow134" to="sv4#area20#cru12" type="normal" validate="true">
+      <Link id="sv4#area20#page37#enu11#ln134" name="Conferma" to="sv4#area20#cru12" type="normal" validate="true">
         <LinkParameter id="sv4#area20#page37#enu11#ln134#par256" name="DataPubblicazione_data_pubblicazione" source="sv4#area20#page37#enu11#fld84" target="sv4#area20#cru12.ent17#att51"/>
         <LinkParameter id="sv4#area20#page37#enu11#ln134#par258" name="Descrizione_descrizione" source="sv4#area20#page37#enu11#fld82" target="sv4#area20#cru12.ent17#att36"/>
         <LinkParameter id="sv4#area20#page37#enu11#ln134#par259" name="Titolo_titolo" source="sv4#area20#page37#enu11#fld81" target="sv4#area20#cru12.ent17#att35"/>

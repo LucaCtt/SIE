@@ -1,7 +1,7 @@
-<HybridModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="305" gr:y="240" id="mov1#hym4" name="Lista Alumni per Qualifica" landmarks="mov1#hym4#page64">
+<HybridModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="280" gr:y="195" id="mov1#hym4" name="Lista Alumni per Qualifica" landmarks="mov1#hym4#page64">
   <OperationUnits>
     <InputCollectorUnit gr:x="-35" gr:y="230" id="mov1#hym4#icu6">
-      <OKLink id="mov1#hym4#icu6#oln24" name="OKFlow24" to="mov1#hym4#page64#scu21" automaticCoupling="true"/>
+      <OKLink id="mov1#hym4#icu6#oln24" name="OKFlow24" to="mov1#hym4#page64" automaticCoupling="true"/>
     </InputCollectorUnit>
     <OKCollectorUnit gr:x="1185" gr:y="235" id="mov1#hym4#okcu4" name="OK Port4">
       <OutputCollectorParameter id="mov1#hym4#okcu4#ocp4" name="oid alumno"/>

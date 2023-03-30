@@ -1,0 +1,5 @@
+<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv4#area21" name="Area Personale" landmark="true" gr:x="625" gr:y="655" defaultPage="sv4#area21#miu21">
+  <OperationUnits>
+    <ModuleInstanceUnit gr:x="0" gr:y="0" id="sv4#area21#miu21" action="false" moduleId="mov1#hym7"/>
+  </OperationUnits>
+</Area>

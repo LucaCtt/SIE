@@ -6,7 +6,7 @@
       <SortAttribute attribute="ent1#att7" order="ascending"/>
       <SortAttribute attribute="ent1#att8" order="ascending"/>
     </ScrollerUnit>
-    <PowerIndexUnit gr:x="185" gr:y="0" id="sv4#area19#page18#pwu1" name="Lista Eventi" sortable="true" checkable="false" useCountQuery="false" entity="ent1" linkOrder="sv4#area19#page18#pwu1#ln62 sv4#area19#page18#pwu1#ln67 sv4#area19#page18#pwu1#ln69" displayAttributes="ent1#att4 ent1#att6 ent1#att7 ent1#att8">
+    <PowerIndexUnit gr:x="185" gr:y="0" id="sv4#area19#page18#pwu1" name="Lista Eventi" sortable="true" checkable="false" useCountQuery="false" entity="ent1" linkOrder="sv4#area19#page18#pwu1#ln69 sv4#area19#page18#pwu1#ln62 sv4#area19#page18#pwu1#ln67" displayAttributes="ent1#att4 ent1#att6 ent1#att7 ent1#att8">
       <Selector id="sv4#area19#page18#pwu1#su25" defaultPolicy="fill" booleanOperator="and">
         <KeyCondition id="sv4#area19#page18#pwu1#su25#kcond46" name="KeyCondition46" predicate="in" implied="false"/>
       </Selector>
@@ -58,9 +58,9 @@
           <layout:Attribute attribute="ent1#att6"/>
           <layout:Attribute attribute="ent1#att7"/>
           <layout:Attribute attribute="ent1#att8"/>
+          <layout:Link link="sv4#area19#page18#pwu1#ln69"/>
           <layout:Link link="sv4#area19#page18#pwu1#ln62"/>
           <layout:Link link="sv4#area19#page18#pwu1#ln67"/>
-          <layout:Link link="sv4#area19#page18#pwu1#ln69"/>
           <layout:Link link="sv4#area19#page18#pwu1ent1#att6"/>
           <layout:Link link="sv4#area19#page18#pwu1ent1#att7"/>
           <layout:Link link="sv4#area19#page18#pwu1ent1#att8"/>

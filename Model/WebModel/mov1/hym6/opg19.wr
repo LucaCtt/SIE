@@ -1,0 +1,22 @@
+<OperationGroup xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="mov1#hym6#opg19" name="Operation Group 2" transaction="true" gr:x="965" gr:y="600">
+  <OperationUnits>
+    <ModifyUnit id="mov1#hym6#opg19#mfu16" name="Update Indirizzo" gr:x="0" gr:y="5" entity="ent13">
+      <Selector id="mov1#hym6#opg19#mfu16#su188" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="mov1#hym6#opg19#mfu16#su188#kcond138" name="KeyCondition28" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="mov1#hym6#opg19#mfu16#oln94" name="OKFlow5" to="mov1#hym6#opg19#rcnu6">
+        <LinkParameter id="mov1#hym6#opg19#mfu16#oln94#par370" name="oid_KeyCondition29 [oid] [Indirizzo] [ConnectSource]" source="ent13#att27Array" target="mov1#hym6#opg19#rcnu6#su189#kcond139.ent13#att27"/>
+        <LinkParameter id="mov1#hym6#opg19#mfu16#oln94#par371" name="IndirizzoToAlumno.oid_PASSING_KeyCondition30 [oid] [Alumno] [ConnectTarget]" sourceLinkParameter="mov1#hym6#page88#enu33#ln227#par377" target="mov1#hym6#opg19#rcnu6#su190#kcond140.userOID"/>
+      </OKLink>
+    </ModifyUnit>
+    <ReconnectUnit id="mov1#hym6#opg19#rcnu6" name="Reconnect1" gr:x="200" gr:y="0" relationship="rel21#role42">
+      <SourceSelector id="mov1#hym6#opg19#rcnu6#su189" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="mov1#hym6#opg19#rcnu6#su189#kcond139" name="KeyCondition29" predicate="in" implied="false"/>
+      </SourceSelector>
+      <TargetSelector id="mov1#hym6#opg19#rcnu6#su190" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="mov1#hym6#opg19#rcnu6#su190#kcond140" name="KeyCondition30" predicate="in" implied="false"/>
+      </TargetSelector>
+      <OKLink id="mov1#hym6#opg19#rcnu6#oln95" name="OKFlow6" to="mov1#hym6#page83" automaticCoupling="true"/>
+    </ReconnectUnit>
+  </OperationUnits>
+</OperationGroup>

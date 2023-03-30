@@ -1,16 +1,16 @@
-<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="640" gr:y="405" id="sv4#area20#page41" name="Modifica Raccolta Fondi">
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="555" gr:y="315" id="sv4#area20#page41" name="Modifica Raccolta Fondi">
   <ContentUnits>
     <EntryUnit id="sv4#area20#page41#enu12" name="Form Raccolta Fondi" gr:x="0" gr:y="0" linkOrder="sv4#area20#page41#enu12#ln144">
       <Field id="sv4#area20#page41#enu12#fld85" name="Titolo" type="string" modifiable="true" preloaded="true"/>
       <Field id="sv4#area20#page41#enu12#fld86" name="Descrizione" type="text" modifiable="true" preloaded="true"/>
       <Field id="sv4#area20#page41#enu12#fld87" name="TotaleObiettivo" type="float" modifiable="true" preloaded="true"/>
       <Field id="sv4#area20#page41#enu12#fld88" name="DataPubblicazione" type="date" modifiable="true" preloaded="true"/>
-      <Link id="sv4#area20#page41#enu12#ln144" name="Flow144" to="sv4#area20#mfu9" type="normal" validate="true">
+      <Link id="sv4#area20#page41#enu12#ln144" name="Conferma" to="sv4#area20#mfu9" type="normal" validate="true">
         <LinkParameter id="sv4#area20#page41#enu12#ln144#par275" name="DataPubblicazione_data_pubblicazione" source="sv4#area20#page41#enu12#fld88" target="sv4#area20#mfu9.ent17#att51"/>
         <LinkParameter id="sv4#area20#page41#enu12#ln144#par276" name="Descrizione_descrizione" source="sv4#area20#page41#enu12#fld86" target="sv4#area20#mfu9.ent17#att36"/>
-        <LinkParameter id="sv4#area20#page41#enu12#ln144#par277" name="oid_PASSING_KeyCondition106 [oid]" sourceLinkParameter="sv4#area20#page35#inu10#ln143#par274" target="sv4#area20#mfu9#su149#kcond106.ent17#att33"/>
         <LinkParameter id="sv4#area20#page41#enu12#ln144#par278" name="Titolo_titolo" source="sv4#area20#page41#enu12#fld85" target="sv4#area20#mfu9.ent17#att35"/>
         <LinkParameter id="sv4#area20#page41#enu12#ln144#par279" name="TotaleObiettivo_totale_obiettivo" source="sv4#area20#page41#enu12#fld87" target="sv4#area20#mfu9.ent17#att37"/>
+        <LinkParameter id="sv4#area20#page41#enu12#ln144#par289" name="oid_PASSING_KeyCondition106 [oid]" sourceLinkParameter="sv4#area20#page35#pwu6#ln57#par5" target="sv4#area20#mfu9#su149#kcond106.ent17#att33"/>
       </Link>
     </EntryUnit>
   </ContentUnits>

@@ -1,6 +1,6 @@
-<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="460" gr:y="0" id="sv4#area19#page21" name="Aggiungi Evento" linkOrder="sv4#area19#page21#ln45">
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="475" gr:y="0" id="sv4#area19#page21" name="Aggiungi Evento" linkOrder="sv4#area19#page21#ln45">
   <ContentUnits>
-    <EntryUnit gr:x="15" gr:y="10" id="sv4#area19#page21#enu7" name="Form Evento" linkOrder="sv4#area19#page21#enu7#ln51">
+    <EntryUnit gr:x="0" gr:y="10" id="sv4#area19#page21#enu7" name="Form Evento" linkOrder="sv4#area19#page21#enu7#ln51">
       <Field id="sv4#area19#page21#enu7#fld50" name="Titolo" type="string" modifiable="true"/>
       <Field id="sv4#area19#page21#enu7#fld51" name="Descrizione" type="text" modifiable="true"/>
       <Field id="sv4#area19#page21#enu7#fld66" name="Data" type="date" modifiable="true"/>
@@ -18,13 +18,13 @@
         <LinkParameter id="sv4#area19#page21#enu7#ln51#par46" name="TipologiaEvento_PASSING" source="sv4#area19#page21#enu7#sfld1" passing="true"/>
       </Link>
     </EntryUnit>
-    <SelectorUnit gr:x="195" gr:y="0" id="sv4#area19#page21#seu1" name="Seleziona Tipologia Evento" entity="ent9">
+    <SelectorUnit gr:x="180" gr:y="0" id="sv4#area19#page21#seu1" name="Tipologie Evento" entity="ent9">
       <Link id="sv4#area19#page21#seu1#ln43" name="Flow43" to="sv4#area19#page21#enu7" type="transport" validate="true">
         <LinkParameter id="sv4#area19#page21#seu1#ln43#par26" name="titolo_TipologiaEvento [label]" source="ent9#att23Array" target="sv4#area19#page21#enu7#sfld1_label"/>
         <LinkParameter id="sv4#area19#page21#seu1#ln43#par27" name="oid_TipologiaEvento [output]" source="ent9#att18Array" target="sv4#area19#page21#enu7#sfld1_output"/>
       </Link>
     </SelectorUnit>
-    <GetUnit gr:x="0" gr:y="120" id="sv4#area19#page21#gtu7" name="Get Oid" contextParameters="UserCtxParam">
+    <GetUnit gr:x="0" gr:y="115" id="sv4#area19#page21#gtu7" name="Get Oid" contextParameters="UserCtxParam">
       <Link id="sv4#area19#page21#gtu7#ln46" name="Flow46" to="sv4#area19#page21#enu7" type="transport" validate="true">
         <LinkParameter id="sv4#area19#page21#gtu7#ln46#par28" name="UserCtxParam.oid_OidStaff" source="sv4#area19#page21#gtu7.UserCtxParam" target="sv4#area19#page21#enu7#fld72_slot"/>
       </Link>

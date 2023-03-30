@@ -1,34 +1,31 @@
-<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv2#area11#page73" name="Profilo personale" gr:x="260" gr:y="0">
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="mov1#hym5#page47" name="Profilo Azienda" gr:x="300" gr:y="-5" landmark="true">
   <ContentUnits>
-    <GetUnit id="sv2#area11#page73#gtu1" name="Get Utente" gr:x="0" gr:y="5" contextParameters="UserCtxParam">
-      <Link id="sv2#area11#page73#gtu1#ln139" name="Flow92" to="sv2#area11#page73#dau11" type="transport" validate="true">
-        <LinkParameter id="sv2#area11#page73#gtu1#ln139#par100" name="UserCtxParam.oid_KeyCondition22 [oid]" source="sv2#area11#page73#gtu1.UserCtxParam" target="sv2#area11#page73#dau11#su88#kcond49.userOID"/>
-      </Link>
-    </GetUnit>
-    <DataUnit id="sv2#area11#page73#dau11" name="Profilo Utente" linkOrder="sv2#area11#page73#dau11#ln145" gr:x="190" gr:y="0" entity="ent8" displayAttributes="userName email ent8#att22">
-      <Selector id="sv2#area11#page73#dau11#su88" defaultPolicy="fill" booleanOperator="and">
-        <KeyCondition id="sv2#area11#page73#dau11#su88#kcond49" name="KeyCondition22" predicate="in" implied="false"/>
+    <DataUnit id="mov1#hym5#page47#dau27" name="Profilo Utente" linkOrder="mov1#hym5#page47#dau27#ln184" gr:x="10" gr:y="0" entity="ent8" displayAttributes="userName email ent8#att22">
+      <Selector id="mov1#hym5#page47#dau27#su169" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="mov1#hym5#page47#dau27#su169#kcond120" name="KeyCondition22" predicate="in" implied="false"/>
       </Selector>
-      <Link id="sv2#area11#page73#dau11#ln142" name="Flow98" to="sv2#area11#page73#dau12" type="transport" validate="true">
-        <LinkParameter id="sv2#area11#page73#dau11#ln142#par115" name="oid_RoleCondition18 [oid]" source="data.userOID" target="sv2#area11#page73#dau12#su91#rcond10.userOID"/>
+      <Link id="mov1#hym5#page47#dau27#ln183" name="Flow98" to="mov1#hym5#page47#dau28" type="transport" validate="true">
+        <LinkParameter id="mov1#hym5#page47#dau27#ln183#par312" name="oid_RoleCondition18 [oid]" source="data.userOID" target="mov1#hym5#page47#dau28#su170#rcond43.userOID"/>
       </Link>
-      <Link id="sv2#area11#page73#dau11#ln145" name="Modifica Profilo" to="sv2#area11#page72#enu29" type="normal" automaticCoupling="true" validate="true"/>
+      <Link id="mov1#hym5#page47#dau27#ln184" name="Modifica Profilo" to="mov1#hym5#page68#enu20" type="normal" validate="true">
+        <LinkParameter id="mov1#hym5#page47#dau27#ln184#par417" name="oid_PASSING" source="data.userOID" passing="true"/>
+      </Link>
     </DataUnit>
-    <DataUnit id="sv2#area11#page73#dau12" name="Dettagli Indirizzo" linkOrder="sv2#area11#page73#dau12#ln148" gr:x="190" gr:y="205" entity="ent13" displayAttributes="ent13#att28 ent13#att30 ent13#att29 ent13#att32">
-      <Selector id="sv2#area11#page73#dau12#su91" defaultPolicy="fill" booleanOperator="and">
-        <RelationshipRoleCondition id="sv2#area11#page73#dau12#su91#rcond10" name="RoleCondition18" predicate="in" implied="false" role="rel21#role41"/>
+    <DataUnit id="mov1#hym5#page47#dau28" name="Dettagli Indirizzo" linkOrder="mov1#hym5#page47#dau28#ln185" gr:x="0" gr:y="180" entity="ent13" displayAttributes="ent13#att28 ent13#att30 ent13#att29 ent13#att32">
+      <Selector id="mov1#hym5#page47#dau28#su170" defaultPolicy="fill" booleanOperator="and">
+        <RelationshipRoleCondition id="mov1#hym5#page47#dau28#su170#rcond43" name="RoleCondition18" predicate="in" implied="false" role="rel11#role21"/>
       </Selector>
-      <Link id="sv2#area11#page73#dau12#ln148" name="Modifica" to="sv2#area11#page71#enu28" type="normal" validate="true">
-        <LinkParameter id="sv2#area11#page73#dau12#ln148#par103" name="oid_Key Condition [oid]" source="data.ent13#att27" target="sv2#area11#page71#enu28.ent13#att27"/>
-        <LinkParameter id="sv2#area11#page73#dau12#ln148#par104" name="IndirizzoToAlumno.oid_PASSING" source="data.rel21#role42_userOID" passing="true"/>
+      <Link id="mov1#hym5#page47#dau28#ln185" name="Modifica" to="mov1#hym5#page67#enu19" type="normal" validate="true">
+        <LinkParameter id="mov1#hym5#page47#dau28#ln185#par313" name="oid_Key Condition [oid]" source="data.ent13#att27" target="mov1#hym5#page67#enu19.ent13#att27"/>
+        <LinkParameter id="mov1#hym5#page47#dau28#ln185#par314" name="IndirizzoToAlumno.oid_PASSING" source="data.rel21#role42_userOID" passing="true"/>
       </Link>
     </DataUnit>
   </ContentUnits>
   <layout:Grid containerType="grid">
     <layout:Row>
       <layout:Cell colspan="12">
-        <layout:Unit unitId="sv2#area11#page73#dau11">
-          <layout:Link link="sv2#area11#page73#dau11#ln145"/>
+        <layout:Unit unitId="mov1#hym5#page47#dau27">
+          <layout:Link link="mov1#hym5#page47#dau27#ln184"/>
           <layout:Attribute attribute="userName"/>
           <layout:Attribute attribute="email"/>
           <layout:Attribute attribute="ent8#att22"/>
@@ -104,8 +101,8 @@
     </layout:Row>
     <layout:Row>
       <layout:Cell colspan="12">
-        <layout:Unit unitId="sv2#area11#page73#dau12">
-          <layout:Link link="sv2#area11#page73#dau12#ln148"/>
+        <layout:Unit unitId="mov1#hym5#page47#dau28">
+          <layout:Link link="mov1#hym5#page47#dau28#ln185"/>
           <layout:Attribute attribute="ent13#att28"/>
           <layout:Attribute attribute="ent13#att30"/>
           <layout:Attribute attribute="ent13#att29"/>

@@ -1,0 +1,45 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="mov1#hym6#page89" name="Modifica Posizione Lavorativa" gr:x="1150" gr:y="285">
+  <ContentUnits>
+    <EntryUnit id="mov1#hym6#page89#enu37" name="Form Posizione" linkOrder="mov1#hym6#page89#enu37#ln228" gr:x="0" gr:y="0">
+      <Link id="mov1#hym6#page89#enu37#ln228" name="Flow107" to="mov1#hym6#mfu17" type="normal" validate="true">
+        <LinkParameter id="mov1#hym6#page89#enu37#ln228#par384" name="Azienda_azienda" source="mov1#hym6#page89#enu37#fld133" target="mov1#hym6#mfu17.ent15#att47"/>
+        <LinkParameter id="mov1#hym6#page89#enu37#ln228#par385" name="DataFine_data_fine" source="mov1#hym6#page89#enu37#fld135" target="mov1#hym6#mfu17.ent15#att49"/>
+        <LinkParameter id="mov1#hym6#page89#enu37#ln228#par386" name="DataInizio_data_inizio" source="mov1#hym6#page89#enu37#fld134" target="mov1#hym6#mfu17.ent15#att48"/>
+        <LinkParameter id="mov1#hym6#page89#enu37#ln228#par387" name="Descrizione_descrizione" source="mov1#hym6#page89#enu37#fld136" target="mov1#hym6#mfu17.ent15#att11"/>
+        <LinkParameter id="mov1#hym6#page89#enu37#ln228#par388" name="Oid_KeyCondition32 [oid]" source="mov1#hym6#page89#enu37#fld131" target="mov1#hym6#mfu17#su191#kcond142.ent15#att25"/>
+        <LinkParameter id="mov1#hym6#page89#enu37#ln228#par389" name="Titolo_titolo" source="mov1#hym6#page89#enu37#fld132" target="mov1#hym6#mfu17.ent15#att46"/>
+      </Link>
+      <Field id="mov1#hym6#page89#enu37#fld131" name="Oid" type="string" modifiable="false" preloaded="true" hidden="true"/>
+      <Field id="mov1#hym6#page89#enu37#fld132" name="Titolo" type="string" modifiable="true" preloaded="true"/>
+      <Field id="mov1#hym6#page89#enu37#fld133" name="Azienda" type="string" modifiable="true" preloaded="true"/>
+      <Field id="mov1#hym6#page89#enu37#fld134" name="DataInizio" type="date" modifiable="true" preloaded="true"/>
+      <Field id="mov1#hym6#page89#enu37#fld135" name="DataFine" type="date" modifiable="true" preloaded="true"/>
+      <Field id="mov1#hym6#page89#enu37#fld136" name="Descrizione" type="text" modifiable="true" preloaded="true"/>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov1#hym6#page89#enu37">
+          <layout:Link link="mov1#hym6#page89#enu37#ln228"/>
+          <layout:Field field="mov1#hym6#page89#enu37#fld132"/>
+          <layout:Field field="mov1#hym6#page89#enu37#fld133"/>
+          <layout:Field field="mov1#hym6#page89#enu37#fld134"/>
+          <layout:Field field="mov1#hym6#page89#enu37#fld135"/>
+          <layout:Field field="mov1#hym6#page89#enu37#fld136"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

@@ -1,0 +1,299 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="0" gr:y="0" id="sv5#area35#page42" name="Lista Utenti" landmark="false">
+  <ContentUnits>
+    <ScrollerUnit gr:x="10" gr:y="5" id="sv5#area35#page42#scu35" name="Scroller Alumni" useCountQuery="false" entity="ent11" linkOrder="sv5#area35#page42#scu35#ln152" blockFactor="10">
+      <Link id="sv5#area35#page42#scu35#ln152" name="Flow152" to="sv5#area35#page42#pwu2" automaticCoupling="true" type="automatic" validate="true"/>
+    </ScrollerUnit>
+    <PowerIndexUnit gr:x="240" gr:y="0" id="sv5#area35#page42#pwu2" name="Lista Alumni" sortable="true" checkable="false" useCountQuery="false" entity="ent11" linkOrder="sv5#area35#page42#pwu2#ln229 sv5#area35#page42#pwu2#ln253 sv5#area35#page42#pwu2#ln254" displayAttributes="userName email ent11#att26 ent5#att16 ent5#att17">
+      <Selector id="sv5#area35#page42#pwu2#su167" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv5#area35#page42#pwu2#su167#kcond119" name="KeyCondition119" predicate="in" implied="false"/>
+      </Selector>
+      <Link id="sv5#area35#page42#pwu2#ln229" name="Dettagli" to="sv5#area35#miu18" automaticCoupling="true" type="normal" validate="true"/>
+      <Link id="sv5#area35#page42#pwu2#ln253" name="Approva" to="sv5#area35#mfu24" type="normal" validate="true">
+        <LinkParameter id="sv5#area35#page42#pwu2#ln253#par429" name="true_approvato" sourceValue="1" target="sv5#area35#mfu24.ent11#att26"/>
+        <LinkParameter id="sv5#area35#page42#pwu2#ln253#par430" name="oid_KeyCondition159 [oid]" source="data[].userOID" target="sv5#area35#mfu24#su214#kcond159.userOID"/>
+      </Link>
+      <Link id="sv5#area35#page42#pwu2#ln254" name="Rimuovi" to="sv5#area35#dlu13" automaticCoupling="true" type="normal" validate="true"/>
+    </PowerIndexUnit>
+    <ScrollerUnit gr:x="15" gr:y="395" id="sv5#area35#page42#scu43" name="Scroller Amministratori" useCountQuery="false" entity="ent12" linkOrder="sv5#area35#page42#scu43#ln173" blockFactor="10">
+      <Link id="sv5#area35#page42#scu43#ln173" name="Flow173" to="sv5#area35#page42#pwu3" automaticCoupling="true" type="automatic" validate="true"/>
+    </ScrollerUnit>
+    <PowerIndexUnit gr:x="245" gr:y="390" id="sv5#area35#page42#pwu3" name="Lista Amministratori" sortable="true" checkable="false" useCountQuery="false" entity="ent12" linkOrder="sv5#area35#page42#pwu3#ln252" displayAttributes="userName email ent5#att16 ent5#att17">
+      <Selector id="sv5#area35#page42#pwu3#su202" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv5#area35#page42#pwu3#su202#kcond147" name="KeyCondition147" predicate="in" implied="false"/>
+      </Selector>
+      <Link id="sv5#area35#page42#pwu3#ln252" name="Dettagli" to="sv5#area35#miu20" automaticCoupling="true" type="normal" validate="true"/>
+    </PowerIndexUnit>
+    <ScrollerUnit gr:x="30" gr:y="660" id="sv5#area35#page42#scu44" name="Scroller Staff" useCountQuery="false" entity="ent10" linkOrder="sv5#area35#page42#scu44#ln174" blockFactor="10">
+      <Link id="sv5#area35#page42#scu44#ln174" name="Flow174" to="sv5#area35#page42#pwu4" automaticCoupling="true" type="automatic" validate="true"/>
+    </ScrollerUnit>
+    <PowerIndexUnit gr:x="260" gr:y="655" id="sv5#area35#page42#pwu4" name="Lista Staff" sortable="true" checkable="false" useCountQuery="false" entity="ent10" linkOrder="sv5#area35#page42#pwu4#ln249 sv5#area35#page42#pwu4#ln262" displayAttributes="userName email ent5#att16 ent5#att17">
+      <Selector id="sv5#area35#page42#pwu4#su201" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv5#area35#page42#pwu4#su201#kcond146" name="KeyCondition146" predicate="in" implied="false"/>
+      </Selector>
+      <Link id="sv5#area35#page42#pwu4#ln249" name="Dettagli" to="sv5#area35#miu19" type="normal" validate="true">
+        <LinkParameter id="sv5#area35#page42#pwu4#ln249#par416" name="oid_oid" source="data[].userOID" target="sv5#area35#miu19.mov1#hym7#icu7#icp3"/>
+      </Link>
+      <Link id="sv5#area35#page42#pwu4#ln262" name="Rimuovi" to="sv5#area35#dlu15" type="normal" automaticCoupling="true" validate="true"/>
+    </PowerIndexUnit>
+    <ScrollerUnit gr:x="25" gr:y="1120" id="sv5#area35#page42#scu45" name="Scroller Aziende" useCountQuery="false" entity="ent8" linkOrder="sv5#area35#page42#scu45#ln181" blockFactor="10">
+      <Link id="sv5#area35#page42#scu45#ln181" name="Flow181" to="sv5#area35#page42#pwu5" automaticCoupling="true" type="automatic" validate="true"/>
+    </ScrollerUnit>
+    <PowerIndexUnit gr:x="255" gr:y="1115" id="sv5#area35#page42#pwu5" name="Lista Aziende" sortable="true" checkable="false" useCountQuery="false" entity="ent8" linkOrder="sv5#area35#page42#pwu5#ln188 sv5#area35#page42#pwu5#ln257 sv5#area35#page42#pwu5#ln260" displayAttributes="userName email ent8#att22 ent8#att21">
+      <Link id="sv5#area35#page42#pwu5#ln188" name="Dettagli" to="sv5#area35#miu17" type="normal" validate="true">
+        <LinkParameter id="sv5#area35#page42#pwu5#ln188#par321" name="oid_oid" source="data[].userOID" target="sv5#area35#miu17.mov1#hym5#icu1#icp1"/>
+      </Link>
+      <Selector id="sv5#area35#page42#pwu5#su200" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv5#area35#page42#pwu5#su200#kcond145" name="KeyCondition145" predicate="in" implied="false"/>
+      </Selector>
+      <Link id="sv5#area35#page42#pwu5#ln257" name="Approva" to="sv5#area35#mfu25" type="normal" validate="true">
+        <LinkParameter id="sv5#area35#page42#pwu5#ln257#par61" name="1_approvata" sourceValue="1" target="sv5#area35#mfu25.ent8#att21"/>
+        <LinkParameter id="sv5#area35#page42#pwu5#ln257#par66" name="oid_KeyCondition159 [oid]" source="data[].userOID" target="sv5#area35#mfu25#su216#kcond161.userOID"/>
+      </Link>
+      <Link id="sv5#area35#page42#pwu5#ln260" name="Rimuovi" to="sv5#area35#dlu14" automaticCoupling="true" type="normal" validate="true"/>
+    </PowerIndexUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv5#area35#page42#scu35">
+          <layout:Link link="sv5#area35#page42#scu35First"/>
+          <layout:Link link="sv5#area35#page42#scu35Previous"/>
+          <layout:Link link="sv5#area35#page42#scu35Block"/>
+          <layout:Link link="sv5#area35#page42#scu35Next"/>
+          <layout:Link link="sv5#area35#page42#scu35Last"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv5#area35#page42#pwu2">
+          <layout:Link link="sv5#area35#page42#pwu2#ln229"/>
+          <layout:Link link="sv5#area35#page42#pwu2#ln253"/>
+          <layout:Link link="sv5#area35#page42#pwu2#ln254"/>
+          <layout:Attribute attribute="userName"/>
+          <layout:Attribute attribute="email"/>
+          <layout:Attribute attribute="ent11#att26"/>
+          <layout:Attribute attribute="ent5#att16"/>
+          <layout:Attribute attribute="ent5#att17"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv5#area35#page42#scu43">
+          <layout:Link link="sv5#area35#page42#scu43First"/>
+          <layout:Link link="sv5#area35#page42#scu43Previous"/>
+          <layout:Link link="sv5#area35#page42#scu43Block"/>
+          <layout:Link link="sv5#area35#page42#scu43Next"/>
+          <layout:Link link="sv5#area35#page42#scu43Last"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv5#area35#page42#pwu3">
+          <layout:Link link="sv5#area35#page42#pwu3#ln252"/>
+          <layout:Attribute attribute="userName"/>
+          <layout:Attribute attribute="email"/>
+          <layout:Attribute attribute="ent5#att16"/>
+          <layout:Attribute attribute="ent5#att17"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv5#area35#page42#scu44">
+          <layout:Link link="sv5#area35#page42#scu44First"/>
+          <layout:Link link="sv5#area35#page42#scu44Previous"/>
+          <layout:Link link="sv5#area35#page42#scu44Block"/>
+          <layout:Link link="sv5#area35#page42#scu44Next"/>
+          <layout:Link link="sv5#area35#page42#scu44Last"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv5#area35#page42#pwu4">
+          <layout:Link link="sv5#area35#page42#pwu4#ln249"/>
+          <layout:Link link="sv5#area35#page42#pwu4#ln262"/>
+          <layout:Attribute attribute="userName"/>
+          <layout:Attribute attribute="email"/>
+          <layout:Attribute attribute="ent5#att16"/>
+          <layout:Attribute attribute="ent5#att17"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv5#area35#page42#scu45">
+          <layout:Link link="sv5#area35#page42#scu45First"/>
+          <layout:Link link="sv5#area35#page42#scu45Previous"/>
+          <layout:Link link="sv5#area35#page42#scu45Block"/>
+          <layout:Link link="sv5#area35#page42#scu45Next"/>
+          <layout:Link link="sv5#area35#page42#scu45Last"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv5#area35#page42#pwu5">
+          <layout:Link link="sv5#area35#page42#pwu5#ln188"/>
+          <layout:Link link="sv5#area35#page42#pwu5#ln257"/>
+          <layout:Link link="sv5#area35#page42#pwu5#ln260"/>
+          <layout:Attribute attribute="userName"/>
+          <layout:Attribute attribute="email"/>
+          <layout:Attribute attribute="ent8#att22"/>
+          <layout:Attribute attribute="ent8#att21"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+  <Link id="sv5#area35#page42#ln261" name="Aggiungi Staff" to="sv5#area35#page6#enu4" type="normal" automaticCoupling="true" validate="true"/>
+  <Link id="sv5#area35#page42#ln263" name="Aggiungi Amministratore" to="sv5#area35#page2#enu3" type="normal" automaticCoupling="true" validate="true"/>
+  <Link id="sv5#area35#page42#ln264" name="Aggiungi Azienda" to="sv5#area35#page7#enu13" type="normal" automaticCoupling="true" validate="true"/>
+  <Link id="sv5#area35#page42#ln268" name="Aggiungi Alumno" to="sv5#area35#page1#enu1" type="normal" validate="true"/>
+</Page>

@@ -1,0 +1,19 @@
+<OperationGroup xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="mov1#hym6#opg18" name="Operation Group 5" transaction="true" gr:x="400" gr:y="575">
+  <OperationUnits>
+    <CreateUnit id="mov1#hym6#opg18#cru10" name="Crea Qualifica" gr:x="0" gr:y="0" entity="ent14">
+      <Link id="mov1#hym6#opg18#cru10#ln225" name="Flow115" to="mov1#hym6#opg18#cnu12" type="transport" validate="true">
+        <LinkParameter id="mov1#hym6#opg18#cru10#ln225#par368" name="oid_KeyCondition36 [oid] [Qualifica] [Source]" source="ent14#att24Array" target="mov1#hym6#opg18#cnu12#su185#kcond135.ent14#att24"/>
+        <LinkParameter id="mov1#hym6#opg18#cru10#ln225#par369" name="oid_PASSING_KeyCondition37 [oid] [Alumno] [Target]" sourceLinkParameter="mov1#hym6#page87#enu27#ln226#par375" target="mov1#hym6#opg18#cnu12#su186#kcond136.userOID"/>
+      </Link>
+    </CreateUnit>
+    <ConnectUnit id="mov1#hym6#opg18#cnu12" name="Connect2" gr:x="165" gr:y="0" relationship="rel7#role13">
+      <SourceSelector id="mov1#hym6#opg18#cnu12#su185" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="mov1#hym6#opg18#cnu12#su185#kcond135" name="KeyCondition36" predicate="in" implied="false"/>
+      </SourceSelector>
+      <TargetSelector id="mov1#hym6#opg18#cnu12#su186" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="mov1#hym6#opg18#cnu12#su186#kcond136" name="KeyCondition37" predicate="in" implied="false"/>
+      </TargetSelector>
+      <OKLink id="mov1#hym6#opg18#cnu12#oln91" name="OKFlow11" to="mov1#hym6#page83" automaticCoupling="true"/>
+    </ConnectUnit>
+  </OperationUnits>
+</OperationGroup>

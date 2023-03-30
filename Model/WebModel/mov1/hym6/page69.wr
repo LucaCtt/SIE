@@ -1,0 +1,58 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="mov1#hym6#page69" name="Aggiungi Posizione" gr:x="95" gr:y="455">
+  <ContentUnits>
+    <EntryUnit id="mov1#hym6#page69#enu24" name="Form Posizione" linkOrder="mov1#hym6#page69#enu24#ln189" gr:x="0" gr:y="0">
+      <Field id="mov1#hym6#page69#enu24#fld106" name="Titolo" type="string" modifiable="true" preloaded="false"/>
+      <Field id="mov1#hym6#page69#enu24#fld107" name="Azienda" type="string" modifiable="true" preloaded="false"/>
+      <Field id="mov1#hym6#page69#enu24#fld108" name="DataInizio" type="date" modifiable="true" preloaded="false"/>
+      <Field id="mov1#hym6#page69#enu24#fld109" name="DataFine" type="date" modifiable="true" preloaded="false"/>
+      <Field id="mov1#hym6#page69#enu24#fld110" name="Descrizione" type="text" modifiable="true" preloaded="false"/>
+      <Link id="mov1#hym6#page69#enu24#ln189" name="Flow117" to="mov1#hym6#opg17#cru8" type="normal" validate="true">
+        <LinkParameter id="mov1#hym6#page69#enu24#ln189#par322" name="Azienda_azienda" source="mov1#hym6#page69#enu24#fld107" target="mov1#hym6#opg17#cru8.ent15#att47"/>
+        <LinkParameter id="mov1#hym6#page69#enu24#ln189#par323" name="DataInizio_data_fine" source="mov1#hym6#page69#enu24#fld109" target="mov1#hym6#opg17#cru8.ent15#att49"/>
+        <LinkParameter id="mov1#hym6#page69#enu24#ln189#par324" name="DataInizio_data_inizio" source="mov1#hym6#page69#enu24#fld108" target="mov1#hym6#opg17#cru8.ent15#att48"/>
+        <LinkParameter id="mov1#hym6#page69#enu24#ln189#par325" name="Descrizione_descrizione" source="mov1#hym6#page69#enu24#fld110" target="mov1#hym6#opg17#cru8.ent15#att11"/>
+        <LinkParameter id="mov1#hym6#page69#enu24#ln189#par326" name="Titolo_titolo" source="mov1#hym6#page69#enu24#fld106" target="mov1#hym6#opg17#cru8.ent15#att46"/>
+        <LinkParameter id="mov1#hym6#page69#enu24#ln189#par327" name="oid_PASSING" sourceLinkParameter="mov1#hym6#page83#dau29#ln210#par333" passing="true"/>
+      </Link>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov1#hym6#page69#enu24">
+          <layout:Field field="mov1#hym6#page69#enu24#fld106"/>
+          <layout:Field field="mov1#hym6#page69#enu24#fld107"/>
+          <layout:Field field="mov1#hym6#page69#enu24#fld108"/>
+          <layout:Field field="mov1#hym6#page69#enu24#fld109"/>
+          <layout:Field field="mov1#hym6#page69#enu24#fld110"/>
+          <layout:Link link="mov1#hym6#page69#enu24#ln189"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

@@ -1,4 +1,4 @@
-<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv4#area16" name="Area Raccolte Fondi" defaultPage="sv4#area16#miu4" landmark="true" gr:x="285" gr:y="500">
+<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv4#area16" name="Area Raccolte Fondi" defaultPage="sv4#area16#miu4" landmark="true" gr:x="295" gr:y="425">
   <OperationUnits>
     <ModuleInstanceUnit id="sv4#area16#miu4" gr:x="0" gr:y="45" action="false" moduleId="mov1#hym2">
       <OKLink id="sv4#area16#miu4#oln27" name="OKFlow14" to="sv4#area16#page12#dau18">

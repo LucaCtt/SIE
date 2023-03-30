@@ -1,10 +1,5 @@
-<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv2#area11" name="Area Personale" defaultPage="sv2#area11#page73" landmark="true" gr:x="420" gr:y="1115">
+<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv2#area11" name="Area Personale" landmark="true" gr:x="905" gr:y="1145" defaultPage="sv2#area11#miu23">
   <OperationUnits>
-    <ModifyUnit id="sv2#area11#mfu7" name="Update Profilo" gr:x="30" gr:y="245" entity="ent11">
-      <Selector id="sv2#area11#mfu7#su77" defaultPolicy="fill" booleanOperator="and">
-        <KeyCondition id="sv2#area11#mfu7#su77#kcond23" name="KeyCondition40" predicate="in" implied="false"/>
-      </Selector>
-      <OKLink id="sv2#area11#mfu7#oln29" name="OKFlow13" to="sv2#area11#page73" automaticCoupling="true"/>
-    </ModifyUnit>
+    <ModuleInstanceUnit gr:x="0" gr:y="0" id="sv2#area11#miu23" action="false" moduleId="mov1#hym5"/>
   </OperationUnits>
 </Area>

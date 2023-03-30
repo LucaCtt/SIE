@@ -1,13 +1,18 @@
-<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="1770" gr:y="845" id="sv4#area20" name="Area Gestione Raccolte Fondi" landmark="true" defaultPage="sv4#area20#page35">
+<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="1770" gr:y="840" id="sv4#area20" name="Area Gestione Raccolte Fondi" landmark="true" defaultPage="sv4#area20#page35">
   <OperationUnits>
-    <CreateUnit gr:x="320" gr:y="240" id="sv4#area20#cru12" name="Crea Raccolta" entity="ent17">
+    <CreateUnit gr:x="320" gr:y="225" id="sv4#area20#cru12" name="Crea Raccolta" entity="ent17">
       <OKLink id="sv4#area20#cru12#oln72" name="OKFlow72" to="sv4#area20#page35" automaticCoupling="true"/>
     </CreateUnit>
-    <ModifyUnit gr:x="900" gr:y="395" id="sv4#area20#mfu9" name="Modifica Raccolta" entity="ent17">
+    <ModifyUnit gr:x="855" gr:y="330" id="sv4#area20#mfu9" name="Modifica Raccolta" entity="ent17">
       <Selector id="sv4#area20#mfu9#su149" defaultPolicy="fill" booleanOperator="and">
         <KeyCondition id="sv4#area20#mfu9#su149#kcond106" name="KeyCondition106" predicate="in" implied="false"/>
       </Selector>
       <OKLink id="sv4#area20#mfu9#oln75" name="OKFlow75" to="sv4#area20#page35" automaticCoupling="true"/>
     </ModifyUnit>
+    <GetUnit gr:x="170" gr:y="350" id="sv4#area20#gtu13" name="Get Oid" contextParameters="UserCtxParam" linkOrder="sv4#area20#gtu13#ln110">
+      <Link id="sv4#area20#gtu13#ln110" name="Flow110" to="sv4#area20#cru12" type="transport" validate="true">
+        <LinkParameter id="sv4#area20#gtu13#ln110#par7" name="UserCtxParam.oid_Staff.oid(RaccoltaFondiToStaff)" source="sv4#area20#gtu13.UserCtxParam" target="sv4#area20#cru12.rel13#role26.userOID"/>
+      </Link>
+    </GetUnit>
   </OperationUnits>
 </Area>

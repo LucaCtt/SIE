@@ -1,4 +1,4 @@
-<HybridModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="85" gr:y="80" id="mov1#hym1" name="Lista Eventi Pubblici" landmarks="mov1#hym1#page43">
+<HybridModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="85" gr:y="55" id="mov1#hym1" name="Lista Eventi Pubblici" landmarks="mov1#hym1#page43">
   <OperationUnits>
     <InputCollectorUnit gr:x="-100" gr:y="230" id="mov1#hym1#icu3">
       <OKLink id="mov1#hym1#icu3#oln7" name="OKFlow7" to="mov1#hym1#page43"/>

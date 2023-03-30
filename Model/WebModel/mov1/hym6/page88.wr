@@ -1,0 +1,43 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="mov1#hym6#page88" name="Modifica Indirizzo" gr:x="755" gr:y="465">
+  <ContentUnits>
+    <EntryUnit id="mov1#hym6#page88#enu33" name="Form Indirizzo" linkOrder="mov1#hym6#page88#enu33#ln227" gr:x="0" gr:y="0">
+      <Link id="mov1#hym6#page88#enu33#ln227" name="Flow104" to="mov1#hym6#opg19#mfu16" type="normal" validate="true">
+        <LinkParameter id="mov1#hym6#page88#enu33#ln227#par376" name="Key [oid]_KeyCondition28 [oid]" source="mov1#hym6#page88#enu33#fld130" target="mov1#hym6#opg19#mfu16#su188#kcond138.ent13#att27"/>
+        <LinkParameter id="mov1#hym6#page88#enu33#ln227#par377" name="IndirizzoToAlumno.oid_PASSING" sourceLinkParameter="mov1#hym6#page83#dau30#ln216#par341" passing="true"/>
+        <LinkParameter id="mov1#hym6#page88#enu33#ln227#par378" name="Cap_cap" source="mov1#hym6#page88#enu33#fld129" target="mov1#hym6#opg19#mfu16.ent13#att32"/>
+        <LinkParameter id="mov1#hym6#page88#enu33#ln227#par381" name="Citta_citta" source="mov1#hym6#page88#enu33#fld128" target="mov1#hym6#opg19#mfu16.ent13#att29"/>
+        <LinkParameter id="mov1#hym6#page88#enu33#ln227#par382" name="Numero_numero" source="mov1#hym6#page88#enu33#fld127" target="mov1#hym6#opg19#mfu16.ent13#att30"/>
+        <LinkParameter id="mov1#hym6#page88#enu33#ln227#par383" name="Via_via" source="mov1#hym6#page88#enu33#fld126" target="mov1#hym6#opg19#mfu16.ent13#att28"/>
+      </Link>
+      <Field id="mov1#hym6#page88#enu33#fld126" name="Via" type="string" modifiable="true" preloaded="true"/>
+      <Field id="mov1#hym6#page88#enu33#fld127" name="Numero" type="string" modifiable="true" preloaded="true"/>
+      <Field id="mov1#hym6#page88#enu33#fld128" name="Citta" type="string" modifiable="true" preloaded="true"/>
+      <Field id="mov1#hym6#page88#enu33#fld129" name="Cap" type="string" modifiable="true" preloaded="true"/>
+      <Field id="mov1#hym6#page88#enu33#fld130" name="Oid" type="string" modifiable="false" preloaded="true" hidden="true"/>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov1#hym6#page88#enu33">
+          <layout:Link link="mov1#hym6#page88#enu33#ln227"/>
+          <layout:Field field="mov1#hym6#page88#enu33#fld126"/>
+          <layout:Field field="mov1#hym6#page88#enu33#fld127"/>
+          <layout:Field field="mov1#hym6#page88#enu33#fld128"/>
+          <layout:Field field="mov1#hym6#page88#enu33#fld129"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

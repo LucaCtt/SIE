@@ -1,0 +1,31 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="mov1#hym5#page67" name="Modifica Indirizzo" gr:x="610" gr:y="210">
+  <ContentUnits>
+    <EntryUnit id="mov1#hym5#page67#enu19" name="Form Indirizzo" linkOrder="mov1#hym5#page67#enu19#ln186" gr:x="0" gr:y="0" entity="ent13">
+      <Link id="mov1#hym5#page67#enu19#ln186" name="Flow104" to="mov1#hym5#opg16#mfu14" type="normal" validate="true">
+        <LinkParameter id="mov1#hym5#page67#enu19#ln186#par315" name="Indirizzo Object_Indirizzo Object" source="entityBean" target="mov1#hym5#opg16#mfu14.entityBeans"/>
+        <LinkParameter id="mov1#hym5#page67#enu19#ln186#par316" name="Key [oid]_KeyCondition28 [oid]" source="key.ent13#att27" target="mov1#hym5#opg16#mfu14#su171#kcond121.ent13#att27"/>
+        <LinkParameter id="mov1#hym5#page67#enu19#ln186#par317" name="IndirizzoToAlumno.oid_PASSING" sourceLinkParameter="mov1#hym5#page47#dau28#ln185#par314" passing="true"/>
+      </Link>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov1#hym5#page67#enu19">
+          <layout:Link link="mov1#hym5#page67#enu19#ln186"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

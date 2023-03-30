@@ -1,0 +1,53 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="mov1#hym6#page70" name="Modifica Qualifica" gr:x="1210" gr:y="5">
+  <ContentUnits>
+    <EntryUnit id="mov1#hym6#page70#enu25" name="Form Qualifica" linkOrder="mov1#hym6#page70#enu25#ln194" gr:x="0" gr:y="0">
+      <Link id="mov1#hym6#page70#enu25#ln194" name="Flow111" to="mov1#hym6#mfu19" type="normal" validate="true">
+        <LinkParameter id="mov1#hym6#page70#enu25#ln194#par328" name="data_conseguimento_data_conseguimento" source="mov1#hym6#page70#enu25#fld113" target="mov1#hym6#mfu19.ent14#att45"/>
+        <LinkParameter id="mov1#hym6#page70#enu25#ln194#par329" name="istituzione_istituzione" source="mov1#hym6#page70#enu25#fld112" target="mov1#hym6#mfu19.ent14#att44"/>
+        <LinkParameter id="mov1#hym6#page70#enu25#ln194#par330" name="titolo_titolo" source="mov1#hym6#page70#enu25#fld111" target="mov1#hym6#mfu19.ent14#att43"/>
+        <LinkParameter id="mov1#hym6#page70#enu25#ln194#par331" name="oid_KeyCondition35 [oid]" source="mov1#hym6#page70#enu25#fld114" target="mov1#hym6#mfu19#su199#kcond144.ent14#att24"/>
+      </Link>
+      <Field id="mov1#hym6#page70#enu25#fld111" name="Titolo" type="string" modifiable="true" preloaded="true"/>
+      <Field id="mov1#hym6#page70#enu25#fld112" name="Istituzione" type="string" modifiable="true" preloaded="true"/>
+      <Field id="mov1#hym6#page70#enu25#fld113" name="DataConseguimento" type="string" modifiable="true" preloaded="true"/>
+      <Field id="mov1#hym6#page70#enu25#fld114" name="Oid" type="string" modifiable="false" hidden="true" preloaded="true"/>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov1#hym6#page70#enu25">
+          <layout:Link link="mov1#hym6#page70#enu25#ln194"/>
+          <layout:Field field="mov1#hym6#page70#enu25#fld111"/>
+          <layout:Field field="mov1#hym6#page70#enu25#fld112"/>
+          <layout:Field field="mov1#hym6#page70#enu25#fld113"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

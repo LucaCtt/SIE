@@ -1,0 +1,46 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="565" gr:y="995" id="sv5#area35#page7" name="Aggiungi Azienda">
+  <ContentUnits>
+    <EntryUnit id="sv5#area35#page7#enu13" name="Aggiungi Azienda" linkOrder="sv5#area35#page7#enu13#ln234" gr:x="165" gr:y="5">
+      <Field id="sv5#area35#page7#enu13#fld93" name="nome" type="string" modifiable="true"/>
+      <Field id="sv5#area35#page7#enu13#fld94" name="user_name" type="string" modifiable="true"/>
+      <Field id="sv5#area35#page7#enu13#fld95" name="email" type="string" modifiable="true"/>
+      <Field id="sv5#area35#page7#enu13#fld96" name="password" type="password" modifiable="true"/>
+      <Link id="sv5#area35#page7#enu13#ln234" name="Conferma" to="sv5#area35#cru3" type="normal" validate="true">
+        <LinkParameter id="sv5#area35#page7#enu13#ln234#par269" name="email_email" source="sv5#area35#page7#enu13#fld95" target="sv5#area35#cru3.email"/>
+        <LinkParameter id="sv5#area35#page7#enu13#ln234#par270" name="password_password" source="sv5#area35#page7#enu13#fld96" target="sv5#area35#cru3.password"/>
+        <LinkParameter id="sv5#area35#page7#enu13#ln234#par271" name="user_name_user_name" source="sv5#area35#page7#enu13#fld94" target="sv5#area35#cru3.userName"/>
+        <LinkParameter id="sv5#area35#page7#enu13#ln234#par272" name="nome_nome" source="sv5#area35#page7#enu13#fld93" target="sv5#area35#cru3.ent8#att22"/>
+        <LinkParameter id="sv5#area35#page7#enu13#ln234#par293" name="UserCtxParam.oid_PASSING_Amministratore.oid(UtenteToAmministratore)" sourceLinkParameter="sv5#area35#page7#gtu18#ln256#par277" target="sv5#area35#cru3.rel19#role38.userOID"/>
+      </Link>
+    </EntryUnit>
+    <GetUnit id="sv5#area35#page7#gtu18" name="Get Oid" gr:x="0" gr:y="0" contextParameters="UserCtxParam">
+      <Link id="sv5#area35#page7#gtu18#ln256" name="Flow55" to="sv5#area35#page7#enu13" type="transport" validate="true">
+        <LinkParameter id="sv5#area35#page7#gtu18#ln256#par277" name="UserCtxParam.oid_PASSING" source="sv5#area35#page7#gtu18.UserCtxParam" passing="true"/>
+      </Link>
+    </GetUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv5#area35#page7#enu13">
+          <layout:Link link="sv5#area35#page7#enu13#ln234"/>
+          <layout:Field field="sv5#area35#page7#enu13#fld93"/>
+          <layout:Field field="sv5#area35#page7#enu13#fld94"/>
+          <layout:Field field="sv5#area35#page7#enu13#fld95"/>
+          <layout:Field field="sv5#area35#page7#enu13#fld96"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

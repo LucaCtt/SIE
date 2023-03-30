@@ -1,0 +1,49 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="530" gr:y="685" id="sv5#area35#page6" name="Aggiungi Staff">
+  <ContentUnits>
+    <EntryUnit id="sv5#area35#page6#enu4" name="Aggiungi Staff" linkOrder="sv5#area35#page6#enu4#ln153" gr:x="190" gr:y="10">
+      <Field id="sv5#area35#page6#enu4#fld14" name="nome" type="string" modifiable="true"/>
+      <Field id="sv5#area35#page6#enu4#fld89" name="user_name" type="string" modifiable="true"/>
+      <Field id="sv5#area35#page6#enu4#fld90" name="email" type="string" modifiable="true"/>
+      <Field id="sv5#area35#page6#enu4#fld91" name="password" type="password" modifiable="true"/>
+      <Field id="sv5#area35#page6#enu4#fld92" name="cognome" type="string" modifiable="true"/>
+      <Link id="sv5#area35#page6#enu4#ln153" name="Flow141" to="sv5#area35#cru15" type="normal" validate="true">
+        <LinkParameter id="sv5#area35#page6#enu4#ln153#par252" name="cognome_cognome" source="sv5#area35#page6#enu4#fld92" target="sv5#area35#cru15.ent5#att17"/>
+        <LinkParameter id="sv5#area35#page6#enu4#ln153#par261" name="email_email" source="sv5#area35#page6#enu4#fld90" target="sv5#area35#cru15.email"/>
+        <LinkParameter id="sv5#area35#page6#enu4#ln153#par262" name="nome_nome" source="sv5#area35#page6#enu4#fld14" target="sv5#area35#cru15.ent5#att16"/>
+        <LinkParameter id="sv5#area35#page6#enu4#ln153#par265" name="password_password" source="sv5#area35#page6#enu4#fld91" target="sv5#area35#cru15.password"/>
+        <LinkParameter id="sv5#area35#page6#enu4#ln153#par266" name="user_name_user_name" source="sv5#area35#page6#enu4#fld89" target="sv5#area35#cru15.userName"/>
+        <LinkParameter id="sv5#area35#page6#enu4#ln153#par292" name="UserCtxParam.oid_PASSING_Amministratore.oid(UtenteToAmministratore)" sourceLinkParameter="sv5#area35#page6#gtu17#ln233#par268" target="sv5#area35#cru15.rel19#role38.userOID"/>
+      </Link>
+    </EntryUnit>
+    <GetUnit id="sv5#area35#page6#gtu17" name="Get Oid" gr:x="0" gr:y="0" contextParameters="UserCtxParam">
+      <Link id="sv5#area35#page6#gtu17#ln233" name="Flow97" to="sv5#area35#page6#enu4" type="transport" validate="true">
+        <LinkParameter id="sv5#area35#page6#gtu17#ln233#par268" name="UserCtxParam.oid_PASSING" source="sv5#area35#page6#gtu17.UserCtxParam" passing="true"/>
+      </Link>
+    </GetUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv5#area35#page6#enu4">
+          <layout:Field field="sv5#area35#page6#enu4#fld14"/>
+          <layout:Field field="sv5#area35#page6#enu4#fld89"/>
+          <layout:Field field="sv5#area35#page6#enu4#fld90"/>
+          <layout:Field field="sv5#area35#page6#enu4#fld91"/>
+          <layout:Field field="sv5#area35#page6#enu4#fld92"/>
+          <layout:Link link="sv5#area35#page6#enu4#ln153"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

@@ -9,13 +9,13 @@
         <LinkParameter id="sv4#area20#page36#dau25#ln132#par255" name="oid_RoleCondition36 [oid]" source="data.ent17#att33" target="sv4#area20#page36#inu11#su142#rcond36.ent1#att1"/>
       </Link>
     </DataUnit>
-    <IndexUnit gr:x="245" gr:y="0" id="sv4#area20#page36#inu11" name="Lista Eventi Correlati" entity="ent17" displayAttributes="ent17#att35 ent17#att37 ent17#att51">
+    <IndexUnit gr:x="245" gr:y="0" id="sv4#area20#page36#inu11" name="Eventi Correlati" entity="ent17" displayAttributes="ent17#att35 ent17#att37 ent17#att51">
       <Selector id="sv4#area20#page36#inu11#su142" defaultPolicy="fill" booleanOperator="and">
         <RelationshipRoleCondition id="sv4#area20#page36#inu11#su142#rcond36" name="RoleCondition36" predicate="in" implied="false" role="rel5#role10"/>
       </Selector>
       <SortAttribute attribute="ent17#att51" order="descending"/>
     </IndexUnit>
-    <MultiDataUnit gr:x="235" gr:y="125" id="sv4#area20#page36#mdu12" name="Lista Donazioni" entity="ent18" displayAttributes="ent18#att38 ent18#att39">
+    <MultiDataUnit gr:x="235" gr:y="125" id="sv4#area20#page36#mdu12" name="Donazioni" entity="ent18" displayAttributes="ent18#att38 ent18#att39">
       <Selector id="sv4#area20#page36#mdu12#su143" defaultPolicy="fill" booleanOperator="and">
         <RelationshipRoleCondition id="sv4#area20#page36#mdu12#su143#rcond37" name="RoleCondition37" role="rel14#role27" predicate="in" implied="false"/>
       </Selector>

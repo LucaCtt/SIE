@@ -1,6 +1,6 @@
-<SiteView xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv5" name="Amministratore" landmarks="sv5#area33 sv5#area34 sv5#area31 sv5#area30 sv5#area35">
+<SiteView xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv5" name="Amministratore" landmarks="sv5#area33 sv5#area34 sv5#area31 sv5#area30 sv5#area35 sv5#area25" homePage="sv5#area31#page104">
   <OperationUnits>
-    <LogoutUnit id="sv5#lou6" name="Logout1" gr:x="115" gr:y="190" siteView="sv1" invalidateSession="true">
+    <LogoutUnit id="sv5#lou6" name="Logout" gr:x="115" gr:y="120" siteView="sv1" invalidateSession="true">
       <KOLink id="sv5#lou6#kln15" name="KOFlow15" to="sv5#area31#page104" automaticCoupling="true" gr:bendpoints="64,26,-301,-34"/>
     </LogoutUnit>
   </OperationUnits>

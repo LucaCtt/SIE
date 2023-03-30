@@ -1,23 +1,23 @@
-<OperationGroup xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="0" gr:y="355" id="sv4#area20#opg12" name="Rimuovi Raccolta Fondi" transaction="true">
+<OperationGroup xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="0" gr:y="455" id="sv4#area20#opg12" name="Rimuovi Raccolta Fondi" transaction="true">
   <OperationUnits>
-    <DeleteUnit gr:x="445" gr:y="15" id="sv4#area20#opg12#dlu6" name="Rimuovi Raccolta" entity="ent17">
+    <DeleteUnit gr:x="690" gr:y="10" id="sv4#area20#opg12#dlu6" name="Rimuovi Raccolta" entity="ent17">
       <Selector id="sv4#area20#opg12#dlu6#su145" defaultPolicy="fill" booleanOperator="and">
         <KeyCondition id="sv4#area20#opg12#dlu6#su145#kcond103" name="KeyCondition103" predicate="in" implied="false"/>
       </Selector>
       <OKLink id="sv4#area20#opg12#dlu6#oln74" name="OKFlow74" to="sv4#area20#page35" automaticCoupling="true"/>
     </DeleteUnit>
-    <DisconnectUnit gr:x="205" gr:y="5" id="sv4#area20#opg12#dcnu11" name="Disconnect11" relationship="rel5#role9">
+    <DisconnectUnit gr:x="230" gr:y="0" id="sv4#area20#opg12#dcnu11" name="Disconnetti Eventi" relationship="rel5#role9">
       <SourceSelector id="sv4#area20#opg12#dcnu11#su146" defaultPolicy="fill" booleanOperator="and">
         <KeyCondition id="sv4#area20#opg12#dcnu11#su146#kcond104" name="KeyCondition104" predicate="in" implied="false"/>
       </SourceSelector>
       <TargetSelector id="sv4#area20#opg12#dcnu11#su147" defaultPolicy="fill" booleanOperator="and">
         <KeyCondition id="sv4#area20#opg12#dcnu11#su147#kcond105" name="KeyCondition105" predicate="in" implied="false"/>
       </TargetSelector>
-      <OKLink id="sv4#area20#opg12#dcnu11#oln73" name="OKFlow73" to="sv4#area20#opg12#dlu6">
-        <LinkParameter id="sv4#area20#opg12#dcnu11#oln73#par265" name="Source oid [RaccoltaFondi]_KeyCondition103 [oid]" source="sourceent17#att33" target="sv4#area20#opg12#dlu6#su145#kcond103.ent17#att33"/>
+      <OKLink id="sv4#area20#opg12#dcnu11#oln73" name="OKFlow73" to="sv4#area20#opg12#dcnu12">
+        <LinkParameter id="sv4#area20#opg12#dcnu11#oln73#par8" name="Source oid [RaccoltaFondi]_KeyCondition91 [oid] [RaccoltaFondi] [Target]" source="sourceent17#att33" target="sv4#area20#opg12#dcnu12#su144#kcond91.ent17#att33"/>
       </OKLink>
     </DisconnectUnit>
-    <SelectorUnit gr:x="0" gr:y="0" id="sv4#area20#opg12#seu11" name="Selector11" entity="ent1" linkOrder="sv4#area20#opg12#seu11#ln138">
+    <SelectorUnit gr:x="0" gr:y="0" id="sv4#area20#opg12#seu11" name="Selettore Eventi Correlati" entity="ent1">
       <Selector id="sv4#area20#opg12#seu11#su148" defaultPolicy="fill" booleanOperator="and">
         <RelationshipRoleCondition id="sv4#area20#opg12#seu11#su148#rcond38" name="RoleCondition38" predicate="in" implied="false" role="rel5#role9"/>
       </Selector>
@@ -26,5 +26,19 @@
         <LinkParameter id="sv4#area20#opg12#seu11#ln138#par264" name="oid_KeyCondition105 [oid] [Evento] [Target]" source="ent1#att1Array" target="sv4#area20#opg12#dcnu11#su147#kcond105.ent1#att1"/>
       </Link>
     </SelectorUnit>
+    <DisconnectUnit gr:x="460" gr:y="0" id="sv4#area20#opg12#dcnu12" name="Disconnetti Staff" relationship="rel13#role25">
+      <SourceSelector id="sv4#area20#opg12#dcnu12#su140" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area20#opg12#dcnu12#su140#kcond90" name="KeyCondition90" predicate="in" implied="false"/>
+      </SourceSelector>
+      <TargetSelector id="sv4#area20#opg12#dcnu12#su144" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area20#opg12#dcnu12#su144#kcond91" name="KeyCondition91" predicate="in" implied="false"/>
+      </TargetSelector>
+      <OKLink id="sv4#area20#opg12#dcnu12#oln77" name="OKFlow77" to="sv4#area20#opg12#dlu6" automaticCoupling="true"/>
+    </DisconnectUnit>
+    <GetUnit id="sv4#area20#opg12#gtu14" name="Get Oid" gr:x="517" gr:y="163" contextParameters="UserCtxParam" linkOrder="sv4#area20#opg12#gtu14#ln117">
+      <Link id="sv4#area20#opg12#gtu14#ln117" name="Flow117" to="sv4#area20#opg12#dcnu12" type="transport" validate="true">
+        <LinkParameter id="sv4#area20#opg12#gtu14#ln117#par9" name="UserCtxParam.oid_KeyCondition90 [oid] [Staff] [Source]" source="sv4#area20#opg12#gtu14.UserCtxParam" target="sv4#area20#opg12#dcnu12#su140#kcond90.userOID"/>
+      </Link>
+    </GetUnit>
   </OperationUnits>
 </OperationGroup>

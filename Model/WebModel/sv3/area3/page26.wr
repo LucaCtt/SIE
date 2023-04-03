@@ -1,4 +1,4 @@
-<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv3#area3#page26" name="Lista Tipologie Evento" landmark="true" gr:x="120" gr:y="780">
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv3#area3#page26" name="Lista Tipologie Evento" landmark="true" gr:x="105" gr:y="695">
   <ContentUnits>
     <IndexUnit id="sv3#area3#page26#inu16" name="Lista Tipologie Evento" linkOrder="sv3#area3#page26#inu16#ln48" gr:x="0" gr:y="0" entity="ent9" displayAttributes="ent9#att23">
       <Link id="sv3#area3#page26#inu16#ln48" name="Vedi eventi di questa tipologia" to="sv3#area3#page27#scu9" type="normal" automaticCoupling="true" validate="true"/>

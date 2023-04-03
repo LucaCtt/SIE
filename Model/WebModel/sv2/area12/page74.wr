@@ -1,4 +1,4 @@
-<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv2#area12#page74" name="Lista Eventi Riservati Aziende" landmark="true" gr:x="20" gr:y="355">
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv2#area12#page74" name="Lista Eventi Riservati Aziende" landmark="true" gr:x="0" gr:y="145">
   <ContentUnits>
     <ScrollerUnit id="sv2#area12#page74#scu27" name="Scroller Eventi" linkOrder="sv2#area12#page74#scu27#ln155" gr:x="0" gr:y="0" useCountQuery="false" entity="ent7" blockFactor="10">
       <Selector id="sv2#area12#page74#scu27#su98" defaultPolicy="fill" booleanOperator="and"/>

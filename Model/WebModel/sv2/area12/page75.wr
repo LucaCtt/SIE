@@ -1,4 +1,4 @@
-<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv2#area12#page75" name="Attivit&#224; a cui l'utente &#232; iscritto" landmark="true" gr:x="715" gr:y="735">
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv2#area12#page75" name="Attivit&#224; a cui l'utente &#232; iscritto" landmark="true" gr:x="75" gr:y="345">
   <ContentUnits>
     <GetUnit id="sv2#area12#page75#gtu6" name="Get id" gr:x="0" gr:y="0" contextParameters="UserCtxParam">
       <Link id="sv2#area12#page75#gtu6#ln157" name="Flow81" to="sv2#area12#page75#scu28" type="transport" automaticCoupling="true" validate="true"/>

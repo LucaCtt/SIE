@@ -1,4 +1,4 @@
-<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="20" gr:y="355" id="sv3#area3#page40" name="Lista Eventi Riservati Alumni" landmark="true">
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="0" gr:y="135" id="sv3#area3#page40" name="Lista Eventi Riservati Alumni" landmark="true">
   <ContentUnits>
     <ScrollerUnit id="sv3#area3#page40#scu13" name="Scroller Eventi" linkOrder="sv3#area3#page40#scu13#ln73" gr:x="0" gr:y="0" useCountQuery="false" entity="ent6" blockFactor="10">
       <Selector id="sv3#area3#page40#scu13#su33" defaultPolicy="fill" booleanOperator="and"/>

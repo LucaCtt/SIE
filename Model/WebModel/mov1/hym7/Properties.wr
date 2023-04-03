@@ -1,10 +1,16 @@
-<HybridModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="85" gr:y="450" id="mov1#hym7" name="Dettagli Profilo Staff" landmarks="mov1#hym7#area22">
+<HybridModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="85" gr:y="450" id="mov1#hym7" name="Dettagli Profilo Staff" landmarks="mov1#hym7#page48">
   <OperationUnits>
-    <InputCollectorUnit gr:x="25" gr:y="185" id="mov1#hym7#icu7">
+    <InputCollectorUnit gr:x="-5" gr:y="145" id="mov1#hym7#icu7">
       <InputCollectorParameter id="mov1#hym7#icu7#icp3" name="oid"/>
-      <OKLink id="mov1#hym7#icu7#oln107" name="OKFlow107" to="mov1#hym7#area22#page93#dau33">
-        <LinkParameter id="mov1#hym7#icu7#oln107#par415" name="oid_KeyCondition22 [oid]" source="mov1#hym7#icu7#icp3" target="mov1#hym7#area22#page93#dau33#su210#kcond156.userOID"/>
+      <OKLink id="mov1#hym7#icu7#oln13" name="OKFlow107" to="mov1#hym7#page48#dau11">
+        <LinkParameter id="mov1#hym7#icu7#oln13#par72" name="oid_KeyCondition22 [oid]" source="mov1#hym7#icu7#icp3" target="mov1#hym7#page48#dau11#su50#kcond27.userOID"/>
       </OKLink>
     </InputCollectorUnit>
+    <ModifyUnit id="mov1#hym7#mfu1" name="Update Profilo" gr:x="500" gr:y="275" entity="ent10">
+      <Selector id="mov1#hym7#mfu1#su53" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="mov1#hym7#mfu1#su53#kcond28" name="KeyCondition40" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="mov1#hym7#mfu1#oln12" name="OKFlow13" to="mov1#hym7#page48" automaticCoupling="true"/>
+    </ModifyUnit>
   </OperationUnits>
 </HybridModule>

@@ -186,7 +186,7 @@
     </EntryUnit>
   </ContentUnits>
   <Alternative id="mov1#hym1#page43#alt9" name="Lista Eventi Pubblici" gr:x="275" gr:y="0" defaultPage="mov1#hym1#page43#alt9#page55">
-    <Page id="mov1#hym1#page43#alt9#page55" name="Lista Eventi Pubblici Completa" gr:x="35" gr:y="355">
+    <Page id="mov1#hym1#page43#alt9#page55" name="Lista Eventi Pubblici Completa" gr:x="0" gr:y="330">
       <ContentUnits>
         <ScrollerUnit gr:x="0" gr:y="0" id="mov1#hym1#page43#alt9#page55#scu36" name="Scroller Eventi" useCountQuery="false" entity="ent20" linkOrder="mov1#hym1#page43#alt9#page55#scu36#ln190" blockFactor="10">
           <Link id="mov1#hym1#page43#alt9#page55#scu36#ln190" name="Flow190" to="mov1#hym1#page43#alt9#page55#inu55" automaticCoupling="true" type="automatic" validate="true"/>

@@ -1,6 +1,6 @@
-<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv3#area3" name="Area Eventi" landmarks="sv3#area3#page26 sv3#area3#page46 sv3#area3#page40" landmark="true" gr:x="1150" gr:y="10" defaultPage="sv3#area3#miu5">
+<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv3#area3" name="Area Eventi" landmarks="sv3#area3#page26 sv3#area3#page46 sv3#area3#page40" landmark="true" gr:x="1180" gr:y="10" defaultPage="sv3#area3#miu5">
   <OperationUnits>
-    <SwitchUnit gr:x="550" gr:y="250" id="sv3#area3#switch1" name="Switch1">
+    <SwitchUnit gr:x="520" gr:y="250" id="sv3#area3#switch1" name="Switch1">
       <OKLink id="sv3#area3#switch1#oln1" name="OKFlow1" to="sv3#area3#opg1#cnu1" code="Utente non &#232; gi&#224; iscritto a evento">
         <LinkParameter id="sv3#area3#switch1#oln1#par79" name="oid_PASSING_KeyCondition14 [oid] [Evento] [Target]" sourceLinkParameter="sv3#area3#page20#dau4#ln79#par52" target="sv3#area3#opg1#cnu1#su37#kcond14.ent1#att1"/>
       </OKLink>
@@ -8,7 +8,7 @@
       <Case value="Utente non &#232; gi&#224; iscritto a evento"/>
       <Case value="Utente iscritto a evento"/>
     </SwitchUnit>
-    <DisconnectUnit gr:x="450" gr:y="760" id="sv3#area3#dcnu1" name="Disiscrivi" relationship="rel18#role35">
+    <DisconnectUnit gr:x="490" gr:y="530" id="sv3#area3#dcnu1" name="Disiscrivi" relationship="rel18#role35">
       <SourceSelector id="sv3#area3#dcnu1#su39" defaultPolicy="fill" booleanOperator="and">
         <KeyCondition id="sv3#area3#dcnu1#su39#kcond15" name="KeyCondition15" predicate="in" implied="false"/>
       </SourceSelector>
@@ -17,7 +17,7 @@
       </TargetSelector>
       <OKLink id="sv3#area3#dcnu1#oln4" name="OKFlow4" to="sv3#area3#page46" automaticCoupling="true"/>
     </DisconnectUnit>
-    <ModuleInstanceUnit id="sv3#area3#miu5" gr:x="145" gr:y="110" moduleId="mov1#hym1" action="false">
+    <ModuleInstanceUnit id="sv3#area3#miu5" gr:x="115" gr:y="20" moduleId="mov1#hym1" action="false">
       <OKLink id="sv3#area3#miu5#oln21" name="OKFlow21" to="sv3#area3#page20#dau4" automaticCoupling="true"/>
     </ModuleInstanceUnit>
   </OperationUnits>

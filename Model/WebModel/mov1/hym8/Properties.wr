@@ -1,4 +1,4 @@
-<HybridModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="85" gr:y="520" id="mov1#hym8" name="Dettagli Profilo Amministratori" landmarks="mov1#hym8#area23">
+<HybridModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="85" gr:y="520" id="mov1#hym8" name="Dettagli Profilo Amministratore" landmarks="mov1#hym8#area23">
   <OperationUnits>
     <InputCollectorUnit id="mov1#hym8#icu8" gr:x="0" gr:y="150">
       <InputCollectorParameter id="mov1#hym8#icu8#icp4" name="oid"/>

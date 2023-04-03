@@ -1,0 +1,41 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="mov1#hym7#page49" name="Modifica Profilo" gr:x="455" gr:y="70">
+  <ContentUnits>
+    <EntryUnit id="mov1#hym7#page49#enu15" name="Form Profilo" linkOrder="mov1#hym7#page49#enu15#ln47" gr:x="0" gr:y="0">
+      <Link id="mov1#hym7#page49#enu15#ln47" name="Flow120" to="mov1#hym7#mfu1" type="normal" validate="true">
+        <LinkParameter id="mov1#hym7#page49#enu15#ln47#par67" name="cognome_cognome" source="mov1#hym7#page49#enu15#fld37" target="mov1#hym7#mfu1.ent5#att17"/>
+        <LinkParameter id="mov1#hym7#page49#enu15#ln47#par68" name="email_email" source="mov1#hym7#page49#enu15#fld38" target="mov1#hym7#mfu1.email"/>
+        <LinkParameter id="mov1#hym7#page49#enu15#ln47#par69" name="oid_PASSING_KeyCondition40 [oid]" sourceLinkParameter="mov1#hym7#page48#dau11#ln38#par65" target="mov1#hym7#mfu1#su53#kcond28.userOID"/>
+        <LinkParameter id="mov1#hym7#page49#enu15#ln47#par70" name="nome_nome" source="mov1#hym7#page49#enu15#fld36" target="mov1#hym7#mfu1.ent5#att16"/>
+        <LinkParameter id="mov1#hym7#page49#enu15#ln47#par71" name="password_password" source="mov1#hym7#page49#enu15#fld39" target="mov1#hym7#mfu1.password"/>
+      </Link>
+      <Field id="mov1#hym7#page49#enu15#fld36" name="nome" type="string" modifiable="true"/>
+      <Field id="mov1#hym7#page49#enu15#fld37" name="cognome" type="string" modifiable="true"/>
+      <Field id="mov1#hym7#page49#enu15#fld38" name="email" type="string" modifiable="true"/>
+      <Field id="mov1#hym7#page49#enu15#fld39" name="password" type="string" modifiable="true"/>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov1#hym7#page49#enu15">
+          <layout:Link link="mov1#hym7#page49#enu15#ln47"/>
+          <layout:Field field="mov1#hym7#page49#enu15#fld36"/>
+          <layout:Field field="mov1#hym7#page49#enu15#fld37"/>
+          <layout:Field field="mov1#hym7#page49#enu15#fld38"/>
+          <layout:Field field="mov1#hym7#page49#enu15#fld39"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

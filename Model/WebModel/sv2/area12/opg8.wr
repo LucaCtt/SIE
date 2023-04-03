@@ -1,4 +1,4 @@
-<OperationGroup xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv2#area12#opg8" name="Operation Group 1" transaction="true" gr:x="695" gr:y="510">
+<OperationGroup xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv2#area12#opg8" name="Operation Group 1" transaction="true" gr:x="690" gr:y="480">
   <OperationUnits>
     <ConnectUnit id="sv2#area12#opg8#cnu6" name="Iscrivi a evento" gr:x="0" gr:y="0" relationship="rel18#role35">
       <SourceSelector id="sv2#area12#opg8#cnu6#su96" defaultPolicy="fill" booleanOperator="and">

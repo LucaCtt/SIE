@@ -1,4 +1,4 @@
-<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv3#area3#page27" name="Eventi per Tipologia" gr:x="0" gr:y="545">
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv3#area3#page27" name="Eventi per Tipologia" gr:x="495" gr:y="695">
   <ContentUnits>
     <ScrollerUnit id="sv3#area3#page27#scu9" name="Scroller Eventi per Tipologia" linkOrder="sv3#area3#page27#scu9#ln49" customDescriptor="false" gr:x="0" gr:y="5" useCountQuery="false" blockFactor="1" entity="ent20">
       <Selector id="sv3#area3#page27#scu9#su23" defaultPolicy="fill" booleanOperator="and">
